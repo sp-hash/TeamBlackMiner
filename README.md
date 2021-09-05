@@ -12,7 +12,7 @@ Run ansicolor.reg script for colors
 Latest NVIDIA driver, or newer than v460.89
 NVIDIA card with compute 5.0 or newer.
 
-Support for older cuda versions, windows 8.1 and 7 has been depricated.
+Support for older cuda versions, windows 8.1 and 7 has been deprecated.
 
 Miner Features:
 + Commission is charged continuously, and not in intervals (as in most miners), which has a positive effect on the user's profitability on PPLNS pools
