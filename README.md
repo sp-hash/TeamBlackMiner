@@ -28,50 +28,50 @@ Miner Features:
 
 Example scripts are included in the archive
 
-Available command line options:
--h --help
--V --version
--v --no-verbose
--c --configfile
--L --log
--l --logfile
--i --ip
--H --hostname
--p --port
--x --ssl-port
--W --wallet
--w --worker_name
--P --server_passwd
--o --http_path
--s --ssl
--S --ssl-verify
--C --ssl-cert
--n --no-redirect
--r --retries
--y --retry-pause
--t --timeout
--a --algo
--D --list-devices
--A --auto-detect
--Y --cl-devices [,]
--U --cuda-devices [,]
--z --cl-all-devices
--Z --cuda-all-devices
--T --templimit [,]
--g --templimit-sleep
--f --fan-speed-min
--e --electricity-cost
--u --electricity-currency
--v --no-verbose
--I --no-ansi
--B --no-stats
--b --server-password
+Available command line options:                 
+-h --help                 
+-V --version                  
+-v --no-verbose                  
+-c --configfile                  
+-L --log                 
+-l --logfile                  
+-i --ip                     
+-H --hostname                   
+-p --port                      
+-x --ssl-port                      
+-W --wallet                        
+-w --worker_name                     
+-P --server_passwd                    
+-o --http_path                         
+-s --ssl                                   
+-S --ssl-verify                         
+-C --ssl-cert                  
+-n --no-redirect               
+-r --retries                  
+-y --retry-pause             
+-t --timeout                  
+-a --algo                  
+-D --list-devices               
+-A --auto-detect                 
+-Y --cl-devices [,]               
+-U --cuda-devices [,]              
+-z --cl-all-devices                
+-Z --cuda-all-devices               
+-T --templimit [,]                 
+-g --templimit-sleep                  
+-f --fan-speed-min                
+-e --electricity-cost                
+-u --electricity-currency            
+-v --no-verbose                 
+-I --no-ansi                 
+-B --no-stats                   
+-b --server-password                  
 
-Supported algorithms and developer commission:
-Eth, ethash              0.5%
-Etc, etchash             0.5%
-Zil standalone           1.0%
-Vertcoin                 1.0%
-Eth+zil, ethash          0.5%
-Etc+zil, etchash         0.5%
-vtc+zil			 1.0%
+Supported algorithms and developer commission:                  
+Eth, ethash              0.5%                   
+Etc, etchash             0.5%                 
+Zil standalone           1.0%                 
+Vertcoin                 1.0%               
+Eth+zil, ethash          0.5%              
+Etc+zil, etchash         0.5%                 
+vtc+zil			 1.0%                   
