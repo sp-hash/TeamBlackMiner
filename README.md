@@ -5,13 +5,12 @@ TBMiner maintains a leading position in the mining coins like Ethereum, Ethereum
 Miner requirements
 Windows 10 or linux.            
 ALL AMD cards supported
-Nvidia Cuda 11.2 and 11.4 only                      
+NVIDIA card with compute 5.0 or newer.                
 
 windows:
 Visual studio 2015-2019 Redistributable Package                  
 Run ansicolor.reg script for colors                     
 Latest NVIDIA driver, or newer than v460.89                  
-NVIDIA card with compute 5.0 or newer.                
 
 Support for older cuda versions, windows 8.1 and 7 has been deprecated.
 
