@@ -4,7 +4,8 @@ TBMiner maintains a leading position in the mining coins like Ethereum, Ethereum
 
 Miner requirements
 Windows 10 or linux.            
-Cuda 11.2 and 11.4 only                      
+ALL AMD cards supported
+Nvidia Cuda 11.2 and 11.4 only                      
 
 windows:
 Visual studio 2015-2019 Redistributable Package                  
