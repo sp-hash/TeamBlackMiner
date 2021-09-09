@@ -66,7 +66,8 @@ Available command line options:
 -v --no-verbose                 
 -I --no-ansi                 
 -B --no-stats                   
--b --server-password                  
+-N --no-cpu
+-b --amd-only                 
 
 Supported algorithms and developer commission:                  
 Eth, ethash              0.5%                   
