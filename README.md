@@ -77,3 +77,97 @@ Vertcoin                 1.0%
 Eth+zil, ethash          0.5%              
 Etc+zil, etchash         0.5%                 
 vtc+zil			 1.0%                   
+
+TBMiner have a small built-in read only api.
+The api is used for profit switching miners or other systems
+which requires basic knownledge of whats going on in the miner.
+
+Commandline options for api.
+----------------------------
+-d --api        (Enable api)
+-F --api-ip     (Set ip address)
+-R --api-port   (Set port number)
+
+Configurationfile options for api.
+----------------------------------
+API=            (0=Disable api. 1=Enable api.)
+API_IP=         (Set ip address)
+API_PORT=       (Set port number)
+
+Defaults.
+---------
+Default ip is 127.0.0.1
+Default port is 4068.
+
+Available api commands.
+----------------------
+help -- Overview of available commands.
+miner -- Basic information about the miner and a totals overview.
+threads -- Stats for all working gpu threads.
+pool -- Information about the pool in use.
+
+Detailed list of api requests and responses.
+-------------------------------------------
+
+http://127.0.0.1:4068/help
+
+{
+    "commands":
+
+    [
+        "help",         // Overview of available commands.
+        "miner",        // Basic information about the miner and a totals overview.
+        "threads",      // Stats for all working gpu threads.
+        "pool"          // Information about the pool in use.
+    ]
+}
+
+http://127.0.0.1:4068/miner
+
+{
+    "name":"TBMiner",                      // Name of the miner.
+    "version":"1.09",                      // Miner version number.
+    "api_version":"1.0",                   // Current api version number. Any change will increase number.
+    "num_gpu_threads":1,                   // Total number of working gpu threads for the miner.
+    "total_hashrate":24132473.584193129,   // Total hashrate for all working gpu threads. Not formatted.
+    "total_accepted":0,                    // Miners total accepted shares. A sum of all working gpu threads.
+    "total_rejected":2,                    // Miners total rejected shares. A sum of all working gpu threads.
+    "total_stale":1,                       // Miners total stale shares. A sum of all working gpu threads.
+    "uptime_minutes":5                     // Miner uptime in minutes.
+}
+
+http://127.0.0.1:4068/threads
+
+{
+    "0":                                          // GPU id. Might not be the same order as PCIe id.
+
+    {
+        "gpu":0,                                  // GPU id. Might not be the same order as PCIe id.
+        "pcie_id":0,                              // PCIe device id. The pysical placement of the GPU card.
+        "board_name":"NVIDIA GeForce GTX 1070",   // Name of the GPU card.
+        "type":"Cuda",                            // Type of mining by thread. Cuda or OpenCL.
+        "gpu_temp":76,                            // GPU temperature.
+        "mem_temp":0,                             // GPU memory temperature if available.
+        "fan":56,                                 // Fan speed in percentage.
+        "core_clock":1860,                        // The GPU core clock.
+        "mem_clock":3802,                         // The GPU memory clock.
+        "watt":138,                               // Current power draw for the GPU.
+        "hashrate":23644236.585042622,            // Current hashrate for the GPU thread. Not formatted.
+        "accepted":1,                             // The GPU threads number of accepted shares.
+        "rejected":0,                             // The GPU threads number of rejected shares.
+        "stale":0                                 // The GPU threads number of stale shares.
+    }
+}
+
+http://127.0.0.1:4068/pool
+
+{
+    "url":"eu1.ethermine.org",  // The pool in use.
+    "worker":"fr",              // The worker registred on pool.
+    "algo":"ethash",            // The algorithm in use by the miner.
+    "job":"bbcd54",             // Current work. Latest work from pool.
+    "epoch":444,                // The epoch number for the currency.
+    "block":0,                  // Block height if provided by pool protocol.
+    "diff":1,                   // Pool difficulty in double floating point precicion.
+    "ping":24                   // Pool ping in milliseconds.
+}
