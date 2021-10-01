@@ -149,15 +149,15 @@ which requires basic knownledge of whats going on in the miner.
 
 ## Commandline options for api.
 
--d --api        (Enable api)
--F --api-ip     (Set ip address)
--R --api-port   (Set port number)
+- -d --api        (Enable api)
+- -F --api-ip     (Set ip address)
+- -R --api-port   (Set port number)
 
 ## Configurationfile options for api.
 
-API=            (0=Disable api. 1=Enable api.)
-API_IP=         (Set ip address)
-API_PORT=       (Set port number)
+- API=            (0=Disable api. 1=Enable api.)
+- API_IP=         (Set ip address)
+- API_PORT=       (Set port number)
 
 ## Default values.
 
