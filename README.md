@@ -30,7 +30,6 @@ Support for older cuda versions, windows 8.1 and 7 has been deprecated.
 Example scripts are included in the archive.
 
 ## Supported algorithms and developer commission
-
 Eth, ethash              0.5%                   
 Etc, etchash             0.5%                 
 Zil standalone           1.0%                 
@@ -85,7 +84,6 @@ Vertcoin+Zil	         1.0%
 ```
 
 ## Example configuration file
-
 ```c
 POOL_IP=
 POOL_HOSTNAME=pool.eu.woolypooly.com
@@ -142,22 +140,22 @@ API_PORT=4068
 ```
 
 ## API
-
 TBMiner have a small built-in read only api.
 The api is used for profit switching miners or other systems
 which requires basic knownledge of whats going on in the miner.
 
 ## Commandline options for api
-
 - -d --api        (Enable api)
 - -F --api-ip     (Set ip address)
 - -R --api-port   (Set port number)
 
 ## Configurationfile options for api
 
-- API=            (0=Disable api. 1=Enable api.)
-- API_IP=         (Set ip address)
-- API_PORT=       (Set port number)
+```plain
+API=            (0=Disable api. 1=Enable api.)
+API_IP=         (Set ip address)
+API_PORT=       (Set port number)
+```
 
 ## Default values
 
@@ -218,38 +216,63 @@ http://127.0.0.1:4068/threads
 
 ```json
 {
-    "0":                                          // GPU id. Might not be the same order as PCIe id.
+    "0":
 
     {
-        "gpu":0,                                  // GPU id. Might not be the same order as PCIe id.
-        "pcie_id":0,                              // PCIe device id. The pysical placement of the GPU card.
-        "board_name":"NVIDIA GeForce GTX 1070",   // Name of the GPU card.
-        "type":"Cuda",                            // Type of mining by thread. Cuda or OpenCL.
-        "gpu_temp":76,                            // GPU temperature.
-        "mem_temp":0,                             // GPU memory temperature if available.
-        "fan":56,                                 // Fan speed in percentage.
-        "core_clock":1860,                        // The GPU core clock.
-        "mem_clock":3802,                         // The GPU memory clock.
-        "watt":138,                               // Current power draw for the GPU.
-        "hashrate":23644236.585042622,            // Current hashrate for the GPU thread. Not formatted.
-        "accepted":2,                             // The GPU threads number of accepted shares.
-        "rejected":0,                             // The GPU threads number of rejected shares.
-        "stale":0                                 // The GPU threads number of stale shares.
+        "gpu":0,
+        "pcie_id":0,
+        "board_name":"NVIDIA GeForce GTX 1070",
+        "type":"Cuda",
+        "gpu_temp":76,
+        "mem_temp":0,
+        "fan":56,
+        "core_clock":1860,
+        "mem_clock":3802,
+        "watt":138,
+        "hashrate":23644236.585042622,
+        "accepted":2,
+        "rejected":0,
+        "stale":0
     }
 }
 ```
+
++ "index" -- GPU id. Might not be the same order as PCIe id.
++ "gpu" -- GPU id. Might not be the same order as PCIe id.
++ "pcie_id" -- PCIe device id. The pysical placement of the GPU card.
++ "board_name" -- Name of the GPU card.
++ "type" -- Type of mining by thread. Cuda or OpenCL.
++ "gpu_temp" -- GPU temperature.
++ "mem_temp" -- GPU memory temperature if available.
++ "fan":56 -- Fan speed in percentage.
++ "core_clock" -- The GPU core clock.
++ "mem_clock" -- The GPU memory clock.
++ "watt" -- Current power draw for the GPU.
++ "hashrate" -- Current hashrate for the GPU thread. Not formatted.
++ "accepted" -- The GPU threads number of accepted shares.
++ "rejected" -- The GPU threads number of rejected shares.
++ "stale" -- The GPU threads number of stale shares.
 
 http://127.0.0.1:4068/pool
 
 ```json
 {
-    "url":"eu1.ethermine.org",  // The pool in use.
-    "worker":"fr",              // The worker registred on pool.
-    "algo":"ethash",            // The algorithm in use by the miner.
-    "job":"bbcd54",             // Current work. Latest work from pool.
-    "epoch":444,                // The epoch number for the currency.
-    "block":0,                  // Block height if provided by pool protocol.
-    "diff":1,                   // Pool difficulty in double floating point precicion.
-    "ping":24                   // Pool ping in milliseconds.
+    "url":"eu1.ethermine.org",
+    "worker":"fr",
+    "algo":"ethash",
+    "job":"bbcd54",
+    "epoch":444,
+    "block":0,
+    "diff":1,
+    "ping":24
 }
 ```
+
++ "url" -- The pool in use.
++ "worker" -- The worker registred on pool.
++ "algo" -- The algorithm in use by the miner.
++ "job" -- Current work. Latest work from pool.
++ "epoch" -- The epoch number for the currency.
++ "block" -- Block height if provided by pool protocol.
++ "diff" -- Pool difficulty in double floating point precicion.
++ "ping" -- Pool ping in milliseconds.
