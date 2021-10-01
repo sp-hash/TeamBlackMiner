@@ -27,9 +27,10 @@ Miner Features:
 + Display of detailed information on each device (temperature, power consumption, cooler load, memory frequency, processor frequency, energy efficiency)
 + Parallel output of information to console and to file on disk
 
-Example scripts are included in the archive
+Example scripts are included in the archive.
 
-Available command line options:                 
+## Available command line options
+```bash
 -h --help                 
 -V --version                  
 -v --no-verbose                  
@@ -68,6 +69,7 @@ Available command line options:
 -B --no-stats                   
 -N --no-cpu
 -b --amd-only
+```
 
 Supported algorithms and developer commission:                  
 Eth, ethash              0.5%                   
