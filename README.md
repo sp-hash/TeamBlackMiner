@@ -7,7 +7,7 @@ Windows 10 or linux.
 ALL AMD cards supported
 NVIDIA card with compute 5.0 or newer.                
 
-windows:
+Windows:
 Visual studio 2015-2019 Redistributable Package                  
 Run ansicolor.reg script for colors                     
 Latest NVIDIA driver, or newer than v460.89
@@ -15,7 +15,7 @@ The cuda 11.4 build is recomended, but 11.2 included to be able to mine fullspee
 
 Support for older cuda versions, windows 8.1 and 7 has been deprecated.
 
-Miner Features:
+## Miner Features
 + Commission is charged continuously, and not in intervals (as in most miners), which has a positive effect on the user's profitability on PPLNS pools
 + Verifying Shares on processor, warning when GPU overclocking is very high for Ethash, Etcash, helps to overclock GPU without errors
 + DAG caching if the GPU has enough memory, DAG files are not recomputed when switching to another algorithm when mining Ethash + Zilliqa or Nicehash. (NVIDIA only)
