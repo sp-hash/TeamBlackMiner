@@ -42,8 +42,7 @@ Vertcoin+Zil	         1.0%
 ## Available command line options
 ```bash
 -h --help                 
--V --version                  
--v --no-verbose                  
+-V --version                                  
 -c --configfile                  
 -L --log                 
 -l --logfile                  
@@ -79,6 +78,10 @@ Vertcoin+Zil	         1.0%
 -B --no-stats                   
 -N --no-cpu
 -b --amd-only
+-E --xintensity
+-d --api
+-F --api-ip
+-R --api-port
 ```
 
 ## Example configuration file (if you prefer file)
