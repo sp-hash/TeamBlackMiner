@@ -30,13 +30,13 @@ Support for older cuda versions, windows 8.1 and 7 has been deprecated.
 Example scripts are included in the archive.
 
 ## Supported algorithms and developer commission
-Eth, ethash              0.5%                   
-Etc, etchash             0.5%                 
-Zil standalone           1.0%                 
-Vertcoin                 1.0%               
-Eth+Zil, ethash          0.5%              
-Etc+Zil, etchash         0.5%                 
-Vertcoin+Zil	         1.0%            
++ Eth, ethash              0.5%                   
++ Etc, etchash             0.5%                 
++ Zil standalone           1.0%                 
++ Vertcoin                 1.0%               
++ Eth+Zil, ethash          0.5%              
++ Etc+Zil, etchash         0.5%                 
++ Vertcoin+Zil	         1.0%            
 
 ## Available command line options
 ```plain
