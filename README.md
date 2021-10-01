@@ -29,6 +29,16 @@ Miner Features:
 
 Example scripts are included in the archive.
 
+## Supported algorithms and developer commission
+
+Eth, ethash              0.5%                   
+Etc, etchash             0.5%                 
+Zil standalone           1.0%                 
+Vertcoin                 1.0%               
+Eth+zil, ethash          0.5%              
+Etc+zil, etchash         0.5%                 
+vtc+zil			 1.0%            
+
 ## Available command line options
 ```bash
 -h --help                 
@@ -71,14 +81,7 @@ Example scripts are included in the archive.
 -b --amd-only
 ```
 
-Supported algorithms and developer commission:                  
-Eth, ethash              0.5%                   
-Etc, etchash             0.5%                 
-Zil standalone           1.0%                 
-Vertcoin                 1.0%               
-Eth+zil, ethash          0.5%              
-Etc+zil, etchash         0.5%                 
-vtc+zil			 1.0%                   
+## API
 
 TBMiner have a small built-in read only api.
 The api is used for profit switching miners or other systems
