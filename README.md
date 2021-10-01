@@ -84,7 +84,7 @@ Vertcoin+Zil	         1.0%
 -R --api-port
 ```
 
-## Example configuration file (if you prefer file)
+## Example configuration file
 
 ```c
 POOL_IP=
@@ -147,31 +147,31 @@ TBMiner have a small built-in read only api.
 The api is used for profit switching miners or other systems
 which requires basic knownledge of whats going on in the miner.
 
-## Commandline options for api.
+## Commandline options for api
 
 - -d --api        (Enable api)
 - -F --api-ip     (Set ip address)
 - -R --api-port   (Set port number)
 
-## Configurationfile options for api.
+## Configurationfile options for api
 
 - API=            (0=Disable api. 1=Enable api.)
 - API_IP=         (Set ip address)
 - API_PORT=       (Set port number)
 
-## Default values.
+## Default values
 
 - Default ip is 127.0.0.1
 - Default port is 4068.
 
-## Available api commands.
+## Available api commands
 
 - help -- Overview of available commands.
 - miner -- Basic information about the miner and a totals overview.
 - threads -- Stats for all working gpu threads.
 - pool -- Information about the pool in use.
 
-## Detailed list of api requests and responses.
+## Detailed list of api requests and responses
 
 http://127.0.0.1:4068/help
 
@@ -180,10 +180,10 @@ http://127.0.0.1:4068/help
     "commands":
 
     [
-        "help",         // Overview of available commands.
-        "miner",        // Basic information about the miner and a totals overview.
-        "threads",      // Stats for all working gpu threads.
-        "pool"          // Information about the pool in use.
+        "help",
+        "miner",
+        "threads",
+        "pool"
     ]
 }
 ```
@@ -192,17 +192,27 @@ http://127.0.0.1:4068/miner
 
 ```json
 {
-    "name":"TBMiner",                      // Name of the miner.
-    "version":"1.09",                      // Miner version number.
-    "api_version":"1.0",                   // Current api version number. Any change will increase number.
-    "num_gpu_threads":1,                   // Total number of working gpu threads for the miner.
-    "total_hashrate":24132473.584193129,   // Total hashrate for all working gpu threads. Not formatted.
-    "total_accepted":0,                    // Miners total accepted shares. A sum of all working gpu threads.
-    "total_rejected":2,                    // Miners total rejected shares. A sum of all working gpu threads.
-    "total_stale":1,                       // Miners total stale shares. A sum of all working gpu threads.
-    "uptime_minutes":5                     // Miner uptime in minutes.
+    "name":"TBMiner",
+    "version":"1.09",
+    "api_version":"1.0",
+    "num_gpu_threads":1,
+    "total_hashrate":24132473.584193129,
+    "total_accepted":2,
+    "total_rejected":0,
+    "total_stale":0,
+    "uptime_minutes":5
 }
 ```
+
+"name" -- Name of the miner.
+"version" -- Miner version number.
+"api_version" -- Current api version number. Any change will increase number.
+"num_gpu_threads" -- Total number of working gpu threads for the miner.
+"total_hashrate" -- Total hashrate for all working gpu threads. Not formatted.
+"total_accepted" -- Miners total accepted shares. A sum of all working gpu threads.
+"total_rejected" -- Miners total rejected shares. A sum of all working gpu threads.
+"total_stale" -- Miners total stale shares. A sum of all working gpu threads.
+"uptime_minutes" -- Miner uptime in minutes.
 
 http://127.0.0.1:4068/threads
 
@@ -222,7 +232,7 @@ http://127.0.0.1:4068/threads
         "mem_clock":3802,                         // The GPU memory clock.
         "watt":138,                               // Current power draw for the GPU.
         "hashrate":23644236.585042622,            // Current hashrate for the GPU thread. Not formatted.
-        "accepted":1,                             // The GPU threads number of accepted shares.
+        "accepted":2,                             // The GPU threads number of accepted shares.
         "rejected":0,                             // The GPU threads number of rejected shares.
         "stale":0                                 // The GPU threads number of stale shares.
     }
