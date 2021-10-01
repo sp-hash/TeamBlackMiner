@@ -155,9 +155,9 @@ which requires basic knownledge of whats going on in the miner.
 - pool -- Information about the pool in use.
 
 ## Detailed list of api requests and responses
-
+```plain
 http://127.0.0.1:4068/help
-
+```
 ```json
 {
     "commands":
