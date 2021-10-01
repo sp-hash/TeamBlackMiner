@@ -40,47 +40,47 @@ Example scripts are included in the archive.
 
 ## Available command line options
 ```plain
--h --help                 
--V --version                                  
--c --configfile                  
--L --log                 
--l --logfile                  
--i --ip                     
--H --hostname                   
--p --port                      
--x --ssl-port                      
--W --wallet                        
--w --worker_name                     
--P --server_passwd                    
--o --http_path                         
--s --ssl                                   
--S --ssl-verify                         
--C --ssl-cert                  
--n --no-redirect               
--r --retries                  
--y --retry-pause             
--t --timeout                  
--a --algo                  
--D --list-devices               
--A --auto-detect                 
--Y --cl-devices [,]               
--U --cuda-devices [,]              
--z --cl-all-devices                
--Z --cuda-all-devices               
--T --templimit [,]                 
--g --templimit-sleep                  
--f --fan-speed-min                
--e --electricity-cost                
--u --electricity-currency            
--v --no-verbose                 
--I --no-ansi                 
--B --no-stats                   
--N --no-cpu
--b --amd-only
--E --xintensity
--d --api                (Enable API)
--F --api-ip             (Set ip address)
--R --api-port           (Set port number)
+-h --help                   (Prints available command line options)
+-V --version                (Prints version information)
+-c --configfile             (Set filename and path for configuration file)
+-L --log                    (Enable logging)
+-l --logfile                (Set name for logfile)
+-i --ip                     (Set ip address for pool)
+-H --hostname               (Set hostname for pool)
+-p --port                   (Set port number for pool)
+-x --ssl-port               (Set SSL port number for SSL connections)
+-W --wallet                 (Set your wallet address. Might be a username for some pools)
+-w --worker_name            (Set your pool worker name)
+-P --server_passwd          (Set your pool server password)
+-o --http_path              (Set a path to specify http path for pool if needed)
+-s --ssl                    (Use a SSL connection to pool)
+-S --ssl-verify             (Check pools ssl certificate integrity)
+-C --ssl-cert               (Set a pem file to verify pools ssl cert integrity)       
+-n --no-redirect            (No redirect means no connection forwarding and no stratum reconnect to new server)  
+-r --retries                (Set number of retry attempts for connecting to pool)
+-y --retry-pause            (Set retry pause between connection attempts if pool is not responding)
+-t --timeout                (Set timeout in seconds. Used for connecting and socket timeout)
+-a --algo                   (Set algorihtm, supported algorithms is ethash, etchash and zil)
+-D --list-devices           (List all rig GPU devices. Useful for setting up particular devices)  
+-A --auto-detect            (Autodetect means all Nvidia cards use Cuda and all Amd cards use OpenCL)
+-Y --cl-devices [,]         (Set a comma separated array of GPU devices ids for OpenCL to use)
+-U --cuda-devices [,]       (Set a comma separated array of GPU device ids for Nvidia Cuda devices to be used)
+-z --cl-all-devices         (Use OpenCl for all devices)
+-Z --cuda-all-devices       (Use all Nvidia Cuda devices)
+-T --templimit [,]          (Set a comma separated array of GPU device ids)    
+-g --templimit-sleep        (Set GPU sleep for seconds when temperature limit have been exceeded)
+-f --fan-speed-min          (Set minimum fan speed in RPM to warn if fan is not working properly)
+-e --electricity-cost       (Set cost per kWh)
+-u --electricity-currency   (Set currency type for stats)
+-v --no-verbose             (Less output) 
+-I --no-ansi                (Disable ANSI console output)
+-B --no-stats               (Disable statistics)
+-N --no-cpu                 (Lower CPU usage)
+-b --amd-only               (Run with only Amd devices)
+-E --xintensity             ()
+-d --api                    (Enable API)
+-F --api-ip                 (Set ip address)
+-R --api-port               (Set port number)
 ```
 
 ## Example configuration file
@@ -176,7 +176,7 @@ http://127.0.0.1:4068/miner
 ```json
 {
     "name":"TBMiner",
-    "version":"1.09",
+    "version":"1.10",
     "api_version":"1.0",
     "num_gpu_threads":1,
     "total_hashrate":24132473.584193129,
