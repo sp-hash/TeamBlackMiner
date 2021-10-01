@@ -39,7 +39,7 @@ Etc+Zil, etchash         0.5%
 Vertcoin+Zil	         1.0%            
 
 ## Available command line options
-```bash
+```plain
 -h --help                 
 -V --version                                  
 -c --configfile                  
@@ -78,13 +78,13 @@ Vertcoin+Zil	         1.0%
 -N --no-cpu
 -b --amd-only
 -E --xintensity
--d --api
--F --api-ip
--R --api-port
+-d --api                (Enable API)
+-F --api-ip             (Set ip address)
+-R --api-port           (Set port number)
 ```
 
 ## Example configuration file
-```c
+```plain
 POOL_IP=
 POOL_HOSTNAME=pool.eu.woolypooly.com
 POOL_HTTP_PATH=
@@ -144,26 +144,11 @@ TBMiner have a small built-in read only api.
 The api is used for profit switching miners or other systems
 which requires basic knownledge of whats going on in the miner.
 
-## Commandline options for api
-- -d --api        (Enable api)
-- -F --api-ip     (Set ip address)
-- -R --api-port   (Set port number)
-
-## Configurationfile options for api
-
-```plain
-API=            (0=Disable api. 1=Enable api.)
-API_IP=         (Set ip address)
-API_PORT=       (Set port number)
-```
-
 ## Default values
-
 - Default ip is 127.0.0.1
 - Default port is 4068.
 
 ## Available api commands
-
 - help -- Overview of available commands.
 - miner -- Basic information about the miner and a totals overview.
 - threads -- Stats for all working gpu threads.
