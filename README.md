@@ -35,9 +35,9 @@ Eth, ethash              0.5%
 Etc, etchash             0.5%                 
 Zil standalone           1.0%                 
 Vertcoin                 1.0%               
-Eth+zil, ethash          0.5%              
-Etc+zil, etchash         0.5%                 
-vtc+zil			 1.0%            
+Eth+Zil, ethash          0.5%              
+Etc+Zil, etchash         0.5%                 
+Vertcoin+Zil	         1.0%            
 
 ## Available command line options
 ```bash
