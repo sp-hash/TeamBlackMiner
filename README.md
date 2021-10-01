@@ -252,12 +252,13 @@ http://127.0.0.1:4068/pool
     "ping":24
 }
 ```
-
-+ "url" -- The pool in use.
-+ "worker" -- The worker registred on pool.
-+ "algo" -- The algorithm in use by the miner.
-+ "job" -- Current work. Latest work from pool.
-+ "epoch" -- The epoch number for the currency.
-+ "block" -- Block height if provided by pool protocol.
-+ "diff" -- Pool difficulty in double floating point precicion.
-+ "ping" -- Pool ping in milliseconds.
+```plain
+"url"       -- The pool in use.
+"worker"    -- The worker registred on pool.
+"algo"      -- The algorithm in use by the miner.
+"job"       -- Current work. Latest work from pool.
+"epoch"     -- The epoch number for the currency.
+"block"     -- Block height if provided by pool protocol.
+"diff"      -- Pool difficulty in double floating point precicion.
+"ping"      -- Pool ping in milliseconds.
+```
