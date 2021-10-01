@@ -1,3 +1,5 @@
+[![preview](https://github.com/sp-hash/TeamBlackMiner/blob/main/TBMiner.png)](#readme)
+
 # TeamBlackMiner
 Team Black Miner was created by a group of nordic black ops in the cryptocurrency scene.
 TBMiner maintains a leading position in the mining coins like Ethereum, Ethereum Classic, Zilliqa, Vertcoin with the lowest dev fee 0.5-1%
