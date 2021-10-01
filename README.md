@@ -186,6 +186,7 @@ http://127.0.0.1:4068/help
 
 http://127.0.0.1:4068/miner
 
+```json
 {
     "name":"TBMiner",                      // Name of the miner.
     "version":"1.09",                      // Miner version number.
@@ -197,9 +198,11 @@ http://127.0.0.1:4068/miner
     "total_stale":1,                       // Miners total stale shares. A sum of all working gpu threads.
     "uptime_minutes":5                     // Miner uptime in minutes.
 }
+```
 
 http://127.0.0.1:4068/threads
 
+```json
 {
     "0":                                          // GPU id. Might not be the same order as PCIe id.
 
@@ -220,9 +223,11 @@ http://127.0.0.1:4068/threads
         "stale":0                                 // The GPU threads number of stale shares.
     }
 }
+```
 
 http://127.0.0.1:4068/pool
 
+```json
 {
     "url":"eu1.ethermine.org",  // The pool in use.
     "worker":"fr",              // The worker registred on pool.
@@ -233,3 +238,4 @@ http://127.0.0.1:4068/pool
     "diff":1,                   // Pool difficulty in double floating point precicion.
     "ping":24                   // Pool ping in milliseconds.
 }
+```
