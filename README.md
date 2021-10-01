@@ -186,17 +186,17 @@ http://127.0.0.1:4068/miner
     "uptime_minutes":5
 }
 ```
-
-+ "name" -- Name of the miner.
-+ "version" -- Miner version number.
-+ "api_version" -- Current api version number. Any change will increase number.
-+ "num_gpu_threads" -- Total number of working gpu threads for the miner.
-+ "total_hashrate" -- Total hashrate for all working gpu threads. Not formatted.
-+ "total_accepted" -- Miners total accepted shares. A sum of all working gpu threads.
-+ "total_rejected" -- Miners total rejected shares. A sum of all working gpu threads.
-+ "total_stale" -- Miners total stale shares. A sum of all working gpu threads.
-+ "uptime_minutes" -- Miner uptime in minutes.
-
+```plain
+"name"              -- Name of the miner.
+"version"           -- Miner version number.
+"api_version"       -- Current api version number. Any change will increase number.
+"num_gpu_threads"   -- Total number of working gpu threads for the miner.
+"total_hashrate"    -- Total hashrate for all working gpu threads. Not formatted.
+"total_accepted"    -- Miners total accepted shares. A sum of all working gpu threads.
+"total_rejected"    -- Miners total rejected shares. A sum of all working gpu threads.
+"total_stale"       -- Miners total stale shares. A sum of all working gpu threads.
+"uptime_minutes"    -- Miner uptime in minutes.
+```
 http://127.0.0.1:4068/threads
 
 ```json
@@ -221,23 +221,23 @@ http://127.0.0.1:4068/threads
     }
 }
 ```
-
-+ "index" -- GPU id. Might not be the same order as PCIe id.
-+ "gpu" -- GPU id. Might not be the same order as PCIe id.
-+ "pcie_id" -- PCIe device id. The pysical placement of the GPU card.
-+ "board_name" -- Name of the GPU card.
-+ "type" -- Type of mining by thread. Cuda or OpenCL.
-+ "gpu_temp" -- GPU temperature.
-+ "mem_temp" -- GPU memory temperature if available.
-+ "fan":56 -- Fan speed in percentage.
-+ "core_clock" -- The GPU core clock.
-+ "mem_clock" -- The GPU memory clock.
-+ "watt" -- Current power draw for the GPU.
-+ "hashrate" -- Current hashrate for the GPU thread. Not formatted.
-+ "accepted" -- The GPU threads number of accepted shares.
-+ "rejected" -- The GPU threads number of rejected shares.
-+ "stale" -- The GPU threads number of stale shares.
-
+```plain
+"index"         -- GPU id. Might not be the same order as PCIe id.
+"gpu"           -- GPU id. Might not be the same order as PCIe id.
+"pcie_id"       -- PCIe device id. The pysical placement of the GPU card.
+"board_name"    -- Name of the GPU card.
+"type"          -- Type of mining by thread. Cuda or OpenCL.
+"gpu_temp"      -- GPU temperature.
+"mem_temp"      -- GPU memory temperature if available.
+"fan":56        -- Fan speed in percentage.
+"core_clock"    -- The GPU core clock.
+"mem_clock"     -- The GPU memory clock.
+"watt"          -- Current power draw for the GPU.
+"hashrate"      -- Current hashrate for the GPU thread. Not formatted.
+"accepted"      -- The GPU threads number of accepted shares.
+"rejected"      -- The GPU threads number of rejected shares.
+"stale"         -- The GPU threads number of stale shares.
+```
 http://127.0.0.1:4068/pool
 
 ```json
