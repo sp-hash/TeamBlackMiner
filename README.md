@@ -157,15 +157,15 @@ API_PORT=       (Set port number)
 
 ## Default values.
 
-Default ip is 127.0.0.1
-Default port is 4068.
+- Default ip is 127.0.0.1
+- Default port is 4068.
 
 ## Available api commands.
 
-help -- Overview of available commands.
-miner -- Basic information about the miner and a totals overview.
-threads -- Stats for all working gpu threads.
-pool -- Information about the pool in use.
+- help -- Overview of available commands.
+- miner -- Basic information about the miner and a totals overview.
+- threads -- Stats for all working gpu threads.
+- pool -- Information about the pool in use.
 
 ## Detailed list of api requests and responses.
 
