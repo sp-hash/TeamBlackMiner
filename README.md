@@ -170,9 +170,9 @@ http://127.0.0.1:4068/help
     ]
 }
 ```
-
+```plain
 http://127.0.0.1:4068/miner
-
+```
 ```json
 {
     "name":"TBMiner",
@@ -197,8 +197,9 @@ http://127.0.0.1:4068/miner
 "total_stale"       -- Miners total stale shares. A sum of all working gpu threads.
 "uptime_minutes"    -- Miner uptime in minutes.
 ```
+```plain
 http://127.0.0.1:4068/threads
-
+```
 ```json
 {
     "0":
@@ -238,8 +239,9 @@ http://127.0.0.1:4068/threads
 "rejected"      -- The GPU threads number of rejected shares.
 "stale"         -- The GPU threads number of stale shares.
 ```
+```plain
 http://127.0.0.1:4068/pool
-
+```
 ```json
 {
     "url":"eu1.ethermine.org",
