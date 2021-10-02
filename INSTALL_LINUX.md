@@ -18,7 +18,7 @@ Check your system for Nvidia Cuda support:
 $ nvidia-smi
 ```
 
-If you do not have Nvidia Cuda 11.4 on your Linux system,
+If you do not have Nvidia CUDA Toolkit 11.4 on your Linux system,
 please follow the install instructions here:
 - https://developer.nvidia.com/cuda-downloads
 
