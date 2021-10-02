@@ -27,7 +27,7 @@ please follow the install instructions here:
 We know there can be issues with installing the Nvidia Cuda Toolkit 11.4
 when your Linux system already got prior Nvidia/Cuda drivers.
 
-You can try these instructions where you remove all old package contents before installing.
+You can try these instructions where you remove all old package contents before installing:
 - https://medium.com/@anarmammadli/how-to-install-cuda-11-4-on-ubuntu-18-04-or-20-04-63f3dee2099
 
 If you allready have Cuda 11.4 on your system,
