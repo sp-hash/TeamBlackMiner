@@ -31,6 +31,7 @@ You can try these instructions where you remove all old Nvidia content before in
 
 ### Additional step for AMD devices
 TBM uses AMD ADL library to read GPU information from AMD cards.
+
 We have added two AMD libraries to make this step a little easier.
 
 This step is not neccesary if you already have the libraries.
