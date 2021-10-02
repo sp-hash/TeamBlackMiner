@@ -47,7 +47,7 @@ sudo cp libatiuki.so.1 /usr/lib/
 ## How to run
 
 Edit one of the provided pool scripts (see: FAQ.md), 
-or just run one of the scripts to test.
+or just run one of the scripts as it is to test TBM.
 
 Example:
 ```bash
