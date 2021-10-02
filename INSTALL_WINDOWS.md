@@ -12,3 +12,14 @@ Use the latest NVIDIA driver, or newer than v460.89:
 The cuda 11.4 build is recomended, but 11.2 included to be able to mine fullspeed with LHR cards (x16 riser, hdmi dongle and 470.05 beta driver).
 
 Support for older CUDA versions, Microsoft Windows 8.1 and Microsoft Windows 7 has been deprecated.
+
+## How to run
+
+Edit one of the provided pool scripts (see: [Frequently asked questions](https://github.com/sp-hash/TeamBlackMiner/blob/main/FAQ.md)), 
+or just run one of the scripts as it is to test TBM.
+
+Example:
+```bash
+cd TeamBlackMiner_1_10_cuda_11_4
+.\tbminer_ethermine_eth.bat
+```
