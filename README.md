@@ -181,7 +181,7 @@ http://127.0.0.1:4068/miner
     "version":"1.10",
     "api_version":"1.0",
     "num_gpu_threads":1,
-    "total_hashrate":24132473.584193129,
+    "total_hashrate":24132474,
     "total_accepted":2,
     "total_rejected":0,
     "total_stale":0,
@@ -217,7 +217,7 @@ http://127.0.0.1:4068/threads
         "core_clock":1860,
         "mem_clock":3802,
         "watt":138,
-        "hashrate":23644236.585042622,
+        "hashrate":23644237,
         "accepted":2,
         "rejected":0,
         "stale":0
