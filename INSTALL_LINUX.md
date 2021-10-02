@@ -3,7 +3,7 @@
 Team Black Miner (TBM) is built on and tested for Ubuntu 18.04.
 
 ## Program system dependencies
-
+First install the system packages needed:
 ```bash
 $ sudo apt install libcurl4-openssl-dev libapr1
 ```
