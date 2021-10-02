@@ -56,5 +56,6 @@ Example:
 $ cd TeamBlackMiner_1_10_Ubuntu_18_04_Cuda_11_4/
 $ ./tbminer_ethermine_eth.sh
 ```
-### Problems
+
+## Problems
 If Team Black Miner is not running on your Linux system please open a issue here at Github.
