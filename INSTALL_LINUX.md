@@ -29,9 +29,9 @@ when your Linux system already got a prior version.
 You can try these instructions where you remove all old Nvidia content before installing:
 - https://medium.com/@anarmammadli/how-to-install-cuda-11-4-on-ubuntu-18-04-or-20-04-63f3dee2099
 
-### Additional step for Amd devices
+### Additional step for AMD devices
 TBM uses AMD ADL library to read GPU information from AMD cards.
-We have added two libraries to make this step a little easier.
+We have added two AMD libraries to make this step a little easier.
 
 This step is not neccesary if you already have the libraries.
 The miner can work without them but then without statistics for AMD GPU cards.
