@@ -24,4 +24,4 @@ cd TeamBlackMiner_1_10_cuda_11_4
 ```
 
 ## Problems
-If Team Black Miner is not running on your Linux system please open a issue here at Github.
+If Team Black Miner is not running on your Windows 10 please open a issue here at Github.
