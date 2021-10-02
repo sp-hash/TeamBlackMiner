@@ -8,7 +8,7 @@ Team Black Miner (TBM) is built on and tested for Ubuntu 18.04.
 $ sudo apt install libcurl4-openssl-dev libapr1
 ```
 
-### Install Nvidia Cuda Toolkit 11.4
+### Nvidia Cuda Toolkit 11.4
 We have built TBM with Nvidia Cuda 11.4.
 If you allready have Nvidia Cuda 11.4 on your system,
 then you do not need to follow the next install instruction.
