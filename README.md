@@ -146,17 +146,17 @@ TBMiner have a small built-in read only api.
 The api is used for profit switching miners or other systems
 which requires basic knownledge of whats going on in the miner.
 
-## Default values
+### Default values
 - Default ip is 127.0.0.1
 - Default port is 4068.
 
-## Available api commands
+### Available api commands
 - help -- Overview of available commands.
 - miner -- Basic information about the miner and a totals overview.
 - threads -- Stats for all working gpu threads.
 - pool -- Information about the pool in use.
 
-## Detailed list of api requests and responses
+### Detailed list of api requests and responses
 ```plain
 http://127.0.0.1:4068/help
 ```
