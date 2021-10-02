@@ -5,9 +5,8 @@ Team Black Miner was created by a group of nordic black ops in the cryptocurrenc
 TBMiner maintains a leading position in the mining coins like Ethereum, Ethereum Classic, Zilliqa, Vertcoin with the lowest dev fee 0.5-1%
 
 ### Miner requirements
-Windows 10 or Linux.            
+Windows 10 or Linux.
 ALL AMD cards supported.
-
 NVIDIA card with compute 5.0 or newer.                
 
 * [Install on Windows](https://github.com/sp-hash/TeamBlackMiner/blob/main/INSTALL_WINDOWS.md)
