@@ -13,8 +13,8 @@ TBM is using Nvidia CUDA Toolkit 11.4.
 
 If you allready have Nvidia CUDA Toolkit 11.4 on your system, then you can skip this section.
 
-How to check for Nvidia Cuda:
 
+How to check for Nvidia Cuda:
 ```bash
 $ nvidia-smi
 ```
