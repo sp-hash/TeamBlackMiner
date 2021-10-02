@@ -11,6 +11,7 @@ NVIDIA card with compute 5.0 or newer.
 
 * [Install on Windows](https://github.com/sp-hash/TeamBlackMiner/blob/main/INSTALL_WINDOWS.md)
 * [Install on Linux](https://github.com/sp-hash/TeamBlackMiner/blob/main/INSTALL_LINUX.md)
+* [Frequently asked questions](https://github.com/sp-hash/TeamBlackMiner/blob/main/FAQ.md))
 
 ## Miner Features
 + Commission is charged continuously, and not in intervals (as in most miners), which has a positive effect on the user's profitability on PPLNS pools
