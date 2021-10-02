@@ -10,8 +10,7 @@ $ sudo apt install libcurl4-openssl-dev libapr1
 
 ### Nvidia Cuda Toolkit 11.4
 We have built TBM with Nvidia Cuda 11.4.
-If you allready have Nvidia Cuda 11.4 on your system,
-then you do not need to follow the next install instruction.
+If you allready have Nvidia Cuda 11.4 on your system, then you can skip this section.
 
 Check your system for Nvidia Cuda support with:
 
