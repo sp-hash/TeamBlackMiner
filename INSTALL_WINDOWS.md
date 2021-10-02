@@ -3,7 +3,7 @@
 ## Requirements
 Download and install the Microsoft Visual studio 2015-2019 Redistributable Package.
 
-Download and run the ansicolor.reg script to activate colors in program console.
+Run the ansicolor.reg script in the 7zip archive to activate colors in Windows program console.
 
 Use the latest NVIDIA driver, or newer than v460.89.
 
