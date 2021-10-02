@@ -1,7 +1,8 @@
 # Install Team Black Miner on Windows
 
 ## Requirements
-Download and install the Microsoft Visual Studio 2015-2019 Redistributable Package.
+Download and install the Microsoft Visual Studio 2015-2019 Redistributable Package:
++ https://docs.microsoft.com/en-US/cpp/windows/latest-supported-vc-redist?view=msvc-160
 
 Run the ansicolor.reg script in the 7zip archive to activate colors in Windows program console.
 
