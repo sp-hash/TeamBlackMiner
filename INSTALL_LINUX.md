@@ -8,11 +8,11 @@ First install the system packages needed:
 $ sudo apt install libcurl4-openssl-dev libapr1
 ```
 
-### Nvidia Cuda Toolkit 11.4
-We have built TBM with Nvidia Cuda 11.4.
-If you allready have Nvidia Cuda 11.4 on your system, then you can skip this section.
+### Nvidia CUDA Toolkit 11.4
+TBM is using Nvidia CUDA Toolkit 11.4.
+If you allready have Nvidia CUDA Toolkit 11.4 on your system, then you can skip this section.
 
-Check your system for Nvidia Cuda support with:
+Check your system for Nvidia Cuda support:
 
 ```bash
 $ nvidia-smi
@@ -22,24 +22,21 @@ If you do not have Nvidia Cuda 11.4 on your Linux system,
 please follow the install instructions here:
 - https://developer.nvidia.com/cuda-downloads
 
-### Problems with installing Nvidia Cuda Toolkit 11.4
-We know there can be issues with installing the Nvidia Cuda Toolkit 11.4
-when your Linux system already got prior Nvidia/Cuda drivers.
+### Problems with installing Nvidia CUDA Toolkit 11.4
+We know there can be issues with installing the Nvidia CUDA Toolkit 11.4
+when your Linux system already got a prior version.
 
-You can try these instructions where you remove all old package contents before installing:
+You can try these instructions where you remove all content before installing:
 - https://medium.com/@anarmammadli/how-to-install-cuda-11-4-on-ubuntu-18-04-or-20-04-63f3dee2099
-
-If you allready have Cuda 11.4 on your system,
-then do not follow these install instructions.
 
 ### Additional step for Amd devices
 TBM uses AMD ADL library to read GPU information from AMD cards.
-We have added these two libraries to the release zip to make this step a little easier.
+We have added two libraries to make this step a little easier.
 
-This step is not neccesary if you already have the libraries installed and
-the miner can work without them but then without statistics for AMD GPU cards.
+This step is not neccesary if you already have the libraries.
+The miner can work without them but then without statistics for AMD GPU cards.
 
-Copy the shared objects (.so) to system library path:
+Copy the shared objects (.so) to the systems library path:
 ```bash
 sudo cp libatiadlxx.so /usr/lib/
 sudo cp libatiuki.so.1 /usr/lib/
