@@ -34,8 +34,13 @@ If you allready have Cuda 11.4 on your system,
 then do not follow these install instructions.
 
 ### Additional step for Amd devices
-TBM uses Amd ADL library to 
+TBM uses AMD ADL library to read GPU information from AMD cards.
+We have added these two libraries to the release zip to make this step a little easier.
 
+This step is not neccesary if you already have the libraries installed and
+the miner can work without them but then without statistics for AMD GPU cards.
+
+Copy the shared objects (.so) to system library path:
 ```bash
 sudo cp libatiadlxx.so /usr/lib/
 sudo cp libatiuki.so.1 /usr/lib/
