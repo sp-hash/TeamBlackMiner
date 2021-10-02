@@ -35,6 +35,7 @@ TBM uses AMD ADL library to read GPU information from AMD cards.
 We have added two AMD libraries to make this step a little easier.
 
 This step is not neccesary if you already have the libraries.
+
 The miner can work without them but then without statistics for AMD GPU cards.
 
 Copy the shared objects (.so) to the systems library path:
