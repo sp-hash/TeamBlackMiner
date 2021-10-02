@@ -9,13 +9,8 @@ Windows 10 or Linux.
 ALL AMD cards supported.
 NVIDIA card with compute 5.0 or newer.                
 
-### Windows
-Visual studio 2015-2019 Redistributable Package                  
-Run ansicolor.reg script for colors                     
-Latest NVIDIA driver, or newer than v460.89
-The cuda 11.4 build is recomended, but 11.2 included to be able to mine fullspeed with LHR cards (x16 riser, usb dongle and 470.05 beta driver).
-
-Support for older cuda versions, windows 8.1 and 7 has been deprecated.
+* [Install on Windows](https://github.com/sp-hash/TeamBlackMiner/blob/main/INSTALL_WINDOWS.md)
+* [Install on Linux](https://github.com/sp-hash/TeamBlackMiner/blob/main/INSTALL_LINUX.md)
 
 ## Miner Features
 + Commission is charged continuously, and not in intervals (as in most miners), which has a positive effect on the user's profitability on PPLNS pools
