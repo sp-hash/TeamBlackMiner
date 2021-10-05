@@ -17,3 +17,7 @@ Set ETH_WALLET=0x59Aa6EAfb389E814441D02Ba6EF33c10726e4B16
 	timeout 10
 goto :loop
 ```
+All you need to do is to insert your wallet into the ETH_WALLET field to get started.
+```bat
+Set ETH_WALLET=<your_ethereum_wallet>
+```
