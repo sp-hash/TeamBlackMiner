@@ -45,7 +45,8 @@ We can recommend:
 They should get you started.
 
 ## How to run
-After you have edited the provided run script you can run it by dobble-click or you can start det .bat script from the commandline (Windows 10)
+After you have edited the provided run script you can run it by dobble-click.
+Yo can alså start det .bat script from the commandline. (Windows 10)
 
 Example:
 ```bash
