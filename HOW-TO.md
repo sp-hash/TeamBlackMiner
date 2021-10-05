@@ -58,3 +58,5 @@ Team Black Miner has many commandline options available.
 
 We try to have the beste default values built in, so it may be more than ok to just run one of the scripts after
 inserting your wallet.
+
+## The commandline options (details)
