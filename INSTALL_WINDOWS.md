@@ -16,9 +16,7 @@ Support for older CUDA versions, Microsoft Windows 8.1 and Microsoft Windows 7 h
 ## How to run
 Edit one of the provided pool scripts (see: [HOW-TO](https://github.com/sp-hash/TeamBlackMiner/blob/main/HOW-TO.md)).
 
-Or just run one of the scripts as it is to test TBM.
-
-Example:
+Or just run one of the scripts as it is to test Team Black Miner:
 ```bash
 cd TeamBlackMiner_1_10_cuda_11_4
 .\tbminer_ethermine_eth.bat
