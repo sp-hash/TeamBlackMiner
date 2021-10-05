@@ -1,4 +1,6 @@
-[![preview](https://github.com/sp-hash/TeamBlackMiner/blob/main/TBMiner.png)](#readme)
+![3060ti](https://user-images.githubusercontent.com/9572668/136000933-0a3021cf-5197-4dc4-bd27-a17857cecd85.jpeg)]
+
+
 
 # TeamBlackMiner
 Team Black Miner was created by a group of nordic black ops in the cryptocurrency scene.
@@ -12,7 +14,6 @@ NVIDIA card with compute 5.0 or newer.
 * [Install on Windows](https://github.com/sp-hash/TeamBlackMiner/blob/main/INSTALL_WINDOWS.md)
 * [Install on Linux](https://github.com/sp-hash/TeamBlackMiner/blob/main/INSTALL_LINUX.md)
 * [Frequently asked questions](https://github.com/sp-hash/TeamBlackMiner/blob/main/FAQ.md)
-* [How-to-guide](https://github.com/sp-hash/TeamBlackMiner/blob/main/HOW-TO.md)
 
 ## Miner Features
 + Commission is charged continuously, and not in intervals (as in most miners), which has a positive effect on the user's profitability on PPLNS pools
