@@ -13,7 +13,7 @@ The Nvidia CUDA 11.4 build is recomended.
 
 A Nvidia CUDA 11.2 build is included to be able to mine fullspeed with LHR cards (with the x16 riser, hdmi dongle and 470.05 beta driver).
 
-Support for older CUDA versions, Microsoft Windows 8.1 and Microsoft Windows 7 has been deprecated.
+**Support for older CUDA versions, Microsoft Windows 8.1 and Microsoft Windows 7 has been deprecated.**
 
 ## How to run
 Edit one of the provided pool scripts ([HOW-TO](https://github.com/sp-hash/TeamBlackMiner/blob/main/HOW-TO.md)).
