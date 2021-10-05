@@ -34,10 +34,13 @@ Set ETH_WALLET=<your_ethereum_wallet>
 ```
 If you do not allready have a wallet for Ethereum, Ethereum Classic or Zilliqa, then 
 find a good crypto exchange where you can create one.
+
 They need to be trusted to handle your money and you have to be careful to store your login information, your
 wallet and other information like 2-factor-authentication codes safely.
 
-We can recommend https://www.binance.com/ or https://trustwallet.com/.
+We can recommend:
+* https://www.binance.com/
+* https://trustwallet.com/.
 
 They should get you started.
 
