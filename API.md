@@ -1,6 +1,7 @@
 
 # API
 TBMiner have a small built-in read only api.
+
 The api is used for profit switching miners or other systems
 which requires basic knownledge of whats going on in the miner.
 
