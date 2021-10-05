@@ -19,7 +19,7 @@ No. No way. But viruses are known to exploit coin mining for profit.
 Currently we do not have Vertcoin algorithm support for Team Black Miner.
 We have to merge the code from SPMiner and it will be included in version 2.0.
 So if you want to mine Vertcoin + Zil you must dualmine with SPMiner.
-+ https://github.com/sp-hash/SPMiner/releases
+* https://github.com/sp-hash/SPMiner/releases
 
 ## It is not working, why ?
 
