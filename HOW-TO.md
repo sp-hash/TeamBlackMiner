@@ -7,7 +7,7 @@ You will need Windows 10 or Linux OS.
 
 All AMD cards are supported.
 
-NVIDIA card with the compute platform 5.0 or newer.
+NVIDIA cards with the compute platform 5.0 or newer are supported.
 
 ## Extract the zip archive
 You will allways find the newest version with the newest bug-fixes and the newest optimizations located here:
