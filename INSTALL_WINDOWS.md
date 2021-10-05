@@ -14,7 +14,7 @@ The cuda 11.4 build is recomended, but a 11.2 build is included to be able to mi
 Support for older CUDA versions, Microsoft Windows 8.1 and Microsoft Windows 7 has been deprecated.
 
 ## How to run
-Edit one of the provided pool scripts (see: [HOW-TO](https://github.com/sp-hash/TeamBlackMiner/blob/main/HOW-TO.md)).
+Edit one of the provided pool scripts ([HOW-TO](https://github.com/sp-hash/TeamBlackMiner/blob/main/HOW-TO.md)).
 
 Or just run one of the scripts as it is to test Team Black Miner from commandline:
 ```bash
