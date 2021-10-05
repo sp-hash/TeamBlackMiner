@@ -5,7 +5,7 @@ To mine cryptocurrencies like Ethereum you will need a GPU device.
 
 You will need Windows 10 or Linux OS.
 
-ALL AMD cards are supported.
+All AMD cards are supported.
 
 NVIDIA card with the compute platform 5.0 or newer.
 
