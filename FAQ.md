@@ -12,4 +12,4 @@ Ask us to add it. We will configure the miner.
 
 ## Is it a computer virus ?
 
-No. No way. But viruses are know to exploit coin mining for profit.
+No. No way. But viruses are known to exploit coin mining for profit.
