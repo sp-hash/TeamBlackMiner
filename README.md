@@ -78,7 +78,7 @@ Example scripts are included in the archive.
 -B --no-stats               (Disable statistics)
 -N --no-cpu                 (Lower CPU usage)
 -b --amd-only               (Run with only Amd devices)
--E --xintensity             ()
+-E --xintensity             (Set miners GPU intensity)
 -d --api                    (Enable API)
 -F --api-ip                 (Set ip address)
 -R --api-port               (Set port number)
