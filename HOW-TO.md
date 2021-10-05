@@ -79,19 +79,92 @@ in any order.)
                             OpenCL driver version: 471.96
                             Cuda driver version: 11.4
                             Cuda runtime API version: 11.4
+			    
+			    Miner version is the current build version.
+			    Curl version is the curl library version used for the build.
+			    cJSON version is the cJSOn library version used for the build.
+			    OpenCL driver version is the systems OpenCL driver version.
+			    Cuda driver version is the systems Cuda driver version.
+			    Cuda runtime API is the Cuda version used for the build.
 
--c --configfile             (Set filename and path for configuration file)
--L --log                    (Enable logging)
--l --logfile                (Set name for logfile)
--i --ip                     (Set ip address for pool)
--H --hostname               (Set hostname for pool)
--p --port                   (Set port number for pool)
--x --ssl-port               (Set SSL port number for SSL connections)
--W --wallet                 (Set your wallet address. Might be a username for some pools)
--w --worker_name            (Set your pool worker name)
--P --server_passwd          (Set your pool server password)
--o --http_path              (Set a path to specify http path for pool if needed)
+-c --configfile             Set filename and path for configuration file.
+
+                            Example:
+			    
+			    TBMiner --configfile C:\TBMiner\TBMiner.conf
+			    
+			    (See README.md for a example configuration file.)
+
+-L --log                    Enable logging.
+                            A flag to enable logging.
+
+-l --logfile                Set name for logfile.
+
+                            Example:
+			    
+			    TBMiner --log --logfile C:\TBMiner\TBMiner.log
+
+-i --ip                     Set ip address for pool.
+
+                            Example:
+			    
+			    TBMiner --ip 18.197.166.72
+
+-H --hostname               Set hostname for pool.
+
+                            Example:
+			    
+			    TBMiner --hostname eu1.ethermine.org
+
+-p --port                   Set port number for pool.
+
+                            Example:
+			    
+                            TBMiner --port 4444 --hostname eu1.ethermine.org
+			    
+-W --wallet                 Set your wallet address.
+                            
+			    Sometimes called username.
+                            On some pools you have to register and use your username as wallet address.
+			    
+			    Example:
+			    
+			    TBMiner --wallet 0x59Aa6EAfb389E814441D02Ba6EF33c10726e4B16
+			    TBMiner --wallet joesmith
+			    
+-w --worker_name            Set your pool worker name.
+                            This is you rig name, your computers name, or could be your name.
+			    Useful to identify different rigs or computers at a pool.
+			    
+                            Example:
+			    
+			    TBMiner --worker_name worker1
+
+-P --server_passwd          Set your pool server password.
+                            Usely not needed for mining.
+			    May be mandatory for pools where you register and have an username.
+			    
+			    Example:
+			    
+			    TBMiner --server_password xxx
+
+-o --http_path              Set to specify a http path for pool if needed.
+                            This is for API endpoints.
+			    Most pools do not have API endpoints.
+			    
+			    Example:
+			    
+			    If you are provided with a pool URL like:
+			    zil://ZIL_ADDRESS.WORKER_NAME@eu1-zil.shardpool.io:5000/api
+			    
+			    The --http_path is /api
+			    
+			    Then the correct setting would be:
+			    
+			    TBMiner --algo zil --hostname eu1-zil.shardpool.io --http_path /api --port 5000 --wallet zil1xrv7nsssq3t08mjjgh26ux58pml22afdpx2sf6 --worker_name fr
+			    
 -s --ssl                    (Use a SSL connection to pool)
+-x --ssl-port               Set SSL port number for SSL connections.
 -S --ssl-verify             (Check pools ssl certificate integrity)
 -C --ssl-cert               (Set a pem file to verify pools ssl cert integrity)       
 -n --no-redirect            (No redirect means no connection forwarding and no stratum reconnect to new server)  
