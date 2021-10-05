@@ -144,6 +144,6 @@ API_IP=127.0.0.1
 API_PORT=4068
 ```
 
-## For develpers
+## For developers
 
 * [API](https://github.com/sp-hash/TeamBlackMiner/blob/main/API.md)
