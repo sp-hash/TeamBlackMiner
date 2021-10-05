@@ -3,9 +3,9 @@
 
 
 # TeamBlackMiner
-Team Black Miner was created by a group of nordic black ops in the cryptocurrency scene.
+Team Black Miner (TBM) was created by a group of nordic black ops in the cryptocurrency scene.
 
-TBMiner maintains a leading position in the mining coins like **Ethereum**, **Ethereum Classic**, **Zilliqa** and **Vertcoin** with the lowest dev fee of 0.5-1%.
+TBM maintains a leading position in the mining coins like **Ethereum**, **Ethereum Classic**, **Zilliqa** and **Vertcoin** with the lowest dev fee of 0.5-1%.
 
 ## Miner requirements
 + Windows 10 or Linux.
