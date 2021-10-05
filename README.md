@@ -11,6 +11,7 @@ Windows 10 or Linux.
 All AMD cards supported.
 NVIDIA card with compute 5.0 or newer.                
 
+### Documentation
 * [Install on Windows](https://github.com/sp-hash/TeamBlackMiner/blob/main/INSTALL_WINDOWS.md)
 * [Install on Linux](https://github.com/sp-hash/TeamBlackMiner/blob/main/INSTALL_LINUX.md)
 * [How-to-guide](https://github.com/sp-hash/TeamBlackMiner/blob/main/HOW-TO.md)
