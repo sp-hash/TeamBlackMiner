@@ -47,7 +47,7 @@ They should get you started.
 ## How to run
 After you have edited the provided run script you can run it by dobble-click.
 
-You can also start det .bat script from the commandline (Windows 10):
+You can also start the .bat script from the commandline (Windows 10):
 ```bash
 cd TeamBlackMiner_1_10_cuda_11_4
 .\tbminer_ethermine_eth.bat
