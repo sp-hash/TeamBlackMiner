@@ -3,11 +3,15 @@
 ## First things first
 To mine cryptocurrencies like Ethereum you will need a GPU device.
 
-You will need Windows 10 or Linux OS.
+To mine with Team Black Miner, you need Windows 10 or a Linux OS.
 
 All AMD cards are supported.
 
 NVIDIA cards with the compute platform 5.0 or newer are supported.
+
+For installation instructions:
+* [Install on Windows](https://github.com/sp-hash/TeamBlackMiner/blob/main/INSTALL_WINDOWS.md)
+* [Install on Linux](https://github.com/sp-hash/TeamBlackMiner/blob/main/INSTALL_LINUX.md)
 
 ## Extract the zip archive
 You will allways find the newest version with the newest bug-fixes and the newest optimizations located here:
