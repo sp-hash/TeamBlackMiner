@@ -40,7 +40,7 @@ wallet and other information like 2-factor-authentication codes safely.
 
 We can recommend:
 * https://www.binance.com/
-* https://trustwallet.com/.
+* https://trustwallet.com/
 
 They should get you started.
 
