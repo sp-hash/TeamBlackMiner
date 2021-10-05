@@ -32,3 +32,13 @@ All you need to do is to insert your wallet into the ETH_WALLET field to get sta
 ```bat
 Set ETH_WALLET=<your_ethereum_wallet>
 ```
+
+## How to run
+Edit one of the provided pool scripts (see: [HOW-TO](https://github.com/sp-hash/TeamBlackMiner/blob/main/HOW-TO.md)), 
+or just run one of the scripts as it is to test TBM.
+
+Example:
+```bash
+cd TeamBlackMiner_1_10_cuda_11_4
+.\tbminer_ethermine_eth.bat
+```
