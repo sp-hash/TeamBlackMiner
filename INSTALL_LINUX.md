@@ -8,27 +8,6 @@ First install the system packages needed:
 $ sudo apt install libcurl4-openssl-dev libapr1
 ```
 
-### Nvidia CUDA Toolkit 11.4
-TBM is using Nvidia CUDA Toolkit 11.4.
-
-If you allready have Nvidia CUDA Toolkit 11.4 on your system, then you can skip this section.
-
-How to check for Nvidia Cuda:
-```bash
-$ nvidia-smi
-```
-
-If you do not have Nvidia CUDA Toolkit 11.4 on your Linux system,
-please follow the install instructions here:
-- https://developer.nvidia.com/cuda-downloads
-
-### Problems with installing Nvidia CUDA Toolkit 11.4
-We know there can be issues with installing the Nvidia CUDA Toolkit 11.4
-if your Linux system already got a prior version.
-
-You can try these instructions where you remove all old Nvidia content before installing:
-- https://medium.com/@anarmammadli/how-to-install-cuda-11-4-on-ubuntu-18-04-or-20-04-63f3dee2099
-
 ### Additional step for AMD devices
 TBM uses AMD ADL library to read GPU information from AMD cards.
 
@@ -46,10 +25,9 @@ sudo cp libatiuki.so.1 /usr/lib/
 
 ## How to run
 
-Edit one of the provided pool scripts (see: [HOW-TO](https://github.com/sp-hash/TeamBlackMiner/blob/main/HOW-TO.md)), 
-or just run one of the scripts as it is to test TBM.
+Edit one of the provided pool scripts ([HOW-TO](https://github.com/sp-hash/TeamBlackMiner/blob/main/HOW-TO.md)), 
 
-Example:
+Or just run one of the scripts as it is to test Team Black Miner:
 ```bash
 $ cd TeamBlackMiner_1_10_Ubuntu_18_04_Cuda_11_4/
 $ ./tbminer_ethermine_eth.sh
