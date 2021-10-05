@@ -1,4 +1,4 @@
-![3060ti](https://user-images.githubusercontent.com/9572668/136000933-0a3021cf-5197-4dc4-bd27-a17857cecd85.jpeg)]
+![3060ti](https://user-images.githubusercontent.com/9572668/136000933-0a3021cf-5197-4dc4-bd27-a17857cecd85.jpeg)
 
 
 
