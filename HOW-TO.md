@@ -34,8 +34,8 @@ Set ETH_WALLET=<your_ethereum_wallet>
 ```
 
 ## How to run
-Edit one of the provided pool scripts (see: [HOW-TO](https://github.com/sp-hash/TeamBlackMiner/blob/main/HOW-TO.md)), 
-or just run one of the scripts as it is to test TBM.
+After you have edited the provided run script you can run it by dobble click in Windows 10 or
+you can start det .bat script from the commandline (cmd):
 
 Example:
 ```bash
