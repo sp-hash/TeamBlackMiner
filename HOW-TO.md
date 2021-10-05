@@ -64,8 +64,22 @@ in any order.)
 
 ## The commandline options (details)
 ```plain
--h --help                   (Prints available command line options)
--V --version                (Prints version information)
+-h --help                   Prints available commandline options.
+                            
+			    Output:
+                            (This list of options.)
+
+-V --version                Prints version information.
+
+                            Output:
+			    
+			    Miner version: TBMiner/1.10
+                            Curl version: libcurl/7.73.0-DEV Schannel zlib/1.2.11
+                            cJSON version: 1.7.14
+                            OpenCL driver version: 471.96
+                            Cuda driver version: 11.4
+                            Cuda runtime API version: 11.4
+
 -c --configfile             (Set filename and path for configuration file)
 -L --log                    (Enable logging)
 -l --logfile                (Set name for logfile)
