@@ -163,15 +163,76 @@ in any order.)
 			    
 			    TBMiner --algo zil --hostname eu1-zil.shardpool.io --http_path /api --port 5000 --wallet zil1xrv7nsssq3t08mjjgh26ux58pml22afdpx2sf6 --worker_name fr
 			    
--s --ssl                    (Use a SSL connection to pool)
+-s --ssl                    Use a SSL connection to pool.
+                            A flag to enable a SSL encrypted connection to the pool.
+			    
+			    Example:
+			    
+			    TBMiner --ssl
+			    
 -x --ssl-port               Set SSL port number for SSL connections.
--S --ssl-verify             (Check pools ssl certificate integrity)
--C --ssl-cert               (Set a pem file to verify pools ssl cert integrity)       
--n --no-redirect            (No redirect means no connection forwarding and no stratum reconnect to new server)  
--r --retries                (Set number of retry attempts for connecting to pool)
--y --retry-pause            (Set retry pause between connection attempts if pool is not responding)
--t --timeout                (Set timeout in seconds. Used for connecting and socket timeout)
--a --algo                   (Set algorihtm, supported algorithms is ethash, etchash and zil)
+
+                            Example:
+			    
+			    TBMiner --ssl --hostname eu1.ethermine.org --ssl-port 5555
+			    
+-S --ssl-verify             Check pools ssl certificate integrity.
+                            Flag to enable check of the pools certificate.
+			    
+			    Example:
+			    
+			    TBMiner --ssl --hostname eu1.ethermine.org --ssl-port 5555 --ssl-verify
+
+-C --ssl-cert               Set a pem file to verify pools ssl cert integrity. 
+                            Check a pool SSL certificate against a CA cert bundle.
+			    
+			    Example:
+			    
+			    TBMiner --ssl --hostname eu1.ethermine.org --ssl-port 5555 --ssl-verify --ssl-vert cacert.pem 
+
+-n --no-redirect            No redirect means no connection forwarding and no pool reconnect to new server.
+                            A flag to stop forwarding to another pool ip.
+
+                            Example:
+			    
+			    TBMiner --no-redirect
+
+-r --retries                Set number of retry attempts for connecting to pool.
+
+                            Example:
+			    
+			    TBMiner --retries 42
+			    
+			    Will try 42 connection attempts to the pool.
+
+-y --retry-pause            Set retry pause in seconds between connection attempts if pool is not responding.
+                            Pause in between connection attempts.
+			    
+			    Example:
+			    
+			    TBMiner --retries 42 --retry-pause 30
+			    
+			    Will try to connect to the pool for 21 minutes.
+			    
+-t --timeout                Set network timeout in seconds. Used for connecting and socket timeout.
+                            Used for network (internet) timeouts.
+
+			    Example:
+			    
+			    TBMiner --retries 42 --retry-pause 30 --timout 120
+			    
+			    Will give you 120 seconds before a connection attempt is timed out.
+			    
+-a --algo                   Set algorihtm.
+                            Supported algorithms (values) is "ethash", "etchash" and "zil".
+			    Ethash algorithm for Ethereum.
+			    Etchash algorithm for Ethereum Classic.
+			    Zil algorihtm for single Zil mining.
+			    
+			    Example:
+			    
+			    TBMiner --algo zil
+			    
 -D --list-devices           (List all rig GPU devices. Useful for setting up particular devices)  
 -A --auto-detect            (Autodetect means all Nvidia cards use Cuda and all Amd cards use OpenCL)
 -Y --cl-devices [,]         (Set a comma separated array of GPU devices ids for OpenCL to use)
