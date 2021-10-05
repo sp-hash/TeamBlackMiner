@@ -40,6 +40,8 @@ Example scripts are included in the archive.
 + Vertcoin+Zil	         1.0%            
 
 ## Available command line options
+See [How-to-guide](https://github.com/sp-hash/TeamBlackMiner/blob/main/HOW-TO.md) for detailed description.
+
 ```plain
 -h --help                   (Prints available command line options)
 -V --version                (Prints version information)
