@@ -13,3 +13,7 @@ Ask us to add it. We will configure the miner.
 ## Is it a computer virus ?
 
 No. No way. But viruses are known to exploit coin mining for profit.
+
+## It is not working why ?
+
+See install documents. If it is still not working. Please submit an issue here at Github.
