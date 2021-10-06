@@ -22,6 +22,8 @@ We have to merge the code from SPMiner and it will be included in version 2.0.
 So if you want to mine Vertcoin + Zil you must dualmine with SPMiner.
 * https://github.com/sp-hash/SPMiner/releases
 
+You will find start scripts in the Windows build 7zip archive.
+
 ## It is not working, why ?
 
 See install [Windows](https://github.com/sp-hash/TeamBlackMiner/blob/main/INSTALL_WINDOWS.md) and [Linux](https://github.com/sp-hash/TeamBlackMiner/blob/main/INSTALL_LINUX.md).
