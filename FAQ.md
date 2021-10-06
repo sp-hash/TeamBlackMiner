@@ -20,7 +20,7 @@ Currently we do not have Vertcoin algorithm support for Team Black Miner.
 
 We have to merge the code from SPMiner and it will be included in version 2.0.
 
-So if you want to mine Vertcoin + Zil you must dualmine with SPMiner.
+So if you want to mine Vertcoin + Zil you must dualmine with SPMiner and Team Black Miner.
 * https://github.com/sp-hash/SPMiner/releases
 
 You will find start scripts in the Windows build 7zip archive.
