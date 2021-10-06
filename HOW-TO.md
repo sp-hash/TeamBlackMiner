@@ -56,7 +56,7 @@ cd TeamBlackMiner_1_10_cuda_11_4
 ## The commandline options
 Team Black Miner has many commandline options available.
 
-We try to have the beste default values built in, so it may be more than ok to just run one of the scripts after
+We try to have the best default values built in, so it may be more than ok to just run one of the scripts after
 inserting your wallet.
 
 (If you want to try a commandline option or you need a specific option then you can add the short option or the long option
