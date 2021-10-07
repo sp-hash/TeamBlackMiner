@@ -294,7 +294,7 @@ in any order.)
 			    TBMiner --cl-all-devices
 
 -Z --cuda-all-devices       Use all Nvidia Cuda devices.
-                            A flag to use all available Nvida devices with CUDA.
+                            A flag to use all available Nvidia devices with CUDA.
 			    All non-cuda supported devices (Amd) will be excluded.
 			    
 			    Example:
