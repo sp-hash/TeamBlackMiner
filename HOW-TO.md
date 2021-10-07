@@ -373,12 +373,19 @@ in any order.)
 			    
 			    TBMiner --no-cpu
 
--b --amd-only               Run with only Amd devices.
+-b --amd-only               Run with Amd devices only.
                             A flag to use only Amd devices for mining.
 			    
 			    Example:
 			    
 			    TBMiner --amd-only
+
+-G --nvidia-only            Run with Nvidia devices only.
+                            A flag to use only Nvidia devices for mining.
+			    
+			    Example:
+			    
+			    TBMiner --nvidia-only
 			    
 -E --xintensity             Sets the intensity for the GPU threads.
                             Very useful to find the best Hashrate and the less rejected shares.
