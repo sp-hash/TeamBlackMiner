@@ -82,6 +82,7 @@ See [How-to-guide](https://github.com/sp-hash/TeamBlackMiner/blob/main/HOW-TO.md
 -B --no-stats               (Disable statistics)
 -N --no-cpu                 (Lower CPU usage)
 -b --amd-only               (Run with only Amd devices)
+-G --nvidia-only            (Run with only Nvidia devices)
 -E --xintensity             (Set miners GPU intensity)
 -d --api                    (Enable API)
 -F --api-ip                 (Set ip address)
