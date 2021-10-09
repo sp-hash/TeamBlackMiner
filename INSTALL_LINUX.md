@@ -8,7 +8,7 @@ First install the system packages needed:
 $ sudo apt install libcurl4-openssl-dev libapr1
 ```
 
-### Additional step for AMD devices
+## Additional step for AMD devices
 TBM uses AMD ADL library to read GPU information from AMD cards.
 
 We have added two AMD libraries to make this step a little easier.
