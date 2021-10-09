@@ -16,8 +16,7 @@ Keep this file so you have it in the folder at the next run.
 
 Filesize is about 1.3 GB.
 
-### Get SPMiner from:
-
+Get SPMiner from:
 * https://github.com/sp-hash/SPMiner/releases
 
 And copy the executable into this folder.
