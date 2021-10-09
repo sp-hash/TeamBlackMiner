@@ -19,7 +19,7 @@ Filesize is about 1.3 GB.
 Get SPMiner from:
 * https://github.com/sp-hash/SPMiner/releases
 
-And copy the executable into this folder.
+And copy the executable into the folder.
 
 Run SPMiner and Team Black Miner in paralell with two terminal windows.
 
