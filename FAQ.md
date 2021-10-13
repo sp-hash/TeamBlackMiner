@@ -8,7 +8,7 @@ Soon, we hope. It will be included.
 
 ## What is the best pools for this miner ?
 
-Since, TBM can produce 1-2 % stales with high intensity (--xintensity) pools that reward stale shares is the best for this miner.
+Since, TBM can produce 1-2 % stales with high intensity (--xintensity), pools that reward stale shares is the best for this miner.
 
 Also a high difficulty pool port is recomended with a high intensity setting.
 
