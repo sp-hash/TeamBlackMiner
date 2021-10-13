@@ -52,6 +52,6 @@ There are three pool run scripts for SPMiner:
 
 **start_vtc+zil.bat** uses miningpoolhub.
 
-Change it if you want to use another pool.
+Change it if you want to use another pool and remember your Zil and Vertcoin wallet.
 
 
