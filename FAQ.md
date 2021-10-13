@@ -9,7 +9,9 @@ Soon, we hope. It will be included.
 ## What is the best pools for this miner ?
 
 Since, TBM can produce 1-2 % stales with high intensity (--xintensity) pools that reward stale shares is the best for this miner.
-Alså a high difficulty pool is recoomended with a high intensity setting.
+
+Also a high difficulty pool is recoomended with a high intensity setting.
+
 Note that the ethereum blockchain rewards stale work/blocks. They are called uncle blocks. The uncle blocks are protecting the security of the blockchain.
 
 Good pools for TBMiner:
