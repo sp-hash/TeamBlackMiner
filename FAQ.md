@@ -38,7 +38,7 @@ Yes it might. You can lower the intensity setting (--xintensity) to reduce stale
 
 With the right settings you could have none.
 
-But you can also see it as an extra bonus to accepted shares if you use a pool that pays for stale shares.
+But you can also see stale shares as an extra bonus to accepted shares if you use a pool that pays for stale shares.
 
 ## Is it a computer virus ?
 
