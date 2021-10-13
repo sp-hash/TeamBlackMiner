@@ -1,7 +1,8 @@
 
 # Mine Vertcoin + Zil with Team Black Miner
 
-## LINUX
+## General
+
 Currently we do not have Vertcoin algorithm support for Team Black Miner.
 
 We have to merge the code from SPMiner and it will be included in version 2.0.
@@ -21,6 +22,8 @@ Get SPMiner from:
 
 And copy the executable into the folder.
 
+## Linux
+
 Run SPMiner and Team Black Miner in paralell with two terminal windows.
 
 One for SPMiner:
@@ -36,3 +39,5 @@ And one for TBMiner:
 ```bash
 $ ./tbminer_shardpool_zil.sh
 ```
+
+## Windows
