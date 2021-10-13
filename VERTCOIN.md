@@ -41,3 +41,17 @@ $ ./tbminer_shardpool_zil.sh
 ```
 
 ## Windows
+
+After copying in the SPMiner executable.
+Dobble click **start_vtc+zil.bat** script.
+
+There are three pool run scripts for SPMiner:
++ start_zpool+zil.bat
++ start_hashalot+zil.bat
++ start_miningpoolhub+zil.bat
+
+**start_vtc+zil.bat** uses miningpoolhub.
+
+Change it if you want to use another pool.
+
+
