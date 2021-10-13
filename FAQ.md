@@ -6,6 +6,26 @@
 
 Soon, we hope. It will be included.
 
+## What is the best pools for this miner ?
+
+Since, TBM can produce 1-2 % stales with high intensity (--xintensity) pools that reward stale shares is the best for this miner.
+Alså a high difficulty pool is recoomended with a high intensity setting.
+Note that the ethereum blockchain rewards stale work/blocks. They are called uncle blocks. The uncle blocks are protecting the security of the blockchain.
+
+Good pools for TBMiner:
++ Miningpoolhub (100% reward for stale shares)
++ 2miners (100% reward for stale shares)
++ nanopool (100% reward for stale shares)
++ woolypooly (100% reward for stale shares)
++ ezil (70% reward for stale shares)
++ hiveon (80% reward for stale shares)
+
+## What is the best --xinstensity settings.
+
+You can try for yourself or ask others.
+Different GPU cards might have different best setting,
+both with OC and the intensity setting. And the pool is important.
+
 ## It says the pool is not supported ?
 
 Ask us to add it. We will configure the miner. 
