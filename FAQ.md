@@ -52,7 +52,7 @@ No. No way. But viruses are known to exploit coin mining for profit.
 
 ## How to mine Vertcoin ?
 
-See [Vertcoin](https://github.com/sp-hash/TeamBlackMiner/blob/main/VERTCOIN.md)
+See [Vertcoin](https://github.com/sp-hash/TeamBlackMiner/blob/main/VERTCOIN.md).
 
 ## It is not working, why ?
 
