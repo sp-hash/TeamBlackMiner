@@ -40,6 +40,12 @@ With the right settings you could have none.
 
 But you can also see stale shares as an extra bonus to accepted shares if you use a pool that pays for stale shares.
 
+## What boards are known to be good for this miner ?
+
+A lot, mostly the new cards.
+
+Nvidia RTX series and Amd series 5xxx, 6xxxx, 7xxx, 8xxxx are known to work very well with this miner.
+
 ## Is it a computer virus ?
 
 No. No way. But viruses are known to exploit coin mining for profit.
