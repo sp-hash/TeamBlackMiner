@@ -32,7 +32,7 @@ All you need to do is to insert your wallet into the ETH_WALLET field to get sta
 ```bat
 Set ETH_WALLET=<your_ethereum_wallet>
 ```
-If you do not allready have a wallet for Ethereum, Ethereum Classic or Zilliqa, then 
+If you do not already have a wallet for Ethereum, Ethereum Classic or Zilliqa, then 
 find a good crypto exchange where you can create one.
 
 They need to be trusted to handle your money and you have to be careful to store your login information, your
