@@ -20,7 +20,7 @@ Filesize is about 1.3 GB.
 Get SPMiner from:
 * https://github.com/sp-hash/SPMiner/releases
 
-And copy the executable into the folder.
+And copy the executable into the folder with TBMiner and the pool run scripts.
 
 ## Linux
 
