@@ -18,7 +18,7 @@ You will allways find the newest version with the newest bug-fixes and the newes
 ## Wallet
 To mine Ethereum, Ethereum Classic or Zilliqua you need a Ethereum, Ethereum Classic or Zilliqua Wallet.
 
-If we take a look at the provided run scripts for different pools: (here tbminer_ethermine_eth.bat)
+If we take a look at the provided run scripts for different pools: (here **tbminer_ethermine_eth.bat**)
 
 ```bat
 Set ETH_WALLET=0x59Aa6EAfb389E814441D02Ba6EF33c10726e4B16
