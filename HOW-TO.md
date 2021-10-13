@@ -39,8 +39,8 @@ They need to be trusted to handle your money and you have to be careful to store
 wallet and other information like 2-factor-authentication codes safely.
 
 We can recommend:
-* https://www.binance.com/
-* https://trustwallet.com/
+* https://www.binance.com
+* https://trustwallet.com
 
 They should get you started.
 
