@@ -57,4 +57,5 @@ See [Vertcoin](https://github.com/sp-hash/TeamBlackMiner/blob/main/VERTCOIN.md).
 ## It is not working, why ?
 
 See [Install Windows](https://github.com/sp-hash/TeamBlackMiner/blob/main/INSTALL_WINDOWS.md) or [Install Linux](https://github.com/sp-hash/TeamBlackMiner/blob/main/INSTALL_LINUX.md).
+
 If it is still not working please submit an issue here at Github.
