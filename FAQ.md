@@ -25,7 +25,7 @@ Good pools for TBMiner:
 ## What is the best --xinstensity settings.
 
 You can try for yourself or ask others.
-Different GPU cards might have different best setting,
+Different GPU cards might have different best settings,
 both with OC and the intensity setting. And the pool is important.
 
 ## It says the pool is not supported ?
