@@ -32,6 +32,14 @@ both with OC and the intensity setting. And the pool is important.
 
 Ask us to add it. We will configure the miner. 
 
+## The miner produce stales ?
+
+Yes it might. You can lower the intensity setting (--xintensity) to reduce stale shares.
+
+With the right settings you could have none.
+
+But you can also see it as an extra bonus to accepted shares if you use a pool that pays for stale shares.
+
 ## Is it a computer virus ?
 
 No. No way. But viruses are known to exploit coin mining for profit.
