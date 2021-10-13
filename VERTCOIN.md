@@ -11,7 +11,7 @@ So if you want to mine Vertcoin + Zil you must dualmine with SPMiner and Team Bl
 
 SPMiner for Vertcoin sleeps in the Zil POW window while TBMiner works at Zil.
 
-First time you run SPMiner it will generate the **verthash.dat** file neccesary.
+First time you run SPMiner it will generate the **verthash.dat** file neccesary for mining vertcoin.
 
 Keep this file so you have it in the folder at the next run.
 
