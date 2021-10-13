@@ -22,7 +22,7 @@ Good pools for TBMiner:
 + ezil (70% reward for stale shares)
 + hiveon (80% reward for stale shares)
 
-## What is the best --xinstensity settings.
+## What is the best --xintensity settings.
 
 You can try for yourself or ask others.
 Different GPU cards might have different best settings,
