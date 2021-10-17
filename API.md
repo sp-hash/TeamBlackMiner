@@ -53,9 +53,9 @@ http://127.0.0.1:4068/miner
 "api_version"       -- Current api version number. Any change will increase number.
 "num_gpu_threads"   -- Total number of working gpu threads for the miner.
 "total_hashrate"    -- Total hashrate for all working gpu threads. Not formatted.
-"total_accepted"    -- Miners total accepted shares. A sum of all working gpu threads.
-"total_rejected"    -- Miners total rejected shares. A sum of all working gpu threads.
-"total_stale"       -- Miners total stale shares. A sum of all working gpu threads.
+"total_accepted"    -- Miners total accepted shares for algorithm in use. A sum of all working gpu threads.
+"total_rejected"    -- Miners total rejected shares for algorithm in use. A sum of all working gpu threads.
+"total_stale"       -- Miners total stale shares for algorithm in use. A sum of all working gpu threads.
 "uptime_minutes"    -- Miner uptime in minutes.
 ```
 ```plain
@@ -98,9 +98,9 @@ http://127.0.0.1:4068/threads
 "mem_clock"     -- The GPU memory clock.
 "watt"          -- Current power draw for the GPU.
 "hashrate"      -- Current hashrate for the GPU thread. Not formatted.
-"accepted"      -- The GPU threads number of accepted shares.
-"rejected"      -- The GPU threads number of rejected shares.
-"stale"         -- The GPU threads number of stale shares.
+"accepted"      -- The GPU threads number of accepted shares for algorithm in use.
+"rejected"      -- The GPU threads number of rejected shares for algorithm in use.
+"stale"         -- The GPU threads number of stale shares for algorithm in use.
 ```
 ```plain
 http://127.0.0.1:4068/pool
