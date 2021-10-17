@@ -387,11 +387,17 @@ in any order.)
 			    
 			    TBMiner --nvidia-only
 			    
--E --xintensity [,]         Set a comma separated array of GPU devices Xintensity.
+-E --xintensity [,]         Set a comma separated array of GPU devices intensity.
                             Sets the intensity for the GPU threads.
                             Very useful to find the best Hashrate and the less rejected shares.
 			    Different pools and different setup might have different best values for xintensity.
-
+			    
+			    (Default nvidia=400)
+			    (Default amd=-1)
+			    
+			    Value -1 is calculate dynamic.
+			    Valid values are 1 to xxxxx.
+			    
                             Example:
 			    
 			    TBMiner --xintensity [224,222]
