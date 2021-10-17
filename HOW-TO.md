@@ -396,6 +396,12 @@ in any order.)
 			    
 			    TBMiner --xintensity [224,222]
 
+-j --lock-cclock [[,],[,]]  Set an array of min and max core clock values for cuda devices.
+
+			    Example:
+			
+			    TBMiner --lock-cclock [[1500,1500],[1300,1300],[1250,1280]]
+			    
 -d --api                    Enable API.
                             A flag to enable API server.
 			    The server is a simple HTTP protocol server for read only data access.
