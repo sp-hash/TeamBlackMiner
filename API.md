@@ -38,7 +38,7 @@ http://127.0.0.1:4068/miner
 {
     "name":"TBMiner",
     "version":"1.10",
-    "api_version":"1.0",
+    "api_version":"1.1",
     "num_gpu_threads":1,
     "total_hashrate":24132474,
     "total_accepted":2,
@@ -70,6 +70,7 @@ http://127.0.0.1:4068/threads
         "pcie_id":0,
         "board_name":"NVIDIA GeForce GTX 1070",
         "type":"Cuda",
+        "xintensity": 400,
         "gpu_temp":76,
         "mem_temp":0,
         "fan":56,
@@ -89,6 +90,7 @@ http://127.0.0.1:4068/threads
 "pcie_id"       -- PCIe device id. The pysical placement of the GPU card.
 "board_name"    -- Name of the GPU card.
 "type"          -- Type of mining by thread. Cuda or OpenCL.
+"xintensity"    -- The GPU threads intensity setting.
 "gpu_temp"      -- GPU temperature.
 "mem_temp"      -- GPU memory temperature if available.
 "fan":56        -- Fan speed in percentage.
