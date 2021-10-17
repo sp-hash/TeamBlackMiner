@@ -397,7 +397,8 @@ in any order.)
 			    TBMiner --xintensity [224,222]
 
 -j --lock-cclock [[,],[,]]  Set an array of min and max core clock values for cuda devices.
-
+                            First minimum clock value, then maximum clock value.
+			    
 			    Example:
 			
 			    TBMiner --lock-cclock [[1500,1500],[1300,1300],[1250,1280]]
