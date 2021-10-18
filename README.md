@@ -85,6 +85,8 @@ See [How-to-guide](https://github.com/sp-hash/TeamBlackMiner/blob/main/HOW-TO.md
 -G --nvidia-only            (Run with only Nvidia devices)
 -E --xintensity [,]         (Set a comma separated array of GPU devices intensity)
 -j --lock-cclock [[,],[,]]  (Set an array of min and max core clock values for cuda devices)
+-m --lock-mclock [[,],[,]]  (Set an array of min and max memory clock values for cuda devices)
+-M --power-limit [,]	      (set powerlimit)
 -d --api                    (Enable API)
 -F --api-ip                 (Set ip address)
 -R --api-port               (Set port number)
