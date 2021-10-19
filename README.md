@@ -55,7 +55,7 @@ See [How-to-guide](https://github.com/sp-hash/TeamBlackMiner/blob/main/HOW-TO.md
 -p --port                   (Set port number for pool)
 -x --ssl-port               (Set SSL port number for SSL connections)
 -W --wallet                 (Set your wallet address. Might be a username for some pools)
--w --worker_name            (Set your pool worker name)
+-w --worker-name            (Set your pool worker name)
 -P --server_passwd          (Set your pool server password)
 -o --http_path              (Set a path to specify http path for pool if needed)
 -s --ssl                    (Use a SSL connection to pool)
