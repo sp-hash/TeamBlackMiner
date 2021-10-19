@@ -12,16 +12,18 @@ TBM maintains a leading position in the mining coins like **Ethereum**, **Ethere
 + All AMD cards supported.
 + NVIDIA card with compute 5.0 or newer.                
 
-## Documentation
+## Install
 * [Install on Windows](https://github.com/sp-hash/TeamBlackMiner/blob/main/INSTALL_WINDOWS.md)
 * [Install on Linux](https://github.com/sp-hash/TeamBlackMiner/blob/main/INSTALL_LINUX.md)
-* [How-to-guide](https://github.com/sp-hash/TeamBlackMiner/blob/main/HOW-TO.md)
-* [Frequently asked questions](https://github.com/sp-hash/TeamBlackMiner/blob/main/FAQ.md)
 
 ## Configuration
 
 * [Commandline options](https://github.com/sp-hash/TeamBlackMiner/blob/main/OPTIONS.md)
 * [Example configuration file](https://github.com/sp-hash/TeamBlackMiner/blob/main/CONFIG_FILE.md)
+
+## Documentation
+* [How-to-guide](https://github.com/sp-hash/TeamBlackMiner/blob/main/HOW-TO.md)
+* [Frequently asked questions](https://github.com/sp-hash/TeamBlackMiner/blob/main/FAQ.md)
 
 ## Miner Features
 + Commission is charged continuously, and not in intervals (as in most miners), which has a positive effect on the user's profitability on PPLNS pools
