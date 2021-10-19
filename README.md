@@ -18,6 +18,11 @@ TBM maintains a leading position in the mining coins like **Ethereum**, **Ethere
 * [How-to-guide](https://github.com/sp-hash/TeamBlackMiner/blob/main/HOW-TO.md)
 * [Frequently asked questions](https://github.com/sp-hash/TeamBlackMiner/blob/main/FAQ.md)
 
+## Configuration
+
+* [OPTIONS](https://github.com/sp-hash/TeamBlackMiner/blob/main/OPTIONS.md)
+* [FILE](https://github.com/sp-hash/TeamBlackMiner/blob/main/CONFIG_FILE.md)
+
 ## Miner Features
 + Commission is charged continuously, and not in intervals (as in most miners), which has a positive effect on the user's profitability on PPLNS pools
 + Verifying Shares on processor, warning when GPU overclocking is very high for Ethash, Etcash, helps to overclock GPU without errors
@@ -90,64 +95,6 @@ See [How-to-guide](https://github.com/sp-hash/TeamBlackMiner/blob/main/HOW-TO.md
 -d --api                    (Enable API)
 -F --api-ip                 (Set ip address)
 -R --api-port               (Set port number)
-```
-
-## Example configuration file
-```plain
-POOL_IP=
-POOL_HOSTNAME=pool.eu.woolypooly.com
-POOL_HTTP_PATH=
-POOL_PORT=3096
-
-SSL=0
-POOL_SSL_PORT=
-SSL_VERIFY=1
-SSL_CERT=cacert.pem
-
-ALGO=ethash
-WALLET=0x59Aa6EAfb389E814441D02Ba6EF33c10726e4B16
-WORKER_NAME=fr
-SERVER_PASSWORD=
-
-VERBOSE=1
-LOG=0
-LOGFILE=TBMiner.log
-
-NO_REDIRECT=0
-RETRIES=3
-RETRY_PAUSE=15
-TIMEOUT=30
-
-CUDA=[]
-CUDA_ALL=0
-
-CL=[]
-CL_ALL=0
-
-AMD_ONLY=0
-NVIDIA_ONLY=0
-AUTO_DETECT=1
-
-FAN_SPEED_MIN=
-TEMPLIMIT=[95]
-GPU_SLEEP=4
-
-ELECTRICITY_COST=0.1
-ELECTRICITY_CURRENCY=USD
-
-ENABLE_ANSI=1
-ENABLE_STATS=1
-
-NO_CPU=0
-KERNEL=[2]
-XINTENSITY=[192]
-LOCK_CCLOCK=[[1500,1500]]
-LOCK_MCLOCK=[[6000,6000]]
-POWER_LIMIT=[150]
-
-API=1
-API_IP=127.0.0.1
-API_PORT=4068
 ```
 
 ## For developers
