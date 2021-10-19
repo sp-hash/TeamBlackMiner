@@ -374,7 +374,19 @@
 			    Example:
 			    
 			    TBMiner --nvidia-only
+
+-J --kernel [,]             Set GPU kernel seperately for each device.
+                            Format is a comma seperated array with brackets.
+			    Setting a kernel option overides the default autotune behavior.
 			    
+			    --kernel [0] low power, cards with few shaders, low intensity.
+			    ...
+		            --kernel [7] higher power, cards with many shaders, high intensity.
+
+                            Example:
+			    
+			    TBMiner --kernel [2,4]
+
 -E --xintensity [,]         Set a comma separated array of GPU devices intensity.
                             Sets the intensity for the GPU threads.
                             Very useful to find the best Hashrate and the less rejected shares.
