@@ -1,11 +1,11 @@
 ![3060ti](https://user-images.githubusercontent.com/9572668/136000933-0a3021cf-5197-4dc4-bd27-a17857cecd85.jpeg)
 
-
-
 # TeamBlackMiner
 Team Black Miner (TBM) was created by a group of nordic black ops in the cryptocurrency scene.
 
-TBM maintains a leading position in the mining coins like **Ethereum**, **Ethereum Classic**, **Zilliqa** and **Vertcoin** with the lowest dev fee of 0.5-1%.
+TBM maintains a leading position in the mining coins like **Ethereum**, **Ethereum Classic**, **Zilliqa** and **Vertcoin**.
+
+Dev fee is only 0.5-1%.
 
 * [Features](https://github.com/sp-hash/TeamBlackMiner#miner-features)
 
