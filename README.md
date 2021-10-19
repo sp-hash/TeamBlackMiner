@@ -7,6 +7,8 @@ Team Black Miner (TBM) was created by a group of nordic black ops in the cryptoc
 
 TBM maintains a leading position in the mining coins like **Ethereum**, **Ethereum Classic**, **Zilliqa** and **Vertcoin** with the lowest dev fee of 0.5-1%.
 
+* [Features](https://github.com/sp-hash/TeamBlackMiner#miner-features)
+
 ## Miner requirements
 + Windows 10 or Linux.
 + All AMD cards supported.
