@@ -68,7 +68,7 @@
 			    TBMiner --wallet 0x59Aa6EAfb389E814441D02Ba6EF33c10726e4B16
 			    TBMiner --wallet joesmith
 			    
--w --worker_name            Set your pool worker name.
+-w --worker-name            Set your pool worker name.
                             This is you rig name, your computers name, or could be your name.
 			    Useful to identify different rigs or computers at a pool.
 			    
@@ -76,7 +76,7 @@
 			    
 			    TBMiner --worker_name worker1
 
--P --server_passwd          Set your pool server password.
+-P --server-passwd          Set your pool server password.
                             Usely not needed for mining.
 			    May be mandatory for pools where you register and have an username.
 			    
@@ -84,7 +84,7 @@
 			    
 			    TBMiner --server_password xxx
 
--o --http_path              Set to specify a http path for pool if needed.
+-o --http-path              Set to specify a http path for pool if needed.
                             This is for API endpoints.
 			    Most pools do not have API endpoints.
 			    
@@ -97,7 +97,8 @@
 			    
 			    Then the correct setting would be:
 			    
-			    TBMiner --algo zil --hostname eu1-zil.shardpool.io --http_path /api --port 5000 --wallet zil1xrv7nsssq3t08mjjgh26ux58pml22afdpx2sf6 --worker_name fr
+			    TBMiner --algo zil --hostname eu1-zil.shardpool.io --http-path /api \
+			    --port 5000 --wallet zil1xrv7nsssq3t08mjjgh26ux58pml22afdpx2sf6 --worker_name fr
 			    
 -s --ssl                    Use a SSL connection to pool.
                             A flag to enable a SSL encrypted connection to the pool.
@@ -251,7 +252,8 @@
 			    
 			    TBMiner --cuda-devices [0,1,2] --templimit [95,95,95] --templimit-sleep 6
 			    
-			    Will put any of devices 0, 1 or 2 to 6 seconds sleep i the core temperature of the GPU exceeds 95 degrees celcius.
+			    Will put any of devices 0, 1 or 2 to 6 seconds sleep if the core temperature
+			    of the GPU exceeds 95 degrees celcius.
 
 -f --fan-speed-min          Set minimum fan speed in RPM to warn if fan is not working properly.
                             It may be useful for old and dusty GPUs.
