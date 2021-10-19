@@ -34,8 +34,6 @@ Developer fee for Ethereum and Ethereum Classic is only **0.5%**
 + DAG caching if the GPU has enough memory, DAG files are not recomputed when switching to another algorithm when mining Ethash + Zilliqa or Nicehash. (NVIDIA only)
 + Temperature control and stop the GPU in case of overheating
 + Mechanism to restore lost connection with pool
-+ Support secure connections
-+ Support SOCKS5 proxy
 + Informative and readable tabular statistics output to console
 + Display of detailed information on each device (temperature, power consumption, cooler load, memory frequency, processor frequency, energy efficiency)
 + Parallel output of information to console and to file on disk
