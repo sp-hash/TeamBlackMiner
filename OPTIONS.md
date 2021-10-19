@@ -39,6 +39,7 @@
 -N --no-cpu                 (Lower CPU usage)
 -b --amd-only               (Run with only Amd devices)
 -G --nvidia-only            (Run with only Nvidia devices)
+-J --kernel [,]             (Set GPU kernel seperately for each device)
 -E --xintensity [,]         (Set a comma separated array of GPU devices intensity)
 -j --lock-cclock [[,],[,]]  (Set an array of min and max core clock values for cuda devices)
 -m --lock-mclock [[,],[,]]  (Set an array of min and max memory clock values for cuda devices)
