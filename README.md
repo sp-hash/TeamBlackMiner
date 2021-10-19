@@ -3,7 +3,7 @@
 # TeamBlackMiner
 Team Black Miner (TBM) was created by a group of nordic black ops in the cryptocurrency scene.
 
-TBM maintains a leading position in the mining coins like **Ethereum**, **Ethereum Classic**, **Zilliqa** and **Vertcoin**.
+TBM maintains a leading position in mining coins like **Ethereum**, **Ethereum Classic**, **Zilliqa**.
 
 Dev fee for Ethereum and Ethereum Classic is only 0.5%
 
