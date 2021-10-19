@@ -38,8 +38,6 @@ Developer fee for Ethereum and Ethereum Classic is only **0.5%**
 + Display of detailed information on each device (temperature, power consumption, cooler load, memory frequency, processor frequency, energy efficiency)
 + Parallel output of information to console and to file on disk
 
-Example scripts are included in the archive.
-
 ## Supported algorithms and developer commission
 + Eth, ethash              0.5%                   
 + Etc, etchash             0.5%                 
