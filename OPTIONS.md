@@ -375,7 +375,7 @@
 			    
 			    TBMiner --nvidia-only
 
--J --kernel [,]             Set GPU kernel seperately for each device.
+-J --kernel [,]             Set GPU kernel seperately for each device. (CUDA)
                             Format is a comma seperated array with brackets.
 			    Setting a kernel option overides the default autotune behavior.
 			    
@@ -402,13 +402,29 @@
 			    
 			    TBMiner --xintensity [224,222]
 
--j --lock-cclock [[,],[,]]  Set an array of min and max core clock values for cuda devices.
-                            First minimum clock value, then maximum clock value.
+-j --lock-cclock [[,],[,]]  Set minimum and maximum core clock for each device. (CUDA)
+                            Format is an array of comma seperated arrays.
+                            First value is minimum clock value and second value is maximum clock value.
 			    
 			    Example:
 			
 			    TBMiner --lock-cclock [[1500,1500],[1300,1300],[1250,1280]]
 			    
+-m --lock-mclock [[,],[,]]  Set minimum and maximum memory clock for each device. (CUDA)
+                            Format is an array of comma seperated arrays.
+			    First value is minumum memory clock value and second is maximum memory clock value.
+			    
+			    Example:
+			    
+			    TBMiner --lock-mclock [[6000,6000],[6000,6000]]
+
+-M --power-limit [,]	    Set maximum powerlimit in watts for each device.
+                            Format is a comma seperated array of values.
+			    
+			    Example:
+			    
+			    TBMiner --power-limit [70]
+
 -d --api                    Enable API.
                             A flag to enable API server.
 			    The server is a simple HTTP protocol server for read only data access.
