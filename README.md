@@ -5,7 +5,7 @@ Team Black Miner (TBM) was created by a group of nordic black ops in the cryptoc
 
 TBM maintains a leading position in mining coins like **Ethereum**, **Ethereum Classic** and **Zilliqa**.
 
-Developer fee for Ethereum and Ethereum Classic is only 0.5%
+Developer fee for Ethereum and Ethereum Classic is only **0.5%**
 
 * [Features](https://github.com/sp-hash/TeamBlackMiner#miner-features)
 
