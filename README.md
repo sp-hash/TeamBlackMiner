@@ -26,6 +26,7 @@ Developer fee for Ethereum and Ethereum Classic is only **0.5%**
 ## Documentation
 * [How-to-guide](https://github.com/sp-hash/TeamBlackMiner/blob/main/HOW-TO.md)
 * [Frequently asked questions](https://github.com/sp-hash/TeamBlackMiner/blob/main/FAQ.md)
+* [Supported pools](https://github.com/sp-hash/TeamBlackMiner/blob/main/POOLS.md)
 
 ## Miner Features
 + Commission is charged continuously, and not in intervals (as in most miners), which has a positive effect on the user's profitability on PPLNS pools
