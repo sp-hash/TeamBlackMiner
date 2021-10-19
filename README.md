@@ -11,8 +11,8 @@ Developer fee for Ethereum and Ethereum Classic is only 0.5%
 
 ## Miner requirements
 + Windows 10 or Linux.
-+ All AMD cards supported.
-+ NVIDIA card with compute 5.0 or newer.                
++ One or more AMD GPU.
++ One or more NVIDIA GPU. (Compute 5.0 or newer.)
 
 ## Install
 * [Install on Windows](https://github.com/sp-hash/TeamBlackMiner/blob/main/INSTALL_WINDOWS.md)
