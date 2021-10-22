@@ -7,12 +7,10 @@
 * baikalmine.com
 * beepool.org
 * btc.com
-* clona.ru
 * cominers.org
 * comining.io
 * crazypool.org
 * cruxpool.com
-* ethashpool.com
 * ethermine.org
 * ethpool.org
 * ezil.me
@@ -35,7 +33,6 @@
 * poolbinance.com
 * poolin.com
 * prohashing.com
-* rustpool.xyz
 * shardpool.io
 * solopool.org
 * spiderpool.com
