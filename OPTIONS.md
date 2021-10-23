@@ -74,7 +74,7 @@
 			    
                             Example:
 			    
-			    TBMiner --worker_name worker1
+			    TBMiner --worker-name worker1
 
 -P --server-passwd          Set your pool server password.
                             Usely not needed for mining.
@@ -98,7 +98,7 @@
 			    Then the correct setting would be:
 			    
 			    TBMiner --algo zil --hostname eu1-zil.shardpool.io --http-path /api \
-			    --port 5000 --wallet zil1xrv7nsssq3t08mjjgh26ux58pml22afdpx2sf6 --worker_name fr
+			    --port 5000 --wallet zil1xrv7nsssq3t08mjjgh26ux58pml22afdpx2sf6 --worker-name fr
 			    
 -s --ssl                    Use a SSL connection to pool.
                             A flag to enable a SSL encrypted connection to the pool.
