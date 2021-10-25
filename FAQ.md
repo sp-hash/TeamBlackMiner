@@ -14,6 +14,9 @@ Also a high difficulty pool port is recomended with a high intensity setting.
 
 Note that the ethereum blockchain rewards stale work/blocks. They are called uncle blocks. The uncle blocks are protecting the security of the blockchain.
 
+Most mining pools reward stale work, but some have a buildt in limit of 5% allowed stales. So if you mine with more than 5% stales, the pools can start rejecting your shares
+or ignore them. 
+
 Good pools for TBMiner:
 + miningpoolhub (100% reward for stale shares)
 + 2miners (100% reward for stale shares)
