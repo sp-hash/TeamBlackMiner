@@ -44,7 +44,7 @@ But you can also see stale shares as an extra bonus to accepted shares if you us
 
 A lot, mostly the new cards.
 
-Nvidia RTX series and Amd series 5xxx, 6xxx, 7xxx and 8xxx are known to work very well with this miner.
+Nvidia RTX series 20xx, 30xx and Amd series 5xxx, 6xxx, 7xxx and 8xxx are known to work very well with this miner.
 
 ## Is it a computer virus ?
 
