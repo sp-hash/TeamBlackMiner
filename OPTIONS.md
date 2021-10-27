@@ -342,7 +342,7 @@
                             Very useful to find the best Hashrate and the less rejected shares.
 			    Different pools and different setup might have different best values for xintensity.
 			    
-			    (Default nvidia=400)
+			    (Default nvidia=224
 			    (Default amd=-1)
 			    
 			    Value -1 is calculate dynamic.
@@ -351,6 +351,17 @@
                             Example:
 			    
 			    TBMiner --xintensity [224,222]
+
+-K --dagintensity [,]       NVIDIA-only Set a comma separated array of GPU devices dag intensity.
+                            Sets the intensity for the GPU threads to create the dag file.
+                            Very useful to avoid dag validation errors when running on high oc.
+			    
+		    	    0 is slow. 9 is the fastest
+			    
+                            Example:
+			    
+			    TBMiner --dagintensity [0,9]
+
 
 -j --lock-cclock [[,],[,]]  Set minimum and maximum core clock for each device. (CUDA)
                             Format is an array of comma seperated arrays.
