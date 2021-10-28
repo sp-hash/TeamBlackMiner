@@ -6,6 +6,8 @@ TBM maintains a leading position in mining coins like **Ethereum**, **Ethereum C
 
 Developer fee for Ethereum and Ethereum Classic is only **0.5%**
 
+
+
 * [Features](https://github.com/sp-hash/TeamBlackMiner#miner-features)
 
 ## Requirements
