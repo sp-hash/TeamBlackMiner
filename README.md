@@ -1,6 +1,6 @@
 ![screenshot](https://github.com/sp-hash/TeamBlackMiner/blob/main/TBMiner.png)
 
-Team Black Miner (TBM) was created by a group of nordic black ops in the cryptocurrency scene.
+Team Black Miner (**TBM**) was created by a group of nordic black ops in the cryptocurrency scene.
 
 TBM maintains a leading position in mining coins like **Ethereum**, **Ethereum Classic** and **Zilliqa**.
 
