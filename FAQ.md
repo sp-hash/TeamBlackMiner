@@ -4,7 +4,7 @@
 
 ## Can I run it in HiveOS ?
 
-Yes. The Team Black miner was added 22-okt-2021
+Yes. The Team Black miner was added on 22th October 2021.
 
 ## What is the best pools for this miner ?
 
