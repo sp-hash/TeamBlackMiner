@@ -29,7 +29,7 @@ Developer fee for Ethereum and Ethereum Classic is only **0.5%**
 * [Frequently asked questions](https://github.com/sp-hash/TeamBlackMiner/blob/main/FAQ.md)
 * [Supported pools](https://github.com/sp-hash/TeamBlackMiner/blob/main/POOLS.md)
 
-## Miner Features
+## Features
 + Commission is charged continuously, and not in intervals (as in most miners), which has a positive effect on the user's profitability on PPLNS pools
 + Verifying Shares on processor, warning when GPU overclocking is very high for Ethash, Etcash, helps to overclock GPU without errors
 + DAG caching if the GPU has enough memory, DAG files are not recomputed when switching to another algorithm when mining Ethash + Zilliqa or Nicehash. (NVIDIA only)
