@@ -1,6 +1,6 @@
 ![screenshot](https://github.com/sp-hash/TeamBlackMiner/blob/main/TBMiner.png)
 
-# Team Black Miner
+# 
 Team Black Miner (TBM) was created by a group of nordic black ops in the cryptocurrency scene.
 
 TBM maintains a leading position in mining coins like **Ethereum**, **Ethereum Classic** and **Zilliqa**.
@@ -9,7 +9,7 @@ Developer fee for Ethereum and Ethereum Classic is only **0.5%**
 
 * [Features](https://github.com/sp-hash/TeamBlackMiner#miner-features)
 
-## Miner requirements
+## Requirements
 + Windows 10 or Linux.
 + One or more AMD GPU.
 + One or more NVIDIA GPU. (Compute 5.0 or newer.)
