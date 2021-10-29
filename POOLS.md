@@ -2,6 +2,7 @@
 
 **(Example scripts are included in the archive.)**
 
+* 666pool.cn
 * 2miners.com
 * antpool.com
 * baikalmine.com
@@ -17,6 +18,7 @@
 * f2pool.com
 * firepool.com
 * flexpool.io
+* gpumine.org
 * hashcity.org
 * hellominer.com
 * hiveon.net
@@ -33,6 +35,7 @@
 * poolbinance.com
 * poolin.com
 * prohashing.com
+* rustpool.xyz
 * shardpool.io
 * solopool.org
 * spiderpool.com
