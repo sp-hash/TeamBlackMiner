@@ -337,7 +337,7 @@
 			    
 			    TBMiner --kernel [2,4]
 
--E --xintensity [,]         Set a comma separated array of GPU devices intensity.
+-E --xintensity [,]         One number set for all, or set a comma separated array of GPU devices intensity.
                             Sets the intensity for the GPU threads.
                             Very useful to find the best Hashrate and the less rejected shares.
 			    Different pools and different setup might have different best values for xintensity.
@@ -352,11 +352,11 @@
 			    
 			    TBMiner --xintensity [224,222]
 
--K --dagintensity [,]       NVIDIA-only Set a comma separated array of GPU devices dag intensity.
+-K --dagintensity [,]       One number set for all, NVIDIA-only Set a comma separated array of GPU devices dag intensity.
                             Sets the intensity for the GPU threads to create the dag file.
                             Very useful to avoid dag validation errors when running on high oc.
 			    
-		    	    0 is slow. 9 is the fastest
+		    	    0 is default, 1 is slow. 9 is the fastest
 			    
                             Example:
 			    
