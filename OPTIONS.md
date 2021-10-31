@@ -352,7 +352,7 @@
 			    
 			    TBMiner --xintensity [224,222]
 
--K --dagintensity [,]       One number set for all, NVIDIA-only Set a comma separated array of GPU devices dag intensity.
+-K --dagintensity [,]       One number set for all, Set a comma separated array of GPU devices dag intensity.
                             Sets the intensity for the GPU threads to create the dag file.
                             Very useful to avoid dag validation errors when running on high oc.
 			    
