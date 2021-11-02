@@ -25,7 +25,7 @@ sudo cp libatiuki.so.1 /usr/lib/
 
 ## How to run
 
-Edit one of the provided pool scripts ([HOW-TO](https://github.com/sp-hash/TeamBlackMiner/blob/main/HOW-TO.md)) 
+Edit one of the provided pool scripts ([HOW-TO](https://github.com/sp-hash/TeamBlackMiner/blob/main/HOW-TO.md)).
 
 Or just run one of the scripts as it is to test Team Black Miner:
 ```bash
