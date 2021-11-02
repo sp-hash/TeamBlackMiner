@@ -40,13 +40,13 @@ Developer fee for Ethereum and Ethereum Classic is only **0.5%**
 + Parallel output of information to console and to file on disk
 
 ## Supported algorithms and developer commission
-+ Eth, ethash              0.5%                   
-+ Etc, etchash             0.5%                 
-+ Zil standalone           1.0%                 
-+ Vertcoin                 1.0%               
-+ Eth+Zil, ethash          0.5%              
-+ Etc+Zil, etchash         0.5%                 
-+ Vertcoin+Zil	         1.0%            
+
+| Algo          | Coin              | Commission    |
+| ------------- | ----------------- | ------------- |
+| Ethash        | Ethereum          | 0.5%          |
+| Ethash        | Zilliqa           | 1.0%          |
+| Etchash       | Ethereum Classic  | 0.5%          |
+| Lyra2REv2     | Vertcoin          | 1.0%          |                                                    
 
 ## For developers
 
