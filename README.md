@@ -8,7 +8,7 @@ Developer fee for Ethereum and Ethereum Classic is only **0.5%**
 
 
 
-* [Features](https://github.com/sp-hash/TeamBlackMiner#miner-features)
+* [Features](https://github.com/sp-hash/TeamBlackMiner#features)
 
 ## Requirements
 + Windows 10 or Linux.
