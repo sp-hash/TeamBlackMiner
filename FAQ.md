@@ -13,7 +13,7 @@ Since, TBM can produce more than 1-2 % stales with high intensity (--xintensity)
 Also a high difficulty pool port is recomended with a high intensity setting.
 
 Note that the ethereum blockchain rewards stale work/blocks. They are called uncle blocks. The uncle blocks are protecting the security of the blockchain.
-The ethereum blockchain pay 87.5% for level 1 stale shares. 6 levels of stale shares are payed, but the lower levels have a lower payout. lower level = later in time
+**The ethereum blockchain pay 87.5% for level 1 stale shares. 6 levels of stale shares are payed, but the lower levels have a lower payout (lower level means later in time).**
 
 Most mining pools reward stale work, but some have a buildt in limit of 5% allowed stales. So if you mine with more than 5% stales, the pools can start rejecting your shares
 or ignore them. 
