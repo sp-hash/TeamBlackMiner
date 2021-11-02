@@ -9,7 +9,7 @@ Run the ansicolor.reg script in the 7zip archive to activate colors in Windows p
 Use the latest NVIDIA driver, or newer than v460.89:
 + https://developer.nvidia.com/cuda-downloads
 
-The Nvidia CUDA 11.4 build is recomended.
+The Nvidia CUDA 11.4 and CUDA 11.5 build is recomended.
 
 A Nvidia CUDA 11.2 build is included to be able to mine fullspeed with LHR cards (with the x16 riser, hdmi dongle and 470.05 beta driver).
 
