@@ -29,7 +29,7 @@ Good pools for TBMiner:
 + uupool(100% reward for stale shares)
 + xnpool.com(100% reward for stale shares)
 + ezil (70% reward for stale shares)
-+ hiveon (80% reward for stale shares)
++ hiveon (50% reward for stale shares)
 
 ## What is the best --xintensity setting ?
 
