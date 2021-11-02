@@ -352,15 +352,19 @@
 			    
 			    TBMiner --xintensity [224,222]
 
--K --dagintensity [,]       One number set for all, Set a comma separated array of GPU devices dag intensity.
-                            Sets the intensity for the GPU threads to create the dag file.
-                            Very useful to avoid dag validation errors when running on high oc.
+-K --dagintensity [,]       One number to set a value for all devices, or a comma separated array of GPU devices dag intensity.
+                            Sets the intensity for the GPU threads when creating the dag file.
+                            Very useful to avoid dag validation errors when running on high OC.
 			    
-		    	    0 is default, 1 is slow. 9 is the fastest
+		    	    0 is default, 1 is slow. 9 is the fastest.
 			    
                             Example:
 			    
 			    TBMiner --dagintensity [0,9]
+			    
+			    Or:
+			    
+			    TBMiner --dagintensity [3]
 
 
 -j --lock-cclock [[,],[,]]  Set minimum and maximum core clock for each device. (CUDA)
