@@ -55,6 +55,11 @@ A lot, mostly the new cards.
 
 Nvidia RTX series 20xx, 30xx and Amd series 5xxx, 6xxx, 7xxx and 8xxx are known to work very well with this miner.
 
+## TBMiner exits with message dag verification failed ?
+
+Add the commandline option --dagintensity with a low value to prevent computing errors with high OC.
+If it still exits whith the message, try lowering OC.
+
 ## Is it a computer virus ?
 
 No. No way. But viruses are known to exploit coin mining for profit.
