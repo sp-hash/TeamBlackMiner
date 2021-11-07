@@ -48,7 +48,7 @@ For no stale shares use something like --xintensity 24 (flexpool, crazypool, nic
 xintensity -1 is good on miningpoolhub, nanopool, f2pool and 2miners.
 
 --xintensity 60 works good on the rx 580                      
---xintensity 78 works good on the 6800x                   
+--xintensity 78 works good on the 6800xt                   
 
 ## It says the pool is not supported ?
 
@@ -66,7 +66,7 @@ But you can also see stale shares as an extra bonus to accepted shares if you us
 
 A lot, mostly the new cards.
 
-Nvidia RTX series 20xx, 30xx and Amd series 5xxx, 6xxx, 7xxx and 8xxx are known to work very well with this miner.
+Nvidia RTX series 20xx, 30xx and Amd series 5xxx, 6xxx are known to work very well with this miner.
 
 ## TBMiner exits with message dag verification failed ?
 
