@@ -44,11 +44,14 @@ Some pools doesn't pay for stales so the setting is pool dependent. (AMD intensi
 --kernel . Different kernels can give a speedup on different models. Your power setting can also count. Autotune will try to find the fastest kernel for you.                         
 
 AMD cards:
-For no stale shares use something like --xintensity 24 (flexpool, crazypool, nicehash)
+For no stale shares use something like --xintensity 24 or --xintensity 8 (flexpool, crazypool, nicehash)
 xintensity -1 is good on miningpoolhub, nanopool, f2pool and 2miners.
 
 --xintensity 60 works good on the rx 580                      
 --xintensity 78 works good on the 6800xt                   
+
+![6600xt](https://user-images.githubusercontent.com/9572668/140705088-8ead33df-2c62-49c7-be63-7de1301f1e30.png)
+
 
 ## It says the pool is not supported ?
 
