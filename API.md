@@ -1,5 +1,5 @@
 
-# API
+# API (v1.2)
 TBMiner have a small built-in read only api.
 
 The api is used for profit switching miners or other systems
