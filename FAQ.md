@@ -41,8 +41,8 @@ High **--xintensity**, higher amout of stale shares, higher speed.
 
 Some pools doesn't pay for stales so the setting is pool dependent.                          
 
-**--dagintensity**: 1-8(9) is for high memclocks. Use when dag buffer crash on validation. 1 is low (slow dag) 8 amd is the fastest, 
-9 on nvidia, or 0 (default).
+**--dagintensity**: 1-8(9) is for high memclocks. Use when dag buffer crash on validation. 1 is low (slow dag) 8 on amd is the fastest, 
+9 on nvidia (0 is default).
 
 **--kernel**: Different kernels can give a speedup on different models. Your power setting can also count. Autotune will try to find the fastest kernel for you.                       
 
