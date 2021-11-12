@@ -27,7 +27,7 @@ Good pools for TBMiner:
 + spiderpool (100% reward for  level 1 stale shares)
 + f2pool (100% reward for level 1 stale shares)
 + uupool (100% reward for level 1 stale shares)
-+ xnpool.com (100% reward level 1 for stale shares)
++ xnpool.com (100% reward for level 1 stale shares)
 + ezil (70% reward for stale shares)
 + hiveon (50% reward for stale shares)
 
