@@ -55,8 +55,6 @@ xintensity -1 is good on miningpoolhub, nanopool, f2pool and 2miners.
 --xintensity 60 works good on the rx 580                      
 --xintensity 78 works good on the 6800xt                   
 
-![6600xt](https://user-images.githubusercontent.com/9572668/140705088-8ead33df-2c62-49c7-be63-7de1301f1e30.png)
-
 ## It says the pool is not supported ?
 
 Ask us to add it. We will configure the miner. 
