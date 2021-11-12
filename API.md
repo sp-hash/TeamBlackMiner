@@ -131,3 +131,9 @@ http://127.0.0.1:4068/pool
 "diff"      -- Pool difficulty in double floating point precicion.
 "ping"      -- Pool ping in milliseconds.
 ```
+```plain
+http://127.0.0.1:4068/summary
+```
+```plain
+(Contains all of the above information)
+```
