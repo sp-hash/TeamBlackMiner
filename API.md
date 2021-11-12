@@ -1,5 +1,5 @@
 
-# API (v1.2)
+# API (v1.3)
 TBMiner have a small built-in read only api.
 
 The api is used for profit switching miners or other systems
@@ -14,6 +14,7 @@ which requires basic knownledge of whats going on in the miner.
 - miner -- Basic information about the miner and a totals overview.
 - threads -- Stats for all working gpu threads.
 - pool -- Information about the pool in use.
+- summary -- Miner, threads and pool info (all above)
 
 ## Detailed list of api requests and responses
 ```plain
@@ -27,7 +28,8 @@ http://127.0.0.1:4068/help
         "help",
         "miner",
         "threads",
-        "pool"
+        "pool",
+        "summary"
     ]
 }
 ```
@@ -37,8 +39,8 @@ http://127.0.0.1:4068/miner
 ```json
 {
     "name":"TBMiner",
-    "version":"1.10",
-    "api_version":"1.1",
+    "version":"1.24",
+    "api_version":"1.3",
     "num_gpu_threads":1,
     "total_hashrate":24132474,
     "total_accepted":2,
@@ -108,6 +110,7 @@ http://127.0.0.1:4068/pool
 ```json
 {
     "url":"eu1.ethermine.org",
+    "port":4444,
     "worker":"fr",
     "algo":"ethash",
     "job":"bbcd54",
@@ -119,6 +122,7 @@ http://127.0.0.1:4068/pool
 ```
 ```plain
 "url"       -- The pool in use.
+"port"      -- The pool port in use.
 "worker"    -- The worker registred on pool.
 "algo"      -- The algorithm in use by the miner.
 "job"       -- Current work. Latest work from pool.
