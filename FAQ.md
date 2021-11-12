@@ -49,11 +49,12 @@ Some pools doesn't pay for stales so the setting is pool dependent.
 AMD cards:
 
 AMD intensity settings  are 1/4 of NVIDIA.
-For no stale shares use something like --xintensity 24 or --xintensity 8 (flexpool, crazypool, nicehash)
-xintensity -1 is good on miningpoolhub, nanopool, f2pool and 2miners.
+For no stale shares use something like --xintensity 24 or --xintensity 8 (flexpool, crazypool, nicehash).
 
---xintensity 60 works good on the rx 580                      
---xintensity 78 works good on the 6800xt                   
+-- xintensity -1 is good on miningpoolhub, nanopool, f2pool and 2miners.
+
+--xintensity 60 works good on the RX 580.                      
+--xintensity 78 works good on the 6800XT.                   
 
 ## It says the pool is not supported ?
 
