@@ -19,15 +19,15 @@ Most mining pools reward stale work, but some have a buildt in limit of 5% allow
 or ignore them. 
 
 Good pools for TBMiner:
-+ miningpoolhub (100% reward for stale shares)
-+ 2miners (100% reward for stale shares)
-+ nanopool (100% reward for stale shares)
-+ woolypooly (100% reward for stale shares)
-+ antpool (100% reward for stale shares)
-+ spiderpool (100% reward for stale shares)
-+ f2opool (100% reward for stale shares)
-+ uupool (100% reward for stale shares)
-+ xnpool.com (100% reward for stale shares)
++ miningpoolhub (100% reward for level 1 stale shares)
++ 2miners (100% reward for level 1 stale shares)
++ nanopool (100% reward for level 1 stale shares)
++ woolypooly (100% reward for level 1 stale shares)
++ antpool (100% reward for  level 1 stale shares)
++ spiderpool (100% reward for  level 1 stale shares)
++ f2pool (100% reward for level 1 stale shares)
++ uupool (100% reward for level 1 stale shares)
++ xnpool.com (100% reward level 1 for stale shares)
 + ezil (70% reward for stale shares)
 + hiveon (50% reward for stale shares)
 
