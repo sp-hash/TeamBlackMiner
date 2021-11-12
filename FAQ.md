@@ -41,10 +41,14 @@ High **--xintensity**, higher amout of stale shares, higher speed.
 
 Some pools doesn't pay for stales so the setting is pool dependent.                          
 
+
 **--dagintensity**: 1-8(9) is for high memclocks. Use when dag buffer crash on validation. 1 is low (slow dag) 8 on amd is the fastest, 
 9 on nvidia (0 is default).
 
 **--kernel**: Different kernels can give a speedup on different models. Your power setting can also count. Autotune will try to find the fastest kernel for you.                       
+NVIDIA cards:
+
+Miners have reported that --xintensity 3100 and  --xintensity 4096 works good on f2pool.com and 2miners.com
 
 AMD cards:
 
@@ -54,6 +58,7 @@ For no stale shares use something like --xintensity 24 or --xintensity 8 (flexpo
 
 + --xintensity 60 works good on the RX 580.                      
 + --xintensity 78 works good on the 6800XT.                   
+
 
 ## It says the pool is not supported ?
 
