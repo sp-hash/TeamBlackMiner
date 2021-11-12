@@ -37,16 +37,16 @@ You can try for yourself or ask others.
 Different GPU cards might have different best settings,
 both with OC and the intensity setting. And the pool is important.
 
-High --xintensity, higher amout of stale shares, higher speed.
+High **--xintensity**, higher amout of stale shares, higher speed.
 
 Some pools doesn't pay for stales so the setting is pool dependent.
 
 (AMD intensity settings  are 1/4 of NVIDIA)                                
 
---dagintensity: 1-8(9) is for high memclocks. Use when dag buffer crash on validation. 1 is low (slow dag) 8 amd is the fastest, 
+**--dagintensity**: 1-8(9) is for high memclocks. Use when dag buffer crash on validation. 1 is low (slow dag) 8 amd is the fastest, 
 9 on nvidia, or 0 (default).
 
---kernel: Different kernels can give a speedup on different models. Your power setting can also count. Autotune will try to find the fastest kernel for you.                         
+**--kernel**: Different kernels can give a speedup on different models. Your power setting can also count. Autotune will try to find the fastest kernel for you.                       
 
 AMD cards:
 For no stale shares use something like --xintensity 24 or --xintensity 8 (flexpool, crazypool, nicehash)
