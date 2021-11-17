@@ -411,4 +411,13 @@
 			    Example:
 			    
 			    TBMiner --api --api-ip 127.0.0.1 --api-port 1025
+			    
+-k --miningtime             Only mine for x minutes.
+                            Typically used to test different setups.
+			    
+			    Example:
+			    
+			    TBMiner --miningtime 60
+			    
+			    (Only mine for 1 hour)
 ```
