@@ -151,8 +151,8 @@
 			    
 			    Will try to connect to the pool for 21 minutes.
 			    
--t --timeout                Set network timeout in seconds. Used for connecting and socket timeout.
-                            Used for network (internet) timeouts.
+-t --timeout                Set pool timeout in seconds. If data is not received from pool in num seconds,
+                            the stratum thread is restarted to restore connection to pool.
 
 			    Example:
 			    
