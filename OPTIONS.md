@@ -363,9 +363,14 @@
 			    TBMiner --dagintensity [0,9]
 			    
 			    Or:
-			    
+ 			    
 			    TBMiner --dagintensity [3]
+-æ --lhr-unlock [,]         Improve the perfomance on NVIDIA devices that are locked for mining. LHR
+			    1 for unlock mode, 0 for normal mode 
 
+			    Example:
+			    
+			    TBMiner --dagintensity [1,0,1,0,0,0]
 
 -j --lock-cclock [[,],[,]]  Set minimum and maximum core clock for each device. (CUDA)
                             Format is an array of comma seperated arrays.
