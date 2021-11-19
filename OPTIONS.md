@@ -370,7 +370,9 @@
 
 			    Example:
 			    
-			    TBMiner --dagintensity [1,0,1,0,0,0]
+			    GPU 0 and 3 in semi unlock-mode, the rest normal mode
+
+			    TBMiner --lhr-unlock [1,0,1,0,0,0]
 
 -j --lock-cclock [[,],[,]]  Set minimum and maximum core clock for each device. (CUDA)
                             Format is an array of comma seperated arrays.
