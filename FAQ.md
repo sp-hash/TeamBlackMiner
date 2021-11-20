@@ -53,7 +53,7 @@ Miners have reported that --xintensity 3100 and  --xintensity 4096 works good on
 AMD cards:
 
 AMD intensity settings  are 1/4 of NVIDIA.
-For no stale shares use something like --xintensity 24 or --xintensity 8 (flexpool, crazypool, nicehash).
+For no stale shares use something like --xintensity 24 (flexpool, crazypool, nicehash).
 -- xintensity -1 is good on miningpoolhub, nanopool, f2pool and 2miners.
 
 + --xintensity 60 works good on the RX 580.                      
