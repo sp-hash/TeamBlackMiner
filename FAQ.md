@@ -46,11 +46,12 @@ Some pools doesn't pay for stales so the setting is pool dependent.
 9 on nvidia (0 is default).
 
 **--kernel**: Different kernels can give a speedup on different models. Your power setting can also count. Autotune will try to find the fastest kernel for you.                       
-NVIDIA cards:
+
+**NVIDIA**:
 
 Miners have reported that --xintensity 3100 and  --xintensity 4096 works good on f2pool.com and 2miners.com
 
-AMD cards:
+**AMD**:
 
 AMD intensity settings  are 1/4 of NVIDIA.
 For no stale shares use something like --xintensity 24 (flexpool, crazypool, nicehash).
