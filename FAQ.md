@@ -79,6 +79,10 @@ A lot, mostly the new cards.
 
 Nvidia RTX series 20xx, 30xx and Amd series 5xxx, 6xxx are known to work very well with this miner.
 
+## LHR unlock doesn't seem to work ?
+
+The first version of LHR unlock was developed for the rtx 3060 LHR1 model. More work is needed on the LHR2 cards.
+
 ## TBMiner exits with message dag verification failed ?
 
 Add the commandline option --dagintensity with a low value to prevent computing errors with high OC.
