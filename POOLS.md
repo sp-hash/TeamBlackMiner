@@ -14,7 +14,6 @@
 * ethpool.org
 * ezil.me
 * f2pool.com
-* firepool.com
 * flexpool.io
 * gpumine.org
 * hashcity.org
