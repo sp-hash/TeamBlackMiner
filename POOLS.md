@@ -2,7 +2,6 @@
 
 **(Example scripts are included in the archive.)**
 
-* 666pool.cn
 * 2miners.com
 * antpool.com
 * baikalmine.com
