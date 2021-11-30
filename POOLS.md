@@ -36,8 +36,6 @@
 * solopool.org
 * spiderpool.com
 * unmineable.com
-* uupool.cn
 * woolypooly.com
-* xnpool.com
 * zergpool.com
 * zet-tech.eu
