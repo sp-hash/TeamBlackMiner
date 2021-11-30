@@ -24,7 +24,6 @@
 * maxhash.org
 * minerall.io
 * miningpoolhub.com
-* miningrigrentals.com
 * mole-pool.net
 * nanopool.org
 * nicehash.com
