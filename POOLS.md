@@ -5,7 +5,6 @@
 * 2miners.com
 * antpool.com
 * baikalmine.com
-* beepool.org
 * btc.com
 * cominers.org
 * comining.io
