@@ -156,7 +156,7 @@
 
 			    Example:
 			    
-			    TBMiner --retries 42 --retry-pause 30 --timout 120
+			    TBMiner --retries 42 --retry-pause 30 --timeout 120
 			    
 			    Will give you 120 seconds before a connection attempt is timed out.
 			    
