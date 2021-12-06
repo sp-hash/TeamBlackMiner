@@ -81,6 +81,11 @@ Nvidia RTX series 20xx, 30xx and Amd series 5xxx, 6xxx are known to work very we
 
 ## How to enable the LHR unlock?
 
+run
+
+tbminer --list-devices to get the correct device index.
+
+example:
 Unlock device 1 and 2 in the 6 card rig
 
 --lhr-unlock [0,1,1,0,0,0]
