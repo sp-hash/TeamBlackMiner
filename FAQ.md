@@ -100,7 +100,9 @@ Another way to do a more agressive unlock (add tweak 1,2,3,4...)
 
 The latest Version v1.31 doesn't have a LHR detector but will reset the device every hour just in case.
 
-After applying the lhr-unlock you need to mine for abit to check if it will hold an hour until the reset.
+After applying the lhr-unlock you need to mine for abit to check if it will hold an hour until the reset. 
+If the hashrate is dropping you need to try to change the unlock values until you find a stable setting. It can also be smart to lock the clock
+with the --lock-cclock feature, or limit the TDP to less than 75% power.
 
 ## TBMiner exits with message dag verification failed ?
 
