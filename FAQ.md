@@ -79,9 +79,23 @@ A lot, mostly the new cards.
 
 Nvidia RTX series 20xx, 30xx and Amd series 5xxx, 6xxx are known to work very well with this miner.
 
-## LHR unlock doesn't seem to work ?
+## How to enable the LHR unlock?
 
-The first version of LHR unlock was developed for the rtx 3060 LHR1 model. More work is needed on the LHR2 cards.
+Unlock device 1 and 2 in the 6 card rig
+
+--lhr-unlock [0,1,1,0,0,0]
+
+Higher number give a faster speed (but can trigger LHR mode)
+
+--lhr-unlock [0,2,10,0,0,0]
+
+Another way to do a more agressive unlock (add tweak 1,2,3,4...)
+
+--lhr-unlock [0,1,1,0,0,0] --tweak [0,1,1,0,0,0]
+
+The latest Version v1.31 doesn't have a LHR detector but will reset the device every hour just in case.
+
+After applying the lhr-unlock you need to mine for abit to check if it will hold an hour until the reset.
 
 ## TBMiner exits with message dag verification failed ?
 
