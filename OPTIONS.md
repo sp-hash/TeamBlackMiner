@@ -428,10 +428,10 @@
 			    
 			    (Only mine for 1 hour)
 			    
--å --maintenance-wallet	    (Mine to another wallet x percent of the time. 
+-å --maintenance-wallet	    Mine to another wallet x percent of the time. 
 			     The maintenance-wallet is mined to continuously, 
-			     so you wont get jumping hashrate on the main worker.)
+			     so you wont get jumping hashrate on the main worker.
 
--ø --maintenance-percent    (Set the maintainance-wallet percent. (1-50%));
+-ø --maintenance-percent    Set the maintainance-wallet percent. (1-50%);
 			    
 ```
