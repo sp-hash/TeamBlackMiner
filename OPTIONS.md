@@ -427,4 +427,7 @@
 			    TBMiner --miningtime 60
 			    
 			    (Only mine for 1 hour)
+-å --maintenance-wallet	    (Mine to another wallet x percent of the time);
+-ø --maintenance-percent    (Set the maintainance-wallet percent. (1-50%));
+			    
 ```
