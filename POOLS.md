@@ -10,6 +10,7 @@
 * comining.io
 * crazypool.org
 * cruxpool.com
+* etcmining.club
 * ethermine.org
 * ethpool.org
 * ezil.me
