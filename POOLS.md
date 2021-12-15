@@ -38,4 +38,4 @@
 * unmineable.com
 * woolypooly.com
 * zergpool.com
-* zet-tech.eu
+* zetpool.org
