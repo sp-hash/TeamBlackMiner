@@ -98,7 +98,11 @@ Another way to do a more agressive unlock (add tweak 1,2,3,4...)
 
 --lhr-unlock [0,1,1,0,0,0] --tweak [0,1,1,0,0,0]
 
-The latest Version v1.31 doesn't have a LHR detector but will reset the device every hour just in case.
+If the unlock is failing you can try less agressive by using negative values.
+
+--lhr-unlock [0,-1,-1,0,0,0]
+
+The latest Version v1.35 have a LHR detector and will reset the device if lhr is detected.
 
 After applying the lhr-unlock you need to mine for abit to check if it will hold an hour until the reset. 
 If the hashrate is dropping you need to try to change the unlock values until you find a stable setting. It can also be smart to lock the clock
