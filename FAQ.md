@@ -106,7 +106,7 @@ The latest Version v1.35 have a LHR detector and will reset the device if lhr is
 
 After applying the lhr-unlock you need to mine for abit to check if it will hold an hour until the reset. 
 If the hashrate is dropping you need to try to change the unlock values until you find a stable setting. It can also be smart to lock the clock
-with the --lock-cclock feature, or limit the TDP to less than 75% power.
+with the --lock-cclock feature, or limit the TDP to less than 75% power. ~70% power (3080 ti) 60% power (3070 LHR)
 
 ## TBMiner exits with message dag verification failed ?
 
