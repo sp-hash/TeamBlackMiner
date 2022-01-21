@@ -12,7 +12,6 @@
 * cruxpool.com
 * etcmining.club
 * ethermine.org
-* ethpool.org
 * ezil.me
 * f2pool.com
 * flexpool.io
