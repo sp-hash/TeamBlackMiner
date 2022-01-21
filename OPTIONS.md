@@ -366,13 +366,26 @@
  			    
 			    TBMiner --dagintensity [3]
 -æ --lhr-unlock [,]         Improve the perfomance on NVIDIA devices that are locked for mining. LHR
-			    1 for unlock mode, 0 for normal mode 
+			    1 for unlock mode, 0 for normal mode. Use -x or x to finetune the lhr settings if it fails to unlock.
+			    Limit the cards to a powerlimt to below 75%
 
 			    Example:
 			    
 			    GPU 0 and 3 in semi unlock-mode, the rest normal mode
 
 			    TBMiner --lhr-unlock [1,0,1,0,0,0]
+
+			    GPU 0 and 3 in semi unlock-mode with -4 adjustment, the rest normal mode
+
+			    TBMiner --lhr-unlock [-4,0,-4,0,0,0]
+			    
+			    GPU 0 and 3 in semi unlock-mode with 4 adjustment, the rest normal mode
+
+			    TBMiner --lhr-unlock [4,0,4,0,0,0]
+			    
+
+			    If it fails to unlock at 1 reduce to -1, -2 etc. If it unlocks stable at 1 increase the number to 2,3,4. Higher number is usually better perfomance. 
+
 
 -j --lock-cclock [[,],[,]]  Set minimum and maximum core clock for each device. (CUDA)
                             Format is an array of comma seperated arrays.
