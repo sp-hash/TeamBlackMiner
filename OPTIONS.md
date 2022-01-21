@@ -329,9 +329,9 @@
                             Format is a comma seperated array with brackets.
 			    Setting a kernel option overides the default autotune behavior.
 			    
-			    --kernel [0] low power, cards with few shaders, low intensity.
+			    --kernel [0] works good on low power settings (TDP), cards with few shaders, low intensity.
 			    ...
-		            --kernel [7] higher power, cards with many shaders, high intensity.
+		            --kernel [15] works good on higher power settings (TDP), cards with many shaders, high intensity.
 
                             Example:
 			    
