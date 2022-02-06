@@ -112,7 +112,11 @@ with the --lock-cclock feature, or limit the TDP to less than 75% power. ~70% po
 
 Add the commandline option --dagintensity with a low value to prevent computing errors with high OC.
 
-If it still exits with the message, try lowering OC.
+New feature in the latest version. GPUS in the rig can copy the dag buffer between eachother.
+
+Run 1.48 or later. Lower the memclock on one of the gpu's until dag verification works. Then the program will copy this dag onto the other devices. As an alternative you can add another card in the rig that can create the dag. 3080, 3090, 1080ti, 1070, etc..
+
+tips: Try to increase the memclock of the cards that get the dag buffer copied to. You can run stable on +100-200mhz higher mem clocks compared to other miners..
 
 ## Is it a computer virus ?
 
