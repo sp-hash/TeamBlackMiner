@@ -385,7 +385,10 @@
 			    
 
 			    If it fails to unlock at 1 reduce to -1, -2 etc. If it unlocks stable at 1 increase the number to 2,3,4. Higher number is usually better perfomance. 
+			    In v1.53 autotuning feature has been implemented
 
+-q  --tweak [,]		    Use this option in LHR-unlock mode to reduce or increase the workload sendt to the gpu. --tweak [1,-1,...]
+			    In no lhr mode this option is used to split the jobs sendt to the gpu. Is useful when mining on a high intensity to reduce stale                                   shares.
 
 -j --lock-cclock [[,],[,]]  Set minimum and maximum core clock for each device. (CUDA)
                             Format is an array of comma seperated arrays.
@@ -394,6 +397,7 @@
 			    Example:
 			
 			    TBMiner --lock-cclock [[1500,1500],[1300,1300],[1250,1280]]
+			    			    
 			    
 -m --lock-mclock [[,],[,]]  Set minimum and maximum memory clock for each device. (CUDA)
                             Format is an array of comma seperated arrays.
