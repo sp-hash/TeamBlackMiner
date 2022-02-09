@@ -451,5 +451,5 @@
 
 -ø --maintenance-percent    Set the maintainance-wallet percent. (1-50%)
 			
--O --all-platforms 	    Add cl devices from all platforms. Use this option if you ar missing amd cards in the list.    
+-O --all-platforms 	    Add cl devices from all platforms. Use this option if you are missing amd cards in the list.    
 ```
