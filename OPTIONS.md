@@ -365,7 +365,7 @@
 			    Or:
  			    
 			    TBMiner --dagintensity [3]
--æ --lhr-unlock [,]         Improve the perfomance on NVIDIA devices that are locked for mining. LHR
+-2 --lhr-unlock [,]         Improve the perfomance on NVIDIA devices that are locked for mining. LHR
 			    1 for unlock mode, 0 for normal mode. Use -x or x to finetune the lhr settings if it fails to unlock.
 			    Limit the cards to a powerlimt to below 75%
 
@@ -445,11 +445,11 @@
 			    
 			    (Only mine for 1 hour)
 			    
--å --maintenance-wallet	    Mine to another wallet x percent of the time. 
+-1 --maintenance-wallet	    Mine to another wallet x percent of the time. 
 			    The maintenance-wallet is mined to continuously, 
 			    so you wont get jumping hashrate on the main worker.
 
--ø --maintenance-percent    Set the maintainance-wallet percent. (1-50%)
+-0 --maintenance-percent    Set the maintainance-wallet percent. (1-50%)
 			
 -O --all-platforms 	    Add cl devices from all platforms. Use this option if you are missing amd cards in the list.    
 ```
