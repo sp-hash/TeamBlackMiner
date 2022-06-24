@@ -1,5 +1,5 @@
 
-# Mine Vertcoin + Zil with Team Black Miner
+# Mine Vertcoin with Team Black Miner
 
 ## General
 
@@ -9,7 +9,7 @@ First time you run it will generate the **verthash.dat** file neccesary for mini
 
 Keep this file so you have it in the folder at the next run.
 
-Filesize is about 1.3 GB.
+Filesize is about 1.3 GB. Vertcoin can be mined on GPU's with 2GB memory or more.
 
 ## Linux
 
