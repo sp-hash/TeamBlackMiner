@@ -81,32 +81,9 @@ Nvidia RTX series 20xx, 30xx and Amd series 5xxx, 6xxx are known to work very we
 
 ## How to enable the LHR unlock?
 
-run
+Run The Black pill to get a 100% unlock
 
-tbminer --list-devices to get the correct device index.
-
-example:
-Unlock device 1 and 2 in the 6 card rig
-
---lhr-unlock [0,1,1,0,0,0]
-
-Higher number give a faster speed (but can trigger LHR mode)
-
---lhr-unlock [0,2,10,0,0,0]
-
-Another way to do a more agressive unlock (add tweak 1,2,3,4...)
-
---lhr-unlock [0,1,1,0,0,0] --tweak [0,1,1,0,0,0]
-
-If the unlock is failing you can try less agressive by using negative values.
-
---lhr-unlock [0,-1,-1,0,0,0]
-
-The latest Version v1.35 have a LHR detector and will reset the device if lhr is detected.
-
-After applying the lhr-unlock you need to mine for abit to check if it will hold an hour until the reset. 
-If the hashrate is dropping you need to try to change the unlock values until you find a stable setting. It can also be smart to lock the clock
-with the --lock-cclock feature, or limit the TDP to less than 75% power. ~70% power (3080 ti) 60% power (3070 LHR)
+https://github.com/sp-hash/TheBlackPill
 
 ## TBMiner exits with message dag verification failed ?
 
