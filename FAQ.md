@@ -81,9 +81,11 @@ Nvidia RTX series 20xx, 30xx and Amd series 5xxx, 6xxx are known to work very we
 
 ## How to enable the LHR unlock?
 
-Run The Black pill to get a 100% unlock
+Run The Black Pill in the backround to get a 100% unlock
 
 https://github.com/sp-hash/TheBlackPill
+
+The blackpill will unlock LHR cards on all the supported algos: Ethash, Etchash, Ethash-ZIL	, Verthash
 
 ## TBMiner exits with message dag verification failed ?
 
