@@ -81,7 +81,7 @@ Nvidia RTX series 20xx, 30xx and Amd series 5xxx, 6xxx are known to work very we
 
 ## How to enable the LHR unlock?
 
-Run The Black Pill in the backround to get a 100% unlock
+Run The Black Pill in the background to get a 100% unlock
 
 https://github.com/sp-hash/TheBlackPill
 
