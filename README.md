@@ -33,7 +33,7 @@ Developer fee for Ethereum and Ethereum Classic is only **0.5%**
 + Commission is charged continuously, and not in intervals (as in most miners), which has a positive effect on the user's profitability on PPLNS pools.
 + Verifying Shares on processor, warning when GPU overclocking is very high for Ethash, Etcash, helps to overclock GPU without errors.
 + DAG caching if the GPU has enough memory, DAG files are not recomputed when switching to another algorithm when mining Ethash + Zilliqa or Nicehash.
-+ Low memory GPU's can copy dag buffers from a higher memory gpu to extend the mining life of the card.
++ If a Low memory GPU doesn't have enough memory it can copy the dag buffer from a another gpu in the rig.
 + Temperature control and stop the GPU in case of overheating.
 + Mechanism to restore lost connection with pool.
 + Informative and readable tabular statistics output to console.
