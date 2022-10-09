@@ -2,10 +2,9 @@
 
 Team Black Miner (**TBM**) was created by a group of nordic black ops in the cryptocurrency scene.
 
-TBM maintains a leading position in mining coins like **Ethereum**, **Ethereum Classic**, **Vertcoin** and **Zilliqa**.
+TBM maintains a leading position in mining coins like **Ethereum POW**, **Ethereum Classic**, **Vertcoin**, **Ravencoin** and **Zilliqa**.
 
 Developer fee for Ethereum and Ethereum Classic is only **0.5%**
-
 
 
 * [Features](https://github.com/sp-hash/TeamBlackMiner#features)
@@ -48,6 +47,7 @@ Developer fee for Ethereum and Ethereum Classic is only **0.5%**
 | Ethash        | Zilliqa           | 1.0%          |
 | Etchash       | Ethereum Classic  | 0.5%          |
 | Verthash      | Vertcoin          | 1.0%          |                                                    
+| Kawpow        | Ravencoin         | 1.0%          |                                                    
 
 ## For developers
 
