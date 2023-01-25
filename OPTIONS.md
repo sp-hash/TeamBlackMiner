@@ -2,7 +2,7 @@
 ```plain
 -h --help                   Prints available commandline options.
                             
-			                      Output:
+			    Output:
                             
                             (This list of options.)
 
