@@ -37,23 +37,23 @@
                             A flag to enable logging.
                             Output is written to a file in cwd named TBMiner.log.
 
--l --logfile                Set name for logfile.
+-l --logfile                Set name and path for logfile.
 
                             Example:
 			    
-			                      TBMiner --log --logfile C:\TBMiner\Ethash.log
+			    TBMiner --log --logfile C:\TBMiner\Ethash.log
 
 -i --ip                     Set ip address for pool.
 
                             Example:
 			    
-			                      TBMiner --ip 18.197.166.72
+			    TBMiner --ip 18.197.166.72
 
 -H --hostname               Set hostname for pool.
 
                             Example:
 			    
-			                      TBMiner --hostname eu1.ethermine.org
+			    TBMiner --hostname eu1.ethermine.org
 
 -p --port                   Set port number for pool.
 
@@ -63,54 +63,49 @@
 			    
 -W --wallet                 Set your wallet address.
                             
-			                      On some pools wallet could be a username
+			    On some pools wallet could be a username
                             and you might register and use your username as wallet address.
 			    
-			                      Example:
+			    Example:
 			    
-			                      TBMiner --wallet 0x59Aa6EAfb389E814441D02Ba6EF33c10726e4B16
-			                      TBMiner --wallet joesmith
+			    TBMiner --wallet 0x59Aa6EAfb389E814441D02Ba6EF33c10726e4B16
+			    TBMiner --wallet joesmith
 			    
 -w --worker-name            Set your pool worker name.
                             This is your rig name, your computers name, or could be your name.
-			                      Useful to identify different rigs or computers on a pool.
+			    Useful to identify different rigs or computers on a pool.
 			    
                             Example:
 			    
-			                      TBMiner --worker-name worker1
+			    TBMiner --worker-name worker1
 
 -P --server-passwd          Set your pool server password.
                             Usely not needed.
-			                      May be mandatory for pools where you register and have an userna
-me.
+			    May be mandatory for pools where you register and have an username.
 			    
-			                      Example:
+			    Example:
 			    
-			                      TBMiner --server_passwd xxx
+			    TBMiner --server_passwd xxx
 
 -o --http-path              Set to specify a http path for pool if needed.
                             This is for API endpoints.
-			                      Most pools do not have API endpoints.
+			    Most pools do not have API endpoints.
 			    
-			                      Example:
+			    Example:
 			    
-			                      If you are provided with a pool URL like
-			                      zil://ZIL_ADDRESS.WORKER_NAME@eu1-zil.shardpool.io:5000/api
-			                      The --http_path is /api
+			    If you are provided with a pool URL like this: zil://ZIL_ADDRESS.WORKER_NAME@eu1-zil.shardpool.io:5000/api,
+			    the --http_path is /api   
+                            The correct setting would be:
 			    
-			                      The correct setting would be:
-			    
-			                      TBMiner --algo zil --hostname eu1-zil.shardpool.io --http-path /
-api \
-			                      --port 5000 --wallet zil1xrv7nsssq3t08mjjgh26ux58pml22afdpx2sf6 
---worker-name fr
-			    
+			    TBMiner --algo zil --hostname eu1-zil.shardpool.io --http-path /api 
+			    --port 5000 --wallet zil1xrv7nsssq3t08mjjgh26ux58pml22afdpx2sf6
+			   			    
 -s --ssl                    Use a SSL connection to pool.
                             A flag to enable a SSL encrypted connection to the pool.
 			    
-			                      Example:
+			    Example:
 			    
-			                      TBMiner --ssl
+			    TBMiner --ssl
 			    
 -x --ssl-port               Set SSL port number for SSL connections.
 
