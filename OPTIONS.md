@@ -438,13 +438,13 @@ e gpu.
 			                      Is useful when mining on a high intensity to reduce stale shares
 .
 
--j --lock-cclock [,]        Set minimum and maximum core clock for each device. (CUDA)
-                            Format is an array of comma seperated arrays.
-                            First value is minimum clock value and second value is maximum clock value.
+-j --lock-cclock [,]        Set core clock for each device. (CUDA)
+                            Format is an array of comma seperated values.
+                            
 			    
 			                      Example:
 			
-			                      TBMiner --lock-cclock [[1500,1500],[1300,1300],[1250,1280]]
+			                      TBMiner --lock-cclock [1500,1300,1250,1280]
 			    			    
 			    
 -m --lock-mclock [,]        Set minimum and maximum memory clock for each device. (CUDA)
