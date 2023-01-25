@@ -111,86 +111,78 @@
 
                             Example:
 			    
-			                      TBMiner --ssl --hostname eu1.ethermine.org --ssl-port 5555
+			    TBMiner --ssl --hostname eu1.ethermine.org --ssl-port 5555
 			    
--S --ssl-verify             Check pools ssl certificate integrity.
-                            Flag to enable check of the pools certificate.
-			                      Turn off to accept pools witch do not have certificate integrity
-.
+-S --ssl-verify-none        Disable check for pools ssl certificate integrity.
+                            Turn off to accept pools witch do not have certificate integrity.
 			                   
-			                      Example:
+			    Example:
 			    
-			                      TBMiner --ssl --hostname eu1.ethermine.org --ssl-port 5555 --ssl
--verify
+			    TBMiner --ssl --hostname eu1.ethermine.org --ssl-port 5555 --ssl --ssl-verify-none
 
 -C --ssl-cert               Set a pem file to verify pools ssl cert integrity. 
                             Check a pool SSL certificate against a CA cert bundle.
 			    
-			                      Example:
+			    Example:
 			    
-			                      TBMiner --ssl --hostname eu1.ethermine.org --ssl-port 5555 --ssl
--verify --ssl-vert cacert.pem 
+			    TBMiner --ssl --hostname eu1.ethermine.org --ssl-port 5555 --ssl --ssl-vert cacert.pem 
 
 -n --no-redirect            No redirect means no connection forwarding and no pool reconnect to new server.
                             A flag to stop forwarding to another pool ip.
 
                             Example:
 			    
-			                      TBMiner --no-redirect
+			    TBMiner --no-redirect
 
 -r --retries                Set number of retry attempts for connecting to pool.
 
                             Example:
 			    
-			                      TBMiner --retries 8
+			    TBMiner --retries 8
 			    
-			                      This will give 8 connection attempts to the pool.
+			    This will give 8 connection attempts to the pool.
 
 -y --retry-pause            Set retry pause in seconds between connection attempts if pool is not responding.
                             Pause in between connection attempts.
 			    
-			                      Example:
+			    Example:
 			    
-			                      TBMiner --retries 8 --retry-pause 30
+			    TBMiner --retries 8 --retry-pause 30
 			    
-			                      Will try to connect to the pool for 4 minutes.
+			    Will try to connect to the pool for 4 minutes.
 			    
--t --timeout                Set pool timeout in seconds. If data is not received from pool in this number of s
-econds,
+-t --timeout                Set pool timeout in seconds.
+                            If data is not received from pool in this number of seconds,
                             the stratum thread is restarted to restore connection to pool.
 
-			                      Example:
+			    Example:
 			    
-			                      TBMiner --retries 8 --retry-pause 30 --timeout 120
+			    TBMiner --retries 8 --retry-pause 30 --timeout 120
 			    
-			                      Will give you 120 seconds before a connection attempt is timed o
-ut.
+			    Will give you 120 seconds before a connection attempt is timed out.
 			    
--a --algo                   Set algorihtm.
+-a --algo                   Select algorihtm.
 
-                            Supported algorithms values is
+                            Supported algorithms values is:
 
-                            "ethash"
-                            "etchash"
-                            "zil"
-                            "verthash"
+                            "ethash" - Ethereum POW, Ethereum Fair.
+                            "etchash" - Ethereum Classic.
+                            "zil" - Zilliqua.
+                            "verthash" - Vertcoin.
+			    "kawpow" - Ravencoin.
+			    "vtc+zil" - Dualmine with +VTC (Vertcoin).
 
-			                      Ethash algorithm for Ethereum.
-			                      Etchash algorithm for Ethereum Classic.
-			                      Zil algorihtm for single Zil mining.
-			                      Verthash algorithm for Vertcoin.
+			    Example:
 			    
-			                      Example:
-			    
-			                      TBMiner --algo verthash
+			    TBMiner --algo verthash
 			    
 -D --list-devices           List all GPU devices.
                             Useful for getting information about the order of particular devices and
                             to see if a device is detected properly by the miner.
 			    
-			                      Output:
+			    Output:
 			    
-			                      Available Cuda devices
+			    Available Cuda devices
                             -----------------------
 
                             Device Number: 0
@@ -213,9 +205,9 @@ ut.
 -A --auto-detect            Autodetect means all Nvidia GPU cards use CUDA and all Amd cards use OpenCL.
                             A flag to autoconfigure devices.
 			    
-			                      Example:
+			    Example:
 			    
-			                      TBMiner --auto-detect
+			    TBMiner --auto-detect
 
 -Y --cl-devices [,]         Set a comma separated array of GPU devices ids to use OpenCL kernel.
                             You can see device number with --list-devices.
