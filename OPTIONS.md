@@ -18,12 +18,12 @@
                             Cuda driver version: 11.6
                             Cuda runtime API version: 11.6
 			    
-			                      Miner version is the current TBM build version.
-			                      Curl version is the curl library version used for the build.
-			                      cJSON version is the cJSON library version used for the build.
-			                      OpenCL driver version is the systems OpenCL driver version.
-			                      Cuda driver version is the systems Cuda driver version.
-			                      Cuda runtime API is the Cuda version used for the build.
+			    Miner version is the current TBM build version.
+			    Curl version is the curl library version used for the build.
+			    cJSON version is the cJSON library version used for the build.
+			    OpenCL driver version is the systems OpenCL driver version.
+			    Cuda driver version is the systems Cuda driver version.
+			    Cuda runtime API is the Cuda version used for the build.
 
 -c --configfile             Set filename and path for configuration file.
 
