@@ -29,13 +29,13 @@
 
                             Example:
 			    
-			                      TBMiner --configfile C:\TBMiner\TBMiner.conf
+			    TBMiner --configfile C:\TBMiner\TBMiner.conf
 			    
-			                      (See CONFIG_GILE.md for a example configuration file.)
+			    (See CONFIG_GILE.md for a example configuration file.)
 
 -L --log                    Enable logging.
                             A flag to enable logging.
-                            File with output is named TBMiner.log.
+                            Output is written to a file in cwd named TBMiner.log.
 
 -l --logfile                Set name for logfile.
 
