@@ -501,11 +501,11 @@
 
 -A  --zil-power-limit [,]   This option is used to set a power limit for the Zil POW Window. (Nvidia CUDA)
                             After the ZIL POW the previous power limit is restored.
-			    The format is an array of comma seperated values where the first value is GPU 0 and etc.
+			    The format is an array of comma seperated values where the first value is for GPU 0 and so forth.
 			    
 			    Example:
 			    
-			    TBMiner --zil-power-limit [185,185]
+			    TBMiner --zil-power-limit [250,250]
 
-                            This will set the power to 185 Watt for GPU 0 and GPU 1 during the ZIL Proof-of-work.
+                            This will set the power to 250 Watt for GPU 0 and GPU 1 during the ZIL POW.
 ```
