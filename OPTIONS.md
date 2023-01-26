@@ -212,283 +212,240 @@
 -Y --cl-devices [,]         Set a comma separated array of GPU devices ids to use OpenCL kernel.
                             You can see device number with --list-devices.
                             
-			                      Example:
+			    Example:
 			    
-			                      TBMiner --cl-devices [1,2]
+			    TBMiner --cl-devices [1,2]
 			    
-			                      This will setup mining with OpenCL for devices 1 and 2.
+			    This will setup mining with OpenCL for devices 1 and 2.
 			   
-
--U --cuda-devices [,]       Set a comma separated array of GPU device ids to use Nvidia Cuda.
+-U --cuda-devices [,]       Set a comma separated array of GPU device ids to use Nvidia Cuda kernel.
 
                             Example:
 			    
-			                      TBMiner --cuda-devices [0,1,2]
+			    TBMiner --cuda-devices [0,1,2]
 			    
-			                      This will setup mining with CUDA for devices 0, 1 and 2.
-			                      Nvidia CUDA is for Nvidia cards only.
+			    This will setup mining with CUDA for devices 0, 1 and 2.
+			    Nvidia CUDA is for Nvidia cards only.
 			    
-			                      See --list-devices for devices.
-			                      Use --auto-detect to use CUDA for Nvidida and OpenCL for AMD.
+			    See --list-devices for devices.
+			    Use --auto-detect to use CUDA for Nvidida and OpenCL for AMD.
 
 -z --cl-all-devices         Use OpenCl for all devices.
                             A flag to use all available devices for OpenCL mining.
 			    
-			                      Example:
+			    Example:
 			    
-			                      TBMiner --cl-all-devices
+			    TBMiner --cl-all-devices
 
 -Z --cuda-all-devices       Use all Nvidia Cuda devices.
                             A flag to use all available Nvidia devices with CUDA.
-			                      All non-cuda supported devices (Amd) will be excluded.
+			    All non-cuda supported devices (Amd) will be excluded.
 			    
-			                      Example:
+			    Example:
 			    
-			                      TBMiner --cuda-all-devices
+			    TBMiner --cuda-all-devices
 
--T --templimit [,]          Set a comma separated array of GPU device ids max temperature limit.
+-T --templimit [,]          Set a comma separated array of GPU devices max temperature limit.
 
                             Example:
 			    
-			                      TBMiner --cuda-devices [0,1,2] --templimit [95,95,95]
+			    TBMiner --cuda-devices [0,1,2] --templimit [95,95,95]
 			    
-			                      This will give you a max temperature limit of 95 degrees celcius
- on device 0, 1 and 2.
-			                      If the temperature limit is reached you will get a warning and t
-he GPU can
-			                      sleep for some seconds to reduce heat.
+			    This will give you a max temperature limit of 95 degrees celcius on device 0, 1 and 2.
+			    If the temperature limit is reached you will get a warning and the GPU can
+			    sleep for some seconds to reduce heat.
 
 -g --templimit-sleep        Set GPU sleep in seconds when temperature limit have been exceeded.
 
                             Example:
 			    
-			                      TBMiner --cuda-devices [0,1,2] --templimit [95,95,95] --templimi
-t-sleep 6
+			    TBMiner --cuda-devices [0,1,2] --templimit [95,95,95] --templimit-sleep 6
 			    
-			                      This will put any of devices 0, 1 or 2 to a 6 seconds sleep if t
-he core temperature
-			                      of the GPU exceeds 95 degrees celcius.
+			    This will put any of devices 0, 1 or 2 to a 6 seconds sleep if the core temperature
+			    of the GPU exceeds 95 degrees celcius.
 
 -f --fan-speed-min          Set minimum fan speed in RPM to warn if fan is not working properly.
                             It may be useful for old and dusty GPUs.
 			    
                             Example:
 			    
-			                      TBMiner --fan-speed-min 600
+			    TBMiner --fan-speed-min 600
 			    
-			                      This will give you a warning if fan speed gets below 600 RPM.
+			    This will give you a warning if fan speed gets below 600 RPM.
 			    
 -e --electricity-cost       Set cost per kWh.
                             This sets the cost of electricity by kWh.
-			                      See your provider for the correct price.
-			                      This is printed in the console statistics.
+			    See your electricity provider for the correct price.
+			    This is printed in the console statistics.
 			    
                             Example:
 			    
-			                      TBMiner --electricity-cost 0.10
+			    TBMiner --electricity-cost 0.10
 			    
--u --electricity-currency   Set currency type. Used in the console statistics.
+-u --electricity-currency   Set currency type.
                             Currency type could be US dollar, Euro, Yen or anything.
+			    This is used in the console statistics to track costs.
 			    
-			                      Example:
+			    Example:
 			    
-			                      TBMiner --electricity-cost 0.10 --electricity-currency USD
+			    TBMiner --electricity-cost 0.10 --electricity-currency USD
 
 -v --no-verbose             Less output.
                             A flag to suppress output in the program console.
 			                      			    
-			                      Example:
+			    Example:
 			    
-			                      TBMiner --no-verbose
+			    TBMiner --no-verbose
 			    
 -I --no-ansi                Disable ANSI colors in console output.
                             A flag to disable colors if your system do not support them.
 			    
-			                      On Windows 10 you can run the "ansicolor.reg" script to enable c
-olors.
+			    On Windows 10 you can run the "ansicolor.reg" script to enable colors.
 			    
-			                      Example:
+			    Example:
 			    
-			                      TBMiner --no-ansi
+			    TBMiner --no-ansi
 			    
 -B --no-stats               Disable statistics.
                             A flag to disable statistics.
 			    
-			                      Example:
+			    Example:
 			    
-			                      TBMiner --no-stats
+			    TBMiner --no-stats
 
 -N --no-cpu                 Lower CPU usage.
                             A flag to lower the miners use of CPU.
-			                      Useful for rigs or computers with not that much CPU resources.
+			    Useful for rigs or computers with not that much CPU resources.
 			    
-			                      Example:
+			    Example:
 			    
-			                      TBMiner --no-cpu
+			    TBMiner --no-cpu
 
 -b --amd-only               Run with Amd devices only.
                             A flag to use only Amd devices for mining.
 			    
-			                      Example:
+			    Example:
 			    
-			                      TBMiner --amd-only
+			    TBMiner --amd-only
 
 -G --nvidia-only            Run with Nvidia devices only.
                             A flag to use only Nvidia devices for mining.
 			    
-			                      Example:
+			    Example:
 			    
-			                      TBMiner --nvidia-only
+			    TBMiner --nvidia-only
 
 -J --kernel [,]             Set GPU kernel seperately for each device. (Nvidia CUDA)
                             Format is a comma seperated array.
-			                      Setting a kernel option overides the default autotune behavior.
+			    Setting a kernel option overides the default autotune behavior.
 			    
-			                      --kernel [0] works good on low power settings (TDP), cards with 
-few shaders, low intensity.
-			                      ...
-		                        --kernel [15] works good on higher power settings (TDP), cards with ma
-ny shaders, high intensity.
+			    --kernel [0] works good on low power settings (TDP), cards with few shaders, low intensity.
+			    ...
+		            --kernel [15] works good on higher power settings (TDP), cards with many shaders, high intensity.
 
                             Example:
 			    
-			                      TBMiner --kernel [2,4]
+			    TBMiner --kernel [2,4]
 
 -E --xintensity [,]         Set a comma separated array of GPU devices intensity.
                             If one value is set, this value will be used for all devices. 
                             
                             This sets the intensity for the GPU threads.
-                            Very useful to be alble to find the best hashrate and the produce the minimum reje
-cted shares.
-			                      Different pools and different setup might have different best va
-lues for xintensity.
-			    
-			                      Default nvidia=224
-			                      Default amd=-1
-			    
-			                      Value -1 is calculate dynamic.
-			                      Valid values are 1 to xxxxx.
+                            Very useful to be alble to find the best hashrate and the produce the minimum rejected shares.
+			    Different pools and different setup might have different best values for xintensity.
+			    			    
+			    Value -1 is calculate dynamic.
+			    Valid values are 1 to xxxxx.
 			    
                             Example:
 			    
-			                      TBMiner --xintensity [224,222]
+			    TBMiner --xintensity [224,222]
 
 -K --dagintensity [,]       Set a comma separated array of GPU devices DAG intensity.
                             Set one number to set a value for all devices.
                             This sets the intensity for the GPU threads when creating the DAG file.
                             Very useful to avoid DAG validation errors when running on high OC.
 			    
-		    	                  0 is default, 1 is slow. 9 is the fastest.
+		    	    0 is default, 1 is slow and 9 is the fastest.
 			    
                             Example:
 			    
-			                      TBMiner --dagintensity [0,9]
+			    TBMiner --dagintensity [0,9]
 			    
-			                      Or:
+			    Or:
  			    
-			                      TBMiner --dagintensity [3]
-
--2 --lhr-unlock [,]         Improve the perfomance on NVIDIA devices that are locked for mining (LHR).
-			                      
-			                      1 for unlock mode, 0 for normal mode.
-			                      Use the -x option to finetune the lhr settings if it fails to un
-lock.
+			    TBMiner --dagintensity [3]
 			    
-			                      Limit the cards to a powerlimit to below 75%.
-
-			                      Example:
+-q  --tweak [,]		    Use this option to reduce or increase the workload sendt to the gpu.
+			    It is useful when mining on a high intensity to reduce stale shares.
 			    
-			                      GPU 0 and 3 in semi unlock-mode, the rest normal mode:
-
-			                      TBMiner --lhr-unlock [1,0,1,0,0,0]
-
-			                      GPU 0 and 3 in semi unlock-mode with -4 adjustment, the rest nor
-mal mode:
-
-			                      TBMiner --lhr-unlock [-4,0,-4,0,0,0]
+			    Example:
 			    
-			                      GPU 0 and 3 in semi unlock-mode with 4 adjustment, the rest norm
-al mode:
+			    TBMiner --tweak [1,-1,...]
 
-			                      TBMiner --lhr-unlock [4,0,4,0,0,0]
-			    
-			                      If it fails to unlock at 1 reduce to -1, -2 etc.
-			                      If it unlocks stable at 1 try increase the number to 2,3,4 for b
-etter performance.
-			                      Higher number is usually better perfomance.
-			                      From version 1.53 autotuning feature has been implemented.
-
--q  --tweak [,]		          Use this option in LHR-unlock mode to reduce or increase the workload sendt 
-to the gpu. --tweak [1,-1,...]
-			                      In no lhr mode this option is used to split the jobs sendt to th
-e gpu.
-			                      Is useful when mining on a high intensity to reduce stale shares
-.
-
--j --lock-cclock [,]        Set core clock for each device. (CUDA)
+-j --lock-cclock [,]        Set core clock for each device. (Nvidia CUDA)
                             Format is an array of comma seperated values.
                             
-			    
-			                      Example:
+			    Example:
 			
-			                      TBMiner --lock-cclock [1500,1300,1250,1280]
-			    			    
+			    TBMiner --lock-cclock [1500,1300,1250,1280]			    
 			    
--m --lock-mclock [,]        Set minimum and maximum memory clock for each device. (CUDA)
+-m --lock-mclock [,]        Set minimum and maximum memory clock for each device. (Nvidia CUDA)
                             Format is an array of comma seperated arrays.
-			                      First value is minumum memory clock value and second value is ma
-ximum memory clock.
+			    First value is minumum memory clock value and second value is maximum memory clock.
 			    
-			                      Example:
+			    Example:
 			    
-			                      TBMiner --lock-mclock [[6000,6000],[6000,6000]]
+			    TBMiner --lock-mclock [[6000,6000],[6000,6000]]
 
--M --power-limit [,]	      Set maximum powerlimit in watts for each device.
+-M --power-limit [,]	    Set maximum powerlimit in watts for each device. (Nvidia CUDA)
                             Format is a comma seperated array of values.
 			    
-			                      Example:
+			    Example:
 			    
-			                      TBMiner --power-limit [70]
+			    TBMiner --power-limit [70]
+			    
+			    This wil set Nvidia device 0 to 70 Watt.
 
 -d --api                    Enable API.
-                            A flag to enable API server.
-			                      The server is a simple HTTP protocol server for read only data a
-ccess.
+                            A flag to enable the API server.
+			    The server is a simple HTTP protocol server for read only data access.
+			    Default address is http://127.0.0.1:4068/
 			    
-			                      Example:
+			    Example:
 			    
-			                      TBMiner --api
+			    TBMiner --api
 
 -F --api-ip                 Set ip address for api server.
                             Any valid available computer IP address.
 			    
-			                      Example:
+			    Example:
 			    
-			                      TBMiner --api --api-ip 127.0.0.1
+			    TBMiner --api --api-ip 127.0.0.1
 			    
 -R --api-port               Set port number for api server.
                             Any valid available port number.
 			    
-			                      Example:
+			    Example:
 			    
-			                      TBMiner --api --api-ip 127.0.0.1 --api-port 1025
+			    TBMiner --api --api-ip 127.0.0.1 --api-port 1025
 			    
 -k --miningtime             Only mine for x minutes.
-                            Typically used to test different setups.
+                            Typically used to test different mining setups.
 			    
-			                      Example:
+			    Example:
 			    
-			                      TBMiner --miningtime 60
+			    TBMiner --miningtime 60
 			    
-			                      Only mine for 1 hour.
+			    This will be mine for 1 hour.
 			    
 -1 --maintenance-wallet	    Mine to another wallet x percent of the time. 
-			                      The maintenance-wallet is mined to continuously, 
-			                      so you wont get a jumping hashrate on the main worker.
+			    The maintenance-wallet is mined to continuously, 
+			    so you wont get a jumping hashrate on the main worker.
 
-			                      Example:
+			    Example:
 
-			                      TBMiner --maintenance-wallet ****
+			    TBMiner --maintenance-wallet ****
 
 -0 --maintenance-percent    Set the maintainance-wallet percent.
                             Minimum 1%.
@@ -498,10 +455,17 @@ ccess.
 
                             TBMiner --maintenance-percent 1 --maintenance-wallet ****
 			
--O --all-platforms 	        Add cl devices from all platforms.
+-O --all-platforms 	    Add OpenCL devices from all platforms.
                             Use this option if you are missing amd cards in the list.
+			    
+			    Example:
+			    
+			    TBMiner --all-platforms
 
 -7  --verthash-data         Set a path to the verthash data file.
+                            The verthash data file needs to be generated to mine Vertcoin.
+			    You only need to do this at the first run.
+			    Save the verthash data file and use this option to set the path.
 
                             Example:
 
@@ -509,13 +473,12 @@ ccess.
 
 -X  --disablesharedag       Disable copy of DAG to low memory cards.
 
-                            If a DAG verification fails, a successfully generated DAG will be copied from anot
-her GPU.
+                            If a DAG verification fails, a successfully generated DAG will be copied from another GPU.
 
                             This option turn the feature off.
 
                             Example:
 
-                            TBMiner --amd-only ----disablesharedag
+                            TBMiner --amd-only --disablesharedag
 
 ```
