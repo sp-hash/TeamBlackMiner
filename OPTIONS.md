@@ -93,8 +93,8 @@
 			    
 			    Example:
 			    
-			    If you are provided with a pool URL like this: zil://ZIL_ADDRESS.WORKER_NAME@eu1-zil.shardpool.io:5000/api,
-			    the --http_path is /api   
+			    If you are provided with a pool URL like this: eu1-zil.shardpool.io:5000/api,
+			    the --http_path is /api.  
                             The correct setting would be:
 			    
 			    TBMiner --algo zil --hostname eu1-zil.shardpool.io --http-path /api 
