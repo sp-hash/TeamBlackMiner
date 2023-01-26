@@ -170,7 +170,7 @@
                             "zil" - Zilliqua.
                             "verthash" - Vertcoin.
 			    "kawpow" - Ravencoin.
-			    "vtc+zil" - Dualmine with +VTC (Vertcoin).
+			    "etc+vtc" - Dualmine with +VTC (Vertcoin).
 
 			    Example:
 			    
@@ -481,4 +481,31 @@
 
                             TBMiner --amd-only --disablesharedag
 
+-4  --vtc-wallet	    If you choose to dual mine with algo "etc+vtc" (+VTC) you need to set the Vertcoin wallet address.
+
+                            Example:
+			    
+			    TBMiner --vtc-wallet ****
+
+-5  --vtc-hostname          If you choose to dual mine with algo "etc+vtc" (+VTC) you need to specify a Vertcoin pool server.
+
+                            Example:
+			    
+			    TBMiner --vtc-hostname pool.eu.woolypooly.com --vtc-wallet ****
+
+-6  --vtc-port              Set the Vertcoin pool servers port number.
+
+                            Example:
+			    
+			    TBMiner --vtc-hostname pool.eu.woolypooly.com --vtc-wallet **** --vtc-port 3102
+
+-A  --zil-power-limit [,]   This option is used to set a power limit for the Zil POW Window. (Nvidia CUDA)
+                            After the ZIL POW the previous power limit is restored.
+			    The format is an array of comma seperated values where the first value is GPU 0 and etc.
+			    
+			    Example:
+			    
+			    TBMiner --zil-power-limit [185,185]
+
+                            This will set the power to 185 Watt for GPU 0 and GPU 1 during the ZIL Proof-of-work.
 ```
