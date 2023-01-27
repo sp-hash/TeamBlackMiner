@@ -361,28 +361,6 @@
 			    
 			    TBMiner --xintensity [224,222]
 
--K --dagintensity [,]       Set a comma separated array of GPU devices DAG intensity.
-                            Set one number to set a value for all devices.
-                            This sets the intensity for the GPU threads when creating the DAG file.
-                            Very useful to avoid DAG validation errors when running on high OC.
-			    
-		    	    0 is default, 1 is slow and 9 is the fastest.
-			    
-                            Example:
-			    
-			    TBMiner --dagintensity [0,9]
-			    
-			    Or:
- 			    
-			    TBMiner --dagintensity [3]
-			    
--q  --tweak [,]		    Use this option to reduce or increase the workload sendt to the gpu.
-			    It is useful when mining on a high intensity to reduce stale shares.
-			    
-			    Example:
-			    
-			    TBMiner --tweak [1,-1,...]
-
 -j --lock-cclock [,]        Set core clock for each device. (Nvidia CUDA)
                             Format is an array of comma seperated values.
                             
