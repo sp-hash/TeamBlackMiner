@@ -137,3 +137,12 @@ http://127.0.0.1:4068/summary
 ```plain
 (Contains all of the above information)
 ```
+
+# API (v1.4)
+
+This is a small update on the API:
+
+    - Threads now contain algorithm.
+    - There can be more than one thread per GPU with dualmining.
+    - There can be more than one pool with dualmining.
+    - Data should be valid Json data.
