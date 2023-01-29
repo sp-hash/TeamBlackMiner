@@ -486,4 +486,13 @@
 			    TBMiner --zil-power-limit [250,250]
 
                             This will set the power to 250 Watt for GPU 0 and GPU 1 during the ZIL POW.
+
+-8 --api-version            Specify the APIs version number.
+                            Valid specifiers are 1.3 and 1.4
+			    Version 1.4 is slightly improved and also provide stats for +VTC.
+			    
+			    Example:
+			    
+			    TBMiner --api --api-version 1.4
+
 ```
