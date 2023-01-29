@@ -146,3 +146,83 @@ This is a small update on the API:
     - There can be more than one thread per GPU with dualmining.
     - There can be more than one pool with dualmining.
     - Data should be valid Json data.
+
+```json
+{
+  "miner": {
+    "name": "TBMiner",
+    "version": "1.82",
+    "api_version": "1.4",
+    "num_gpu_threads": 2,
+    "total_hashrate": 2360594,
+    "total_accepted": 18,
+    "total_rejected": 0,
+    "total_stale": 0,
+    "uptime_minutes": 3
+  },
+  "pool": {
+    "0": {
+      "url": "eu.crazypool.org",
+      "port": 7000,
+      "worker": "debug",
+      "algo": "etchash",
+      "job": "e921a6c1",
+      "epoch": 280,
+      "block": 0,
+      "diff": 2.0000000009313013,
+      "ping": 54.5
+    },
+    "1": {
+      "url": "pool.eu.woolypooly.com",
+      "port": 3102,
+      "worker": "debug",
+      "algo": "verthash",
+      "job": "00000589",
+      "epoch": 0,
+      "block": 0,
+      "diff": 0,
+      "ping": 65.36842105263158
+    }
+  },
+  "devices": {
+    "0": {
+      "gpu": 0,
+      "pcie_id": 9,
+      "board_name": "NVIDIA GeForce RTX 3080",
+      "type": "Cuda",
+      "algo": "etchash",
+      "xintensity": 256,
+      "gpu_temp": 66,
+      "mem_temp": 0,
+      "fan": 82,
+      "core_clock": 1740,
+      "mem_clock": 9501,
+      "watt": 219,
+      "hashrate": 819503,
+      "dag": false,
+      "accepted": 0,
+      "rejected": 0,
+      "stale": 0
+    },
+    "1": {
+      "gpu": 0,
+      "pcie_id": 9,
+      "board_name": "NVIDIA GeForce RTX 3080",
+      "type": "Cuda",
+      "algo": "verthash",
+      "xintensity": 0,
+      "gpu_temp": 66,
+      "mem_temp": 0,
+      "fan": 82,
+      "core_clock": 1740,
+      "mem_clock": 9501,
+      "watt": 219,
+      "hashrate": 1500117,
+      "dag": false,
+      "accepted": 18,
+      "rejected": 0,
+      "stale": 0
+    }
+  }
+}
+```
