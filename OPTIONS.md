@@ -507,7 +507,7 @@
 			    
 			    TBMiner --hostname rvn.2miners.com --vtc-wallet ****
 			    
--K --rvn-port               Set the Ravencoind pool servers port number.
+-K --rvn-port               Set the Ravencoin pool servers port number.
 
                             Example:
 			    
