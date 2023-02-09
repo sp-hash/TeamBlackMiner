@@ -495,4 +495,21 @@
 			    
 			    TBMiner --api --api-version 1.4
 
+-Q --rvn-wallet             If you choose to dual mine with algo "etc+rvn" (+RVN) you need to set the Ravencoin wallet address.
+
+                            Example:
+			    
+			    TBMiner --rvn-wallet ****
+			    
+-q --rvn-hostname           If you choose to dual mine with algo "etc+rvn" (+RVN) you need to specify a Ravencoin pool server.
+
+                            Example:
+			    
+			    TBMiner --hostname rvn.2miners.com --vtc-wallet ****
+			    
+-K --rvn-port               Set the Ravencoind pool servers port number.
+
+                            Example:
+			    
+			    TBMiner --hostname rvn.2miners.com --port 6060 --vtc-wallet ****
 ```
