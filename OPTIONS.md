@@ -170,7 +170,10 @@
                             "zil" - Zilliqua.
                             "verthash" - Vertcoin.
 			    "kawpow" - Ravencoin.
-			    "etc+vtc" - Dualmine with +VTC (Vertcoin).
+			    "etc+vtc" - Ethereum Classic dualmine with +VTC (Vertcoin).
+			    "etc+vtc" - Ethereum Classic dualmine with +VTC (Vertcoin).
+			    "etc+rvn" - Ethereum Classic dualmine Ravencoin.
+			    "eth+rvn" - Ethereum dualmine Ravencoin.
 
 			    Example:
 			    
