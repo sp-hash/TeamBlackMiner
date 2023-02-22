@@ -171,7 +171,7 @@
                             "verthash" - Vertcoin.
 			    "kawpow" - Ravencoin.
 			    "etc+vtc" - Ethereum Classic dualmine with +VTC (Vertcoin).
-			    "etc+vtc" - Ethereum Classic dualmine with +VTC (Vertcoin).
+			    "eth+vtc" - Ethereum dualmine with +VTC (Vertcoin).
 			    "etc+rvn" - Ethereum Classic dualmine Ravencoin.
 			    "eth+rvn" - Ethereum dualmine Ravencoin.
 
