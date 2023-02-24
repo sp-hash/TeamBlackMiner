@@ -515,4 +515,29 @@
                             Example:
 			    
 			    TBMiner --hostname rvn.2miners.com --port 6060 --vtc-wallet ****
+			    
+-2 --verthash-xintensity [,]
+
+                            Set a comma separated array of GPU devices intensity for Verthash dualmining.
+                            If one value is set, this value will be used for all devices. 
+                            
+                            This sets the intensity for the GPU threads.
+                            Very useful to be alble to find the best hashrate and the produce the minimum rejected shares.
+			    Different pools and different setup might have different best values for xintensity.
+			    			    		    
+                            Example:
+			    
+			    TBMiner --verthash-xintensity [224,222]
+
+
+-9 --kawpow-xintensity [,]  Set a comma separated array of GPU devices intensity for Ravencoin dualmining.
+                            If one value is set, this value will be used for all devices. 
+                            
+                            This sets the intensity for the GPU threads.
+                            Very useful to be alble to find the best hashrate and the produce the minimum rejected shares.
+			    Different pools and different setup might have different best values for xintensity.
+			    			    		    
+                            Example:
+			    
+			    TBMiner --xintensity [224,222]
 ```
