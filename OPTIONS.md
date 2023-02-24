@@ -354,7 +354,7 @@
                             If one value is set, this value will be used for all devices. 
                             
                             This sets the intensity for the GPU threads.
-                            Very useful to be alble to find the best hashrate and the produce the minimum rejected shares.
+                            Very useful to be able to find the best hashrate and the produce the minimum rejected shares.
 			    Different pools and different setup might have different best values for xintensity.
 			    			    
 			    Value -1 is calculate dynamic.
@@ -522,7 +522,7 @@
                             If one value is set, this value will be used for all devices. 
                             
                             This sets the intensity for the GPU threads.
-                            Very useful to be alble to find the best hashrate and the produce the minimum rejected shares.
+                            Very useful to be able to find the best hashrate and the produce the minimum rejected shares.
 			    Different pools and different setup might have different best values for xintensity.
 			    			    		    
                             Example:
@@ -534,7 +534,7 @@
                             If one value is set, this value will be used for all devices. 
                             
                             This sets the intensity for the GPU threads.
-                            Very useful to be alble to find the best hashrate and the produce the minimum rejected shares.
+                            Very useful to be able to find the best hashrate and the produce the minimum rejected shares.
 			    Different pools and different setup might have different best values for xintensity.
 			    			    		    
                             Example:
