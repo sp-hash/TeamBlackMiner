@@ -539,5 +539,5 @@
 			    			    		    
                             Example:
 			    
-			    TBMiner --xintensity [224,222]
+			    TBMiner --kawpow-xintensity [224,222]
 ```
