@@ -1,6 +1,7 @@
 ## Example failover configuration file
 
 Failover pool can be set with the -c --configfile commandline option.
+
 These options are extended configurationfile options.
 
 ```plain
