@@ -1,5 +1,7 @@
 ## Example failover configuration file
 
+If TBMiner is run with failover pool options, failover will be active on connection timeout or receive timeouts.
+
 Failover pool can be set with the -c --configfile commandline option.
 
 
