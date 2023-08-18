@@ -1,7 +1,7 @@
 #!/bin/bash
 
 RESTART="TRUE"
-RVN_WALLET="R9RaKw5HNuwtbXYRXWrpUugAE8WhtMhfUk"
+RVN_WALLET="fr"
 WORKER_NAME="fr"
 
 cleanup ()
