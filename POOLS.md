@@ -1,7 +1,7 @@
 ## Pools known to work smoothly with Team Black Miner
 (Updated 2023-08-21)
 
-**(Example scripts are included in the archive.)**
+**Example scripts are included in the archive.**
 
 * 2miners.com
 * antpool.com
@@ -43,6 +43,5 @@
 * ua-mining.com
 * unmineable.com
 * woolypooly.com
-* x-pool.io
 * zergpool.com
 * zetpool.org
