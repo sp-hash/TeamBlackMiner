@@ -42,14 +42,14 @@ Developer fee for Ethereum and Ethereum Classic is only **0.5%**
 
 ## Supported algorithms and developer commission
 
-| Algo          | Coin              | Commission    |
-| ------------- | ----------------- | ------------- |
-| Ethash        | EthereumPOW       | 0.5%          |
-| Ethash        | EthereumFair      | 0.5%          |
-| Ethash        | Zilliqa           | 1.0%          |
-| Etchash       | Ethereum Classic  | 0.5%          |
-| Verthash      | Vertcoin          | 1.0%          |                                                    
-| Kawpow        | Ravencoin         | 1.0%          |                                                    
+| Algo          | Coin              | Platform    | Commission    |
+| ------------- | ----------------- | ----------- | ------------- |
+| Ethash        | EthereumPOW       | Nvidia, AMD | 0.5%          |
+| Ethash        | EthereumFair      | Nvidia, AMD | 0.5%          |
+| Ethash        | Zilliqa           | Nvidia, AMD | 1.0%          |
+| Etchash       | Ethereum Classic  | Nvidia, AMD | 0.5%          |
+| Verthash      | Vertcoin          | Nvidia, AMD | 1.0%          |                                                    
+| Kawpow        | Ravencoin         | Nvidia      | 1.0%          |                                                    
 
 ## For developers
 
