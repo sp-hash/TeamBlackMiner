@@ -8,7 +8,42 @@ ETC
 ETF
 ETHO
 ETHW
-RVN
+
+## RVN
+
+miningpoolhub
+
+2miners
+
+bsmith
+
+cool2mine
+
+cruxpool
+
+herominers
+
+hiveon
+
+kryptex
+
+miningmadness
+
+nanopool
+
+nicehash
+
+pool2mine
+
+ravenminer
+
+ravenpool
+
+skypool
+
+suprnova
+
+woolypooly
 
 ## VTC
 
