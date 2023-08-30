@@ -17,6 +17,56 @@ zergpool
 
 2miners
 
+baikalmine
+
+cominers
+
+comining
+
+crazypool
+
+cruxpool
+
+e4pool
+
+etcminingclub
+
+ethpool
+
+ezil
+
+f2pool
+
+flexpool
+
+hiveon
+
+k1pool
+
+minerall
+
+miningpoolhub
+
+nanopool
+
+nicehash
+
+poolms
+
+prohashing
+
+spiderpool
+
+unminable
+
+viabtc
+
+woolypooly
+
+zergpool
+
+zetpool
+
 ## ETF
 
 coolpool
