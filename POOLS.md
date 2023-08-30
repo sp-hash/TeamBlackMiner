@@ -7,7 +7,18 @@ RTH
 ETC
 ETF
 ETHO
-ETHW
+
+## ETHW
+
+2miners
+
+ethwmine
+
+f2pool
+
+nanopool
+
+woolypooly
 
 ## RVN
 
