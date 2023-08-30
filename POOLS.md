@@ -9,7 +9,32 @@ ETF
 ETHO
 ETHW
 RVN
-VTC
+
+## VTC
+
+hashcryptos
+
+woolypooly
+
+badhasher
+
+bbqpool
+
+e4pool
+
+hashalot
+
+miningdutch
+
+miningpoolhub
+
+miningpoolsweeden
+
+suprnova
+
+zergpool
+
+zpool
 
 ## ZIL
 
