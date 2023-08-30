@@ -14,7 +14,7 @@ ekapool
 
 zergpool
 
-
+##
 ## ETC
 
 2miners
@@ -69,14 +69,14 @@ zergpool
 
 zetpool
 
-
+##
 ## ETF
 
 coolpool
 
 ezil
 
-
+##
 ## ETHW
 
 2miners
@@ -89,7 +89,7 @@ nanopool
 
 woolypooly
 
-
+##
 ## RVN
 
 miningpoolhub
@@ -126,7 +126,7 @@ suprnova
 
 woolypooly
 
-
+##
 ## VTC
 
 hashcryptos
@@ -153,7 +153,7 @@ zergpool
 
 zpool
 
-
+##
 ## ZIL
 
 shardpool
