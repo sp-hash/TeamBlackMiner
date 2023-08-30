@@ -3,10 +3,24 @@
 
 **Example scripts are included in the archive.**
 
-RTH
-ETC
-ETF
-ETHO
+## RTH
+
+baikalmine
+
+crazypool
+
+ekapool
+
+zergpool
+
+## ETC
+
+2miners
+
+## ETF
+
+coolpool
+ezil
 
 ## ETHW
 
