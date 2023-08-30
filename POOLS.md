@@ -3,6 +3,7 @@
 
 **Example scripts are included in the archive.**
 
+
 ## RTH
 
 baikalmine
@@ -12,6 +13,7 @@ crazypool
 ekapool
 
 zergpool
+
 
 ## ETC
 
@@ -67,11 +69,13 @@ zergpool
 
 zetpool
 
+
 ## ETF
 
 coolpool
 
 ezil
+
 
 ## ETHW
 
@@ -84,6 +88,7 @@ f2pool
 nanopool
 
 woolypooly
+
 
 ## RVN
 
@@ -121,6 +126,7 @@ suprnova
 
 woolypooly
 
+
 ## VTC
 
 hashcryptos
@@ -147,7 +153,7 @@ zergpool
 
 zpool
 
-##
+
 ## ZIL
 
 shardpool
