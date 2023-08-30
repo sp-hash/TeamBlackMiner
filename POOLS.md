@@ -1,5 +1,5 @@
 # Supported pools
-(Updated 2023-08-21)
+(Updated 2023-08-30)
 
 **Example scripts are included in the archive.**
 
