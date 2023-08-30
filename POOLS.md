@@ -12,7 +12,11 @@ RVN
 VTC
 
 ## ZIL
-*shardpool
-*ezil
-*crazypool
-*f2pool
+
+shardpool
+
+ezil
+
+crazypool
+
+f2pool
