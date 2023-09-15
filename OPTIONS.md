@@ -516,7 +516,14 @@
                             Example:
 			    
 			    TBMiner --hostname rvn.2miners.com --port 6060 --vtc-wallet ****
-			    
+
+--ethb3-wallet
+			  If you choose to dual mine with algo "ethb3+zil" you need to set the ETHB wallet address.	
+--ethb3-hostname
+		          If you choose to dual mine with algo "ethb3+zil" you need to specify a ETHB pool server.
+--ethb3-port
+                          If you choose to dual mine with algo "ethb3+zil" you need to specify a ETHB pool server.
+
 -2 --verthash-xintensity [,]
 
                             Set a comma separated array of GPU devices intensity for Verthash dualmining.
