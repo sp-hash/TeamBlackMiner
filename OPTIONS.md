@@ -171,10 +171,12 @@
                             "verthash" - Vertcoin.
 			    "kawpow" - Ravencoin.
                             "ethashb3" - Rethereum.
-			    "etc+vtc" - Ethereum Classic dualmine with +VTC (Vertcoin).
-			    "eth+vtc" - Ethereum dualmine with +VTC (Vertcoin).
-			    "etc+rvn" - Ethereum Classic dualmine Ravencoin.
-			    "eth+rvn" - Ethereum dualmine Ravencoin.
+			    "etc+vtc" - Etchash dualmine with +VTC (Vertcoin).
+			    "eth+vtc" - Etchash dualmine with +VTC (Vertcoin).
+			    "etc+rvn" - Etchash dualmine with kawpow.
+			    "eth+rvn" - Ethash dualmine with kawpow.
+			    "eth+ethb3" - Ethash dualmine Rethereum.
+			    "etc+ethb3" - Etchash dualmine Rethereum.
 
 			    Example:
 			    
@@ -480,6 +482,10 @@
                             Example:
 			    
 			    TBMiner --vtc-hostname pool.eu.woolypooly.com --vtc-wallet **** --vtc-port 3102
+    --vtc-passwd            Set the vertcoin pool password in dual mining mode
+
+		    
+
 
 -A  --zil-power-limit [,]   This option is used to set a power limit for the Zil POW Window. (Nvidia CUDA)
                             After the ZIL POW the previous power limit is restored.
@@ -516,6 +522,7 @@
                             Example:
 			    
 			    TBMiner --hostname rvn.2miners.com --port 6060 --vtc-wallet ****
+  --rvn-passwd             Set the raven pool password in dual mining mode
 
 --ethb3-wallet
 			  If you choose to dual mine with algo "ethb3+zil" you need to set the ETHB wallet address.	
@@ -523,6 +530,8 @@
 		          If you choose to dual mine with algo "ethb3+zil" you need to specify a ETHB pool server.
 --ethb3-port
                           If you choose to dual mine with algo "ethb3+zil" you need to specify a ETHB pool server.
+
+--ethb3-passwd            Set the ethb3 pool password in dual mining mode
 
 -2 --verthash-xintensity [,]
 
