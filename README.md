@@ -42,15 +42,27 @@ Developer fee for Rethereum, Ethereum POW and Ethereum Classic is only **0.5%**
 
 ## Supported algorithms and developer commission
 
-| Algo          | Coin              | Platform    | Commission    |
+| Algo          | Coins             | Platform    | Commission    |
 | ------------- | ----------------- | ----------- | ------------- |
-| Ethash        | EthereumPOW       | Nvidia, AMD | 0.5%          |
-| Ethash        | EthereumFair      | Nvidia, AMD | 0.5%          |
+| Ethash        | EthereumPow       | Nvidia, AMD | 0.5%          |
 | Ethash        | Zilliqa           | Nvidia, AMD | 0.5%          |
 | Etchash       | Ethereum Classic  | Nvidia, AMD | 0.5%          |
-| Verthash      | Vertcoin          | Nvidia, AMD | 1.0%          |                                                    
-| Kawpow        | Ravencoin         | Nvidia      | 1.0%          |
 | EthashB3      | Rethereum         | Nvidia      | 0.5%          |
+| Kawpow        | Ravencoin         | Nvidia      | 0.5%          |
+| Verthash      | Vertcoin          | Nvidia, AMD | 0.5%          |                                                    
+
+## Supported dual mining and tripple mining combos and developer commission
+
+| Algo             | Coin                  | Platform    | Commission    |
+| ---------------- | --------------------- | ----------- | ------------- |
+| Ethash+Verthash  |                       | Nvidia, AMD | 0.5%          |
+| Etchash+Verthash |                       | Nvidia, AMD | 0.5%          |
+| Etb3hash+Verthash|                       | Nvidia      | 0.5%          |
+| Ethash+Kawpow    |                       | Nvidia, AMD | 0.5%          |
+| Etchash+Kawpow   |                       | Nvidia, AMD | 0.5%          |
+| Etb3hash+Kawpow  |                       | Nvidia      | 0.5%          |
+
+Some pools support zil mining together with ETC or ETH mining and then you will mine 3 coins
 
 ## For developers
 
