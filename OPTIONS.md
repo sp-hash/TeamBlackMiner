@@ -48,26 +48,24 @@
 				Example:
 				TBMiner --worker-name worker1
 
--P --server-passwd          Set your pool server password.
-                            Usely not needed.
-			    May be mandatory for pools where you register and have an username.
-			    
-			    Example:
-			    
-			    TBMiner --server_passwd xxx
+-P -pw --server-passwd		Set your pool server password
+				Usely not needed.
+				May be mandatory for pools where you register and have an username.
 
--o --http-path              Set to specify a http path for pool if needed.
-                            This is for API endpoints.
-			    Most pools do not have API endpoints.
-			    
-			    Example:
-			    
-			    If you are provided with a pool URL like this: eu1-zil.shardpool.io:5000/api,
-			    the --http_path is /api.  
-                            The correct setting would be:
-			    
-			    TBMiner --algo zil --hostname eu1-zil.shardpool.io --http-path /api 
-			    --port 5000 --wallet zil1xrv7nsssq3t08mjjgh26ux58pml22afdpx2sf6
+				Example:
+				TBMiner --server_passwd xxx
+
+-o -hp --http-path		Set to specify a http path for pool if needed.
+				This is for API endpoints.
+				Most pools do not have API endpoints.
+
+				Example:
+			    	If you are provided with a pool URL like this: eu1-zil.shardpool.io:5000/api,
+				the --http_path is /api.  
+
+				The correct setting would be:
+			    	TBMiner --algo zil --hostname eu1-zil.shardpool.io --http-path /api
+				--port 5000 --wallet zil1xrv7nsssq3t08mjjgh26ux58pml22afdpx2sf6
 			   			    
 -s --ssl                    Use a SSL connection to pool.
                             A flag to enable a SSL encrypted connection to the pool.
