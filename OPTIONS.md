@@ -67,32 +67,28 @@
 			    	TBMiner --algo zil --hostname eu1-zil.shardpool.io --http-path /api
 				--port 5000 --wallet zil1xrv7nsssq3t08mjjgh26ux58pml22afdpx2sf6
 			   			    
--s --ssl                    Use a SSL connection to pool.
-                            A flag to enable a SSL encrypted connection to the pool.
-			    
-			    Example:
-			    
-			    TBMiner --ssl
-			    
--x --ssl-port               Set SSL port number for SSL connections.
+-s -ss --ssl			Use a SSL connection to pool.
+				A flag to enable a SSL encrypted connection to the pool.
 
-                            Example:
+				Example:
+				TBMiner --ssl
 			    
-			    TBMiner --ssl --hostname eu1.ethermine.org --ssl-port 5555
-			    
--S --ssl-verify-none        Disable check for pools ssl certificate integrity.
-                            Turn off to accept pools witch do not have certificate integrity.
-			                   
-			    Example:
-			    
-			    TBMiner --ssl --hostname eu1.ethermine.org --ssl-port 5555 --ssl --ssl-verify-none
+-x -sp --ssl-port		Set SSL port number for SSL connections.
 
--C --ssl-cert               Set a pem file to verify pools ssl cert integrity. 
-                            Check a pool SSL certificate against a CA cert bundle.
+				Example:
+				TBMiner --ssl --hostname eu1.ethermine.org --ssl-port 5555
 			    
-			    Example:
-			    
-			    TBMiner --ssl --hostname eu1.ethermine.org --ssl-port 5555 --ssl --ssl-vert cacert.pem 
+-S -sv --ssl-verify-none	Disable check for pools ssl certificate integrity.
+				Turn off to accept pools witch do not have certificate integrity.
+
+				Example:
+				TBMiner --ssl --hostname eu1.ethermine.org --ssl-port 5555 --ssl --ssl-verify-none
+
+-C -sc --ssl-cert		Set a pem file to verify pools ssl cert integrity.
+				Check a pool SSL certificate against a CA cert bundle.
+
+				Example:
+				TBMiner --ssl --hostname eu1.ethermine.org --ssl-port 5555 --ssl --ssl-vert cacert.pem 
 
 -n --no-redirect            No redirect means no connection forwarding and no pool reconnect to new server.
                             A flag to stop forwarding to another pool ip.
