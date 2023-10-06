@@ -90,20 +90,18 @@
 				Example:
 				TBMiner --ssl --hostname eu1.ethermine.org --ssl-port 5555 --ssl --ssl-vert cacert.pem 
 
--n --no-redirect            No redirect means no connection forwarding and no pool reconnect to new server.
-                            A flag to stop forwarding to another pool ip.
+-n -nr --no-redirect		No redirect means no connection forwarding and no pool reconnect to new server.
+				A flag to stop forwarding to another pool ip
 
-                            Example:
-			    
-			    TBMiner --no-redirect
+				Example:
+				TBMiner --no-redirect
 
--r --retries                Set number of retry attempts for connecting to pool.
+-r -re --retries		Set number of retry attempts for connecting to pool.
 
-                            Example:
-			    
-			    TBMiner --retries 8
-			    
-			    This will give 8 connection attempts to the pool.
+				Example:
+				TBMiner --retries 8
+
+				This will give 8 connection attempts to the pool.
 
 -y --retry-pause            Set retry pause in seconds between connection attempts if pool is not responding.
                             Pause in between connection attempts.
