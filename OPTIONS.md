@@ -1,59 +1,32 @@
 ## Available command line options
 ```plain
--h --help                   Prints available commandline options.
-                            
-			    Output:
-                            
-                            (This list of options.)
+-h -he --help			Prints available commandline options.
+-V -ve --version		Prints version information.
+-c -cf --configfile		Set filename and path for configuration file.
 
--V --version                Prints version information.
+				Example:
+				TBMiner --configfile C:\TBMiner\TBMiner.conf
 
-                            Output:
-			    
-                            Miner version: TBMiner/1.65
-                            Miner API version: 1.3
-                            Curl version: libcurl/7.83.0
-                            cJSON version: 1.7.15
-                            OpenCL driver version: 512.15
-                            Cuda driver version: 11.6
-                            Cuda runtime API version: 11.6
-			    
-			    Miner version is the current TBM build version.
-			    Curl version is the curl library version used for the build.
-			    cJSON version is the cJSON library version used for the build.
-			    OpenCL driver version is the systems OpenCL driver version.
-			    Cuda driver version is the systems Cuda driver version.
-			    Cuda runtime API is the Cuda version used for the build.
+				See CONFIG_FILE.md for a example configuration file.
 
--c --configfile             Set filename and path for configuration file.
+-L -lo --log			Enable logging.
+				A flag to enable logging.
+				Output is written to a file in cwd named TBMiner.log.
 
-                            Example:
-			    
-			    TBMiner --configfile C:\TBMiner\TBMiner.conf
-			    
-			    (See CONFIG_GILE.md for a example configuration file.)
+-l -lf --logfile		Set name and path for logfile.
 
--L --log                    Enable logging.
-                            A flag to enable logging.
-                            Output is written to a file in cwd named TBMiner.log.
+				Example
+				TBMiner --log --logfile C:\TBMiner\Ethash.log
 
--l --logfile                Set name and path for logfile.
+-i -ip --ip			Set ip address for pool.
 
-                            Example:
-			    
-			    TBMiner --log --logfile C:\TBMiner\Ethash.log
+				Example
+				TBMiner --ip 18.197.166.72
 
--i --ip                     Set ip address for pool.
+-H -hn --hostname		Set hostname for pool.
 
-                            Example:
-			    
-			    TBMiner --ip 18.197.166.72
-
--H --hostname               Set hostname for pool.
-
-                            Example:
-			    
-			    TBMiner --hostname eu1.ethermine.org
+				Example:
+				TBMiner --hostname eu1.ethermine.org
 
 -p --port                   Set port number for pool.
 
