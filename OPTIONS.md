@@ -28,29 +28,25 @@
 				Example:
 				TBMiner --hostname eu1.ethermine.org
 
--p --port                   Set port number for pool.
+-p -po --port			Set port number for pool
 
-                            Example:
+				Example:
+				TBMiner --port 4444 --hostname eu1.ethermine.org
 			    
-                            TBMiner --port 4444 --hostname eu1.ethermine.org
+-W -wa --wallet			Set your wallet address
+				On some pools wallet could be a username
+				and you register and use your username as wallet address.
 			    
--W --wallet                 Set your wallet address.
-                            
-			    On some pools wallet could be a username
-                            and you might register and use your username as wallet address.
+				Example:
+				TBMiner --wallet 0x59Aa6EAfb389E814441D02Ba6EF33c10726e4B16
+				TBMiner --wallet joesmith
 			    
-			    Example:
+-w -wn --worker-name		Set your pool worker name.
+				This is your rig name, your computers name, or could be your name.
+				Useful to identify different rigs or computers on a pool.
 			    
-			    TBMiner --wallet 0x59Aa6EAfb389E814441D02Ba6EF33c10726e4B16
-			    TBMiner --wallet joesmith
-			    
--w --worker-name            Set your pool worker name.
-                            This is your rig name, your computers name, or could be your name.
-			    Useful to identify different rigs or computers on a pool.
-			    
-                            Example:
-			    
-			    TBMiner --worker-name worker1
+				Example:
+				TBMiner --worker-name worker1
 
 -P --server-passwd          Set your pool server password.
                             Usely not needed.
