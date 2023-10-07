@@ -137,32 +137,10 @@
 				Example:
 				TBMiner --algo verthash
 			    
--D --list-devices           List all GPU devices.
-                            Useful for getting information about the order of particular devices and
-                            to see if a device is detected properly by the miner.
-			    
-			    Output:
-			    
-			    Available Cuda devices
-                            -----------------------
+-D -ld --list-devices		List all GPU devices.
+				Useful for getting information about the order of particular devices and
+				to see if a device is detected properly by the miner.
 
-                            Device Number: 0
-                              Device name: NVIDIA GeForce GTX 1070
-                              PCIe bus id: 0
-                              Memory: 8GB
-                              Memory clock rate (KHz): 4004000
-                              Memory bus width (bits): 256
-                              Peak memory bandwidth (GB/s): 256.256000
-
-
-                            Available OpenCL devices
-                            -------------------------
-
-                            Device Number: 0
-                              Device name: NVIDIA GeForce GTX 1070
-                              PCIe bus id: 0
-                              Memory: 8GB
-			    
 -A --auto-detect            Autodetect means all Nvidia GPU cards use CUDA and all Amd cards use OpenCL.
                             A flag to autoconfigure devices.
 			    
