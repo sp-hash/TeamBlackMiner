@@ -58,8 +58,8 @@ Developer fee for Rethereum, Ethereum POW and Ethereum Classic is only **0.5%**
 | Ethash+Verthash  |                       | Nvidia, AMD | 0.5%          |
 | Etchash+Verthash |                       | Nvidia, AMD | 0.5%          |
 | Etb3hash+Verthash|                       | Nvidia      | 0.5%          |
-| Ethash+Kawpow    |                       | Nvidia      | 0.5%          |
-| Etchash+Kawpow   |                       | Nvidia      | 0.5%          |
+| Ethash+Kawpow    |                       | Nvidia, AMD | 0.5%          |
+| Etchash+Kawpow   |                       | Nvidia, AMD | 0.5%          |
 | Etb3hash+Kawpow  |                       | Nvidia      | 0.5%          |
 | Ethash+Etb3hash  |                       | Nvidia      | 0.5%          |
 | Etchash+Etb3hash |                       | Nvidia      | 0.5%          |
