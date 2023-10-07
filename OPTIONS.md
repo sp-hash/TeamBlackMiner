@@ -103,45 +103,39 @@
 
 				This will give 8 connection attempts to the pool.
 
--y --retry-pause            Set retry pause in seconds between connection attempts if pool is not responding.
-                            Pause in between connection attempts.
-			    
-			    Example:
-			    
-			    TBMiner --retries 8 --retry-pause 30
-			    
-			    Will try to connect to the pool for 4 minutes.
-			    
--t --timeout                Set pool timeout in seconds.
-                            If data is not received from pool in this number of seconds,
-                            the stratum thread is restarted to restore connection to pool.
+-y -ra --retry-pause		Set retry pause in seconds between connection attempts if pool is not responding.
 
-			    Example:
-			    
-			    TBMiner --retries 8 --retry-pause 30 --timeout 120
-			    
-			    Will give you 120 seconds before a connection attempt is timed out.
-			    
--a --algo                   Select algorihtm.
+				Example:
+			    	TBMiner --retries 8 --retry-pause 30
 
-                            Supported algorithms values is:
-
-                            "ethash" - Ethereum POW, Ethereum Fair.
-                            "etchash" - Ethereum Classic.
-                            "zil" - Zilliqua.
-                            "verthash" - Vertcoin.
-			    "kawpow" - Ravencoin.
-                            "ethashb3" - Rethereum.
-			    "etc+vtc" - Etchash dualmine with +VTC (Vertcoin).
-			    "eth+vtc" - Etchash dualmine with +VTC (Vertcoin).
-			    "etc+rvn" - Etchash dualmine with kawpow.
-			    "eth+rvn" - Ethash dualmine with kawpow.
-			    "eth+ethb3" - Ethash dualmine Rethereum.
-			    "etc+ethb3" - Etchash dualmine Rethereum.
-
-			    Example:
+				Will try to connect to the pool for 4 minutes.
 			    
-			    TBMiner --algo verthash
+-t -to --timeout		Set pool timeout in seconds.
+				If data is not received from pool in this number of seconds,
+				the stratum thread is restarted to restore connection to pool.
+
+				Example:
+			    	TBMiner --retries 8 --retry-pause 30 --timeout 120
+			    	Will give you 120 seconds before a connection attempt is timed out.
+			    
+-a -al --algo			Select algorihtm.
+
+				Supported algorithms values is:
+				"ethash" - Ethereum POW, Ethereum Fair.
+				"etchash" - Ethereum Classic.
+				"zil" - Zilliqua.
+				"verthash" - Vertcoin.
+				"kawpow" - Ravencoin.
+				"ethashb3" - Rethereum.
+				"etc+vtc" - Etchash dualmine with +VTC (Vertcoin).
+				"eth+vtc" - Etchash dualmine with +VTC (Vertcoin).
+				"etc+rvn" - Etchash dualmine with kawpow.
+				"eth+rvn" - Ethash dualmine with kawpow.
+				"eth+ethb3" - Ethash dualmine Rethereum.
+				"etc+ethb3" - Etchash dualmine Rethereum.
+
+				Example:
+				TBMiner --algo verthash
 			    
 -D --list-devices           List all GPU devices.
                             Useful for getting information about the order of particular devices and
