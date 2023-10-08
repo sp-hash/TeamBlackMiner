@@ -294,28 +294,26 @@
 				Example:
 				TBMiner --api
 
--F --api-ip                 Set ip address for api server.
-                            Any valid available computer IP address.
+-F -ai --api-ip			Set ip address for api server.
+				Value could be valid available computer IP address.
+				
+				Example:
+				TBMiner --api --api-ip 127.0.0.1
 			    
-			    Example:
+-R -at --api-port		Set port number for api server.
+
+				Value is any valid available port number.
+				
+				Example:
+				TBMiner --api --api-ip 127.0.0.1 --api-port 1025
 			    
-			    TBMiner --api --api-ip 127.0.0.1
-			    
--R --api-port               Set port number for api server.
-                            Any valid available port number.
-			    
-			    Example:
-			    
-			    TBMiner --api --api-ip 127.0.0.1 --api-port 1025
-			    
--k --miningtime             Only mine for x minutes.
-                            Typically used to test different mining setups.
-			    
-			    Example:
-			    
-			    TBMiner --miningtime 60
-			    
-			    This will be mine for 1 hour.
+-k -mt --miningtime		Only mine for x minutes.
+				Typically used to test different mining setups.
+				
+				Example:
+				TBMiner --miningtime 60
+				
+				This will be mine for 1 hour.
 			    
 -1 --maintenance-wallet	    Mine to another wallet x percent of the time. 
 			    The maintenance-wallet is mined to continuously, 
