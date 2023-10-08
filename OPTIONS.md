@@ -403,37 +403,31 @@
 
    -v5 --rvn-passwd             Set the raven pool password in dual mining mode.
 
---ethb3-wallet
-			  If you choose to dual mine with algo "ethb3+zil" you need to set the ETHB wallet address.	
---ethb3-hostname
-		          If you choose to dual mine with algo "ethb3+zil" you need to specify a ETHB pool server.
---ethb3-port
-                          If you choose to dual mine with algo "ethb3+zil" you need to specify a ETHB pool server.
+   -v1 --ethb3-wallet		If you choose to dual mine with algo "ethb3+zil" you need to set the ETHB wallet address.	
+   -v2 --ethb3-hostname		If you choose to dual mine with algo "ethb3+zil" you need to specify a ETHB pool server.
+   -v3 --ethb3-port		If you choose to dual mine with algo "ethb3+zil" you need to specify a ETHB pool server.
+   -v4 --ethb3-passwd		Set the ethb3 pool password in dual mining mode
 
---ethb3-passwd            Set the ethb3 pool password in dual mining mode
+-2 -vi --verthash-xintensity [,]
 
--2 --verthash-xintensity [,]
-
-                            Set a comma separated array of GPU devices intensity for Verthash dualmining.
-                            If one value is set, this value will be used for all devices. 
-                            
-                            This sets the intensity for the GPU threads.
-                            Very useful to be able to find the best hashrate and the produce the minimum rejected shares.
-			    Different pools and different setup might have different best values for xintensity.
-			    			    		    
-                            Example:
-			    
-			    TBMiner --verthash-xintensity [224,222]
-
-
--9 --kawpow-xintensity [,]  Set a comma separated array of GPU devices intensity for Ravencoin dualmining.
-                            If one value is set, this value will be used for all devices. 
-                            
-                            This sets the intensity for the GPU threads.
-                            Very useful to be able to find the best hashrate and the produce the minimum rejected shares.
-			    Different pools and different setup might have different best values for xintensity.
-			    			    		    
-                            Example:
-			    
-			    TBMiner --kawpow-xintensity [224,222]
+				Set a comma separated array of GPU devices intensity for Verthash dualmining.
+				If one value is set, this value will be used for all devices. 
+				
+				This sets the intensity for the GPU threads.
+				Useful to be able to find the best hashrate and the produce the minimum rejected shares.
+				Different pools and different setup might have different best values for xintensity.
+								    
+				Example:
+				TBMiner --verthash-xintensity [224,222]
+				
+-9 -ki --kawpow-xintensity [,]	Set a comma separated array of GPU devices intensity for Ravencoin dualmining.
+				If one value is set, this value will be used for all devices. 
+				
+				This sets the intensity for the GPU threads.
+				Very useful to be able to find the best hashrate and the produce the minimum rejected shares.
+				Different pools and different setup might have different best values for xintensity.
+								    
+				Example:
+				
+				TBMiner --kawpow-xintensity [224,222]
 ```
