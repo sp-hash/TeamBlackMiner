@@ -265,20 +265,18 @@
 				Example:
 				TBMiner --xintensity [224,222]
 
--j --lock-cclock [,]        Set core clock for each device. (Nvidia CUDA)
-                            Format is an array of comma seperated values.
-                            
-			    Example:
-			
-			    TBMiner --lock-cclock [1500,1300,1250,1280]			    
-			    
--m --lock-mclock [,]        Set memory clock for each device. (Nvidia CUDA)
-                            Format is an array of comma seperated values.
-			    First value is memory clock setting for GPU0 and second is GPU1 and so forth. 
-			    
-			    Example:
-			    
-			    TBMiner --lock-mclock [6000,6000,6000,6000]
+-j -lc --lock-cclock [,]	Set core clock for each device (Nvidia CUDA).
+				Format is an array of comma seperated values.
+				
+				Example:
+				TBMiner --lock-cclock [1500,1300,1250,1280]			    
+
+-m -lm --lock-mclock [,]	Set memory clock for each device (Nvidia CUDA).
+				Format is an array of comma seperated values.
+				First value is memory clock setting for GPU0 and second is GPU1 and so forth. 
+				
+				Example:				
+				TBMiner --lock-mclock [6000,6000,6000,6000]
 
 -M --power-limit [,]	    Set maximum powerlimit in watts for each device. (Nvidia CUDA)
                             Format is a comma seperated array of values.
