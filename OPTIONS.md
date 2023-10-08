@@ -141,33 +141,23 @@
 				Useful for getting information about the order of particular devices and
 				to see if a device is detected properly by the miner.
 
--A --auto-detect            Autodetect means all Nvidia GPU cards use CUDA and all Amd cards use OpenCL.
-                            A flag to autoconfigure devices.
-			    
-			    Example:
-			    
-			    TBMiner --auto-detect
+-Y -cl --cl-devices [,]		Set a comma separated array of GPU devices ids to use OpenCL kernel.
+				You can see device number with --list-devices.
 
--Y --cl-devices [,]         Set a comma separated array of GPU devices ids to use OpenCL kernel.
-                            You can see device number with --list-devices.
-                            
-			    Example:
-			    
-			    TBMiner --cl-devices [1,2]
-			    
-			    This will setup mining with OpenCL for devices 1 and 2.
+				Example:
+			    	TBMiner --cl-devices [1,2]
+
+				This will setup mining with OpenCL for devices 1 and 2.
 			   
--U --cuda-devices [,]       Set a comma separated array of GPU device ids to use Nvidia Cuda kernel.
+-U -cu --cuda-devices [,]	Set a comma separated array of GPU device ids to use Nvidia Cuda kernel.
 
-                            Example:
+				Example:
+				TBMiner --cuda-devices [0,1,2]
 			    
-			    TBMiner --cuda-devices [0,1,2]
-			    
-			    This will setup mining with CUDA for devices 0, 1 and 2.
-			    Nvidia CUDA is for Nvidia cards only.
-			    
-			    See --list-devices for devices.
-			    Use --auto-detect to use CUDA for Nvidida and OpenCL for AMD.
+				This will setup mining with CUDA for devices 0, 1 and 2.
+				Nvidia CUDA is for Nvidia cards only.
+				
+				See --list-devices for devices.
 
 -z --cl-all-devices         Use OpenCl for all devices.
                             A flag to use all available devices for OpenCL mining.
