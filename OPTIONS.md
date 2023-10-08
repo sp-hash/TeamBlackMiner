@@ -370,42 +370,38 @@
 				Example:			    
 				TBMiner --vtc-hostname pool.eu.woolypooly.com --vtc-wallet **** --vtc-port 3102 --vtc-passwd x
 		    
--A  --zil-power-limit [,]   This option is used to set a power limit for the Zil POW Window. (Nvidia CUDA)
-                            After the ZIL POW the previous power limit is restored.
-			    The format is an array of comma seperated values where the first value is for GPU 0 and so forth.
-			    
-			    Example:
-			    
-			    TBMiner --zil-power-limit [250,250]
+-A  -zp --zil-power-limit [,]	This option is used to set a power limit for the Zil POW window (Nvidia CUDA).
+				After the ZIL POW the previous power limit is restored.
+				The format is an array of comma seperated values where the first value is for GPU 0 and so forth.
+				
+				Example:
+				TBMiner --zil-power-limit [250,250]
+				
+				This will set the power to 250 Watt for GPU 0 and GPU 1 during the ZIL POW.
 
-                            This will set the power to 250 Watt for GPU 0 and GPU 1 during the ZIL POW.
+-8  -av --api-version		Specify the APIs version number.
+				Valid specifiers are 1.3 and 1.4
+				Version 1.4 is slightly improved and also provide stats for dual mining.
+				
+				Example:
+				TBMiner --api --api-version 1.4
 
--8 --api-version            Specify the APIs version number.
-                            Valid specifiers are 1.3 and 1.4
-			    Version 1.4 is slightly improved and also provide stats for +VTC.
-			    
-			    Example:
-			    
-			    TBMiner --api --api-version 1.4
+-Q -rw --rvn-wallet		If you choose to dual mine with algo "etc+rvn" (+RVN) you need to set the Ravencoin wallet address.
+				
+				Example:
+				TBMiner --rvn-wallet ****
 
--Q --rvn-wallet             If you choose to dual mine with algo "etc+rvn" (+RVN) you need to set the Ravencoin wallet address.
+-q -rh --rvn-hostname		If you choose to dual mine with algo "etc+rvn" (+RVN) you need to specify a Ravencoin pool server.
+				
+				Example:
+				TBMiner --hostname rvn.2miners.com --vtc-wallet ****
 
-                            Example:
-			    
-			    TBMiner --rvn-wallet ****
-			    
--q --rvn-hostname           If you choose to dual mine with algo "etc+rvn" (+RVN) you need to specify a Ravencoin pool server.
+-K -rp --rvn-port		If you choose to dual mine with algo "etc+rvn" (+RVN) you need to specify set the Ravencoin pool servers port number.
 
-                            Example:
-			    
-			    TBMiner --hostname rvn.2miners.com --vtc-wallet ****
-			    
--K --rvn-port               Set the Ravencoin pool servers port number.
+				Example:
+				TBMiner --hostname rvn.2miners.com --port 6060 --vtc-wallet ****
 
-                            Example:
-			    
-			    TBMiner --hostname rvn.2miners.com --port 6060 --vtc-wallet ****
-  --rvn-passwd             Set the raven pool password in dual mining mode
+   -v5 --rvn-passwd             Set the raven pool password in dual mining mode.
 
 --ethb3-wallet
 			  If you choose to dual mine with algo "ethb3+zil" you need to set the ETHB wallet address.	
