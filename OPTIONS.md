@@ -159,20 +159,18 @@
 				
 				See --list-devices for devices.
 
--z --cl-all-devices         Use OpenCl for all devices.
-                            A flag to use all available devices for OpenCL mining.
-			    
-			    Example:
-			    
-			    TBMiner --cl-all-devices
+-z -ca --cl-all-devices		Use OpenCl for all devices.
+				A flag to use all available devices for OpenCL mining.
+				
+				Example:
+				TBMiner --cl-all-devices
 
--Z --cuda-all-devices       Use all Nvidia Cuda devices.
-                            A flag to use all available Nvidia devices with CUDA.
-			    All non-cuda supported devices (Amd) will be excluded.
-			    
-			    Example:
-			    
-			    TBMiner --cuda-all-devices
+-Z -cd --cuda-all-devices	Use all Nvidia Cuda devices.
+				A flag to use all available Nvidia devices with CUDA.
+				All non-cuda supported devices (Amd) will be excluded.
+
+				Example:
+				TBMiner --cuda-all-devices
 
 -T --templimit [,]          Set a comma separated array of GPU devices max temperature limit.
 
