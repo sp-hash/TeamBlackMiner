@@ -241,31 +241,29 @@
 				Example:
 				TBMiner --nvidia-only
 
--J --kernel [,]             Set GPU kernel seperately for each device. (Nvidia CUDA)
-                            Format is a comma seperated array.
-			    Setting a kernel option overides the default autotune behavior.
-			    
-			    --kernel [0] works good on low power settings (TDP), cards with few shaders, low intensity.
-			    ...
-		            --kernel [15] works good on higher power settings (TDP), cards with many shaders, high intensity.
-
-                            Example:
-			    
-			    TBMiner --kernel [2,4]
-
--E --xintensity [,]         Set a comma separated array of GPU devices intensity.
-                            If one value is set, this value will be used for all devices. 
-                            
-                            This sets the intensity for the GPU threads.
-                            Very useful to be able to find the best hashrate and the produce the minimum rejected shares.
-			    Different pools and different setup might have different best values for xintensity.
-			    			    
-			    Value -1 is calculate dynamic.
-			    Valid values are 1 to xxxxx.
-			    
-                            Example:
-			    
-			    TBMiner --xintensity [224,222]
+-J -ke --kernel [,]		Set GPU kernel seperately for each device (Nvidia CUDA).
+				Format is a comma seperated array.
+				Setting a kernel option overides the default autotune behavior.
+				
+				--kernel [0] works good on low power settings (TDP), cards with few shaders, low intensity.
+				...
+				--kernel [15] works good on higher power settings (TDP), cards with many shaders, high intensity.
+				
+				Example:
+				TBMiner --kernel [2,4]
+				
+-E -xi --xintensity [,]		Set a comma separated array of GPU devices intensity.
+				If only one value is set, this value will be used for all devices. 
+				
+				This sets the intensity for the GPU threads.
+				Very useful to be able to find the best hashrate and the produce the minimum rejected shares.
+				Different pools and different setups might have different best values for xintensity.
+						    
+				Value -1 is calculate dynamic.
+				Valid values are 1 to xxxxx.
+				
+				Example:
+				TBMiner --xintensity [224,222]
 
 -j --lock-cclock [,]        Set core clock for each device. (Nvidia CUDA)
                             Format is an array of comma seperated values.
