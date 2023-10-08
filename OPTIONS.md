@@ -172,15 +172,14 @@
 				Example:
 				TBMiner --cuda-all-devices
 
--T --templimit [,]          Set a comma separated array of GPU devices max temperature limit.
+-T -tl --templimit [,]		Set a comma separated array of GPU devices max temperature limit.
 
-                            Example:
-			    
-			    TBMiner --cuda-devices [0,1,2] --templimit [95,95,95]
-			    
-			    This will give you a max temperature limit of 95 degrees celcius on device 0, 1 and 2.
-			    If the temperature limit is reached you will get a warning and the GPU can
-			    sleep for some seconds to reduce heat.
+				Example:
+				TBMiner --cuda-devices [0,1,2] --templimit [95,95,95]
+				
+				This will give you a max temperature limit of 95 degrees celcius on device 0, 1 and 2.
+				If the temperature limit is reached you will get a warning and the GPU can
+				sleep for some seconds to reduce heat.
 
 -g --templimit-sleep        Set GPU sleep in seconds when temperature limit have been exceeded.
 
