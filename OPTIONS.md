@@ -278,23 +278,21 @@
 				Example:				
 				TBMiner --lock-mclock [6000,6000,6000,6000]
 
--M --power-limit [,]	    Set maximum powerlimit in watts for each device. (Nvidia CUDA)
-                            Format is a comma seperated array of values.
-			    
-			    Example:
-			    
-			    TBMiner --power-limit [70]
-			    
-			    This wil set Nvidia device 0 to 70 Watt.
+-M -pl --power-limit [,]	Set maximum powerlimit in watts for each device (Nvidia CUDA).
+				Format is a comma seperated array of values.
+				
+				Example:
+				TBMiner --power-limit [70]
+				
+				This wil set Nvidia device 0 to 70 Watt.
 
--d --api                    Enable API.
-                            A flag to enable the API server.
-			    The server is a simple HTTP protocol server for read only data access.
-			    Default address is http://127.0.0.1:4068/
-			    
-			    Example:
-			    
-			    TBMiner --api
+-d -ad --api			Enable API.
+				A flag to enable the API server.
+				The server is a simple HTTP protocol server for read only data access.
+				Default address is http://127.0.0.1:4068/
+				
+				Example:
+				TBMiner --api
 
 -F --api-ip                 Set ip address for api server.
                             Any valid available computer IP address.
