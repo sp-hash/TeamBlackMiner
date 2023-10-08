@@ -181,23 +181,13 @@
 				If the temperature limit is reached you will get a warning and the GPU can
 				sleep for some seconds to reduce heat.
 
--g --templimit-sleep        Set GPU sleep in seconds when temperature limit have been exceeded.
-
-                            Example:
-			    
-			    TBMiner --cuda-devices [0,1,2] --templimit [95,95,95] --templimit-sleep 6
-			    
-			    This will put any of devices 0, 1 or 2 to a 6 seconds sleep if the core temperature
-			    of the GPU exceeds 95 degrees celcius.
-
--f --fan-speed-min          Set minimum fan speed in RPM to warn if fan is not working properly.
-                            It may be useful for old and dusty GPUs.
-			    
-                            Example:
-			    
-			    TBMiner --fan-speed-min 600
-			    
-			    This will give you a warning if fan speed gets below 600 RPM.
+-g -ts --templimit-sleep	Set GPU sleep in seconds when temperature limit have been exceeded.
+				
+				Example:
+				TBMiner --cuda-devices [0,1,2] --templimit [95,95,95] --templimit-sleep 6
+				
+				This will put all of devices 0, 1 or 2 to a 6 seconds sleep if the core temperature
+				of the GPU exceeds 95 degrees celcius.
 			    
 -e --electricity-cost       Set cost per kWh.
                             This sets the cost of electricity by kWh.
