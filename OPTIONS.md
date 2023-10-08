@@ -223,25 +223,23 @@
 				Example:
 				TBMiner --no-stats
 
--N -ns --no-cpu			Lower the miners CPU usage.
+-N -nc --no-cpu			Lower the miners CPU usage.
 				Useful for rigs or computers with not that much CPU resources.
 				
 				Example:
 				TBMiner --no-cpu
 
--b -nc --amd-only	Run with Amd devices only.
-                            A flag to use only Amd devices for mining.
-			    
-			    Example:
-			    
-			    TBMiner --amd-only
+-b -ao --amd-only		Run miner with Amd devices only.
+				A flag to use only Amd devices for mining.
+				
+				Example:
+				TBMiner --amd-only
 
--G --nvidia-only            Run with Nvidia devices only.
-                            A flag to use only Nvidia devices for mining.
-			    
-			    Example:
-			    
-			    TBMiner --nvidia-only
+-G -no --nvidia-only		Run miner with Nvidia devices only.
+				A flag to use only Nvidia devices for mining.
+				
+				Example:
+				TBMiner --nvidia-only
 
 -J --kernel [,]             Set GPU kernel seperately for each device. (Nvidia CUDA)
                             Format is a comma seperated array.
