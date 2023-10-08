@@ -53,7 +53,7 @@
 				May be mandatory for pools where you register and have an username.
 
 				Example:
-				TBMiner --server_passwd xxx
+				TBMiner --server-passwd xxx
 
 -o -hp --http-path		Set to specify a http path for pool if needed.
 				This is for API endpoints.
@@ -116,6 +116,7 @@
 
 				Example:
 			    	TBMiner --retries 8 --retry-pause 30 --timeout 120
+
 			    	Will give you 120 seconds before a connection attempt is timed out.
 			    
 -a -al --algo			Select algorihtm.
@@ -161,16 +162,10 @@
 
 -z -ca --cl-all-devices		Use OpenCl for all devices.
 				A flag to use all available devices for OpenCL mining.
-				
-				Example:
-				TBMiner --cl-all-devices
 
 -Z -cd --cuda-all-devices	Use all Nvidia Cuda devices.
 				A flag to use all available Nvidia devices with CUDA.
 				All non-cuda supported devices (Amd) will be excluded.
-
-				Example:
-				TBMiner --cuda-all-devices
 
 -T -tl --templimit [,]		Set a comma separated array of GPU devices max temperature limit.
 
@@ -207,33 +202,16 @@
 -v -nv --no-verbose		Less console output.
 				A flag to suppress output in the program console.
 			                      			    
-				Example:				
-				TBMiner --no-verbose
-
 -I -na --no-ansi		Disable ANSI colors in console output.
 				A flag to disable colors if your system do not support them.
-
 				On Windows 10 you can run the "ansicolor.reg" script to enable colors.
 			    
-				Example:
-				TBMiner --no-ansi
-			    
 -B -ns --no-stats		Disable console statistics.
-				
-				Example:
-				TBMiner --no-stats
-
 -N -nc --no-cpu			Lower the miners CPU usage.
 				Useful for rigs or computers with not that much CPU resources.
 				
-				Example:
-				TBMiner --no-cpu
-
 -b -ao --amd-only		Run miner with Amd devices only.
 				A flag to use only Amd devices for mining.
-				
-				Example:
-				TBMiner --amd-only
 
 -G -no --nvidia-only		Run miner with Nvidia devices only.
 				A flag to use only Nvidia devices for mining.
@@ -290,9 +268,6 @@
 				A flag to enable the API server.
 				The server is a simple HTTP protocol server for read only data access.
 				Default address is http://127.0.0.1:4068/
-				
-				Example:
-				TBMiner --api
 
 -F -ai --api-ip			Set ip address for api server.
 				Value could be valid available computer IP address.
@@ -301,7 +276,6 @@
 				TBMiner --api --api-ip 127.0.0.1
 			    
 -R -at --api-port		Set port number for api server.
-
 				Value is any valid available port number.
 				
 				Example:
@@ -318,22 +292,15 @@
 -1 mw --maintenance-wallet	Mine to another wallet x percent of the time. 
 				The maintenance-wallet is mined to continuously, 
 				so you wont get a jumping hashrate on the main worker.
-				
-				Example:
-				TBMiner --maintenance-wallet ****
 
 -0 -mp --maintenance-percent	Set the maintainance-wallet percent.
-				Minimum 1%.
-				Maximum 50%.
+				Minimum 1%. Maximum 50%.
 				
 				Example:				
 				TBMiner --maintenance-percent 1 --maintenance-wallet ****
 			
 -O -ap --all-platforms		Add OpenCL devices from all AMD platforms.
 				Use this option if you are missing AMD cards in the list.
-				
-				Example:				
-				TBMiner --all-platforms
 
 -7  -vd --verthash-data		Set a path to the verthash data file.
 				The verthash data file needs to be generated to mine Vertcoin.
@@ -346,30 +313,12 @@
 -X  -ds --disablesharedag	Disable copying of DAG to low memory cards.
 				If a DAG verification fails, a successfully generated DAG will be copied from another GPU.
 				This option turn the feature off.
-				
-				Example:
-				TBMiner --amd-only --disablesharedag
 
 -4  -vw --vtc-wallet		If you choose to dual mine with algo "etc+vtc" (+VTC) you need to set the Vertcoin wallet address.
-				
-				Example:
-				TBMiner --vtc-wallet ****
-
 -5  -vh --vtc-hostname		If you choose to dual mine with algo "etc+vtc" (+VTC) you need to specify a Vertcoin pool server.
-				
-				Example:
-				TBMiner --vtc-hostname pool.eu.woolypooly.com --vtc-wallet ****
-
 -6  -vp --vtc-port		If you choose to dual mine with algo "etc+vtc" (+VTC) you need to specify a Vertcoin pool servers port number.
-				
-				Example:			    
-				TBMiner --vtc-hostname pool.eu.woolypooly.com --vtc-wallet **** --vtc-port 3102
+    -v5 --vtc-passwd		Set the vertcoin pool password in dual mining mode.
 
-   -v5 --vtc-passwd		Set the vertcoin pool password in dual mining mode.
-
-				Example:			    
-				TBMiner --vtc-hostname pool.eu.woolypooly.com --vtc-wallet **** --vtc-port 3102 --vtc-passwd x
-		    
 -A  -zp --zil-power-limit [,]	This option is used to set a power limit for the Zil POW window (Nvidia CUDA).
 				After the ZIL POW the previous power limit is restored.
 				The format is an array of comma seperated values where the first value is for GPU 0 and so forth.
@@ -387,37 +336,14 @@
 				TBMiner --api --api-version 1.4
 
 -Q -rw --rvn-wallet		If you choose to dual mine with algo "etc+rvn" (+RVN) you need to set the Ravencoin wallet address.
-				
-				Example:
-				TBMiner --rvn-wallet ****
-
 -q -rh --rvn-hostname		If you choose to dual mine with algo "etc+rvn" (+RVN) you need to specify a Ravencoin pool server.
-				
-				Example:
-				TBMiner --hostname rvn.2miners.com --rvn-wallet ****
-
 -K -rp --rvn-port		If you choose to dual mine with algo "etc+rvn" (+RVN) you need to specify set the Ravencoin pool servers port number.
-
-				Example:
-				TBMiner --hostname rvn.2miners.com --port 6060 --rvn-wallet ****
-
    -v5 --rvn-passwd             Set the raven pool password in dual mining mode.
 
    -v1 --ethb3-wallet		If you choose to dual mine with algo "ethb3+zil" you need to set the ETHB wallet address.
-
-				Example:
-
    -v2 --ethb3-hostname		If you choose to dual mine with algo "ethb3+zil" you need to specify a ETHB pool server.
-
-				Example:
-
    -v3 --ethb3-port		If you choose to dual mine with algo "ethb3+zil" you need to specify a ETHB pool server.
-
-				Example:
-
    -v4 --ethb3-passwd		Set the ethb3 pool password in dual mining mode
-
-				Example:
 
 -2 -vi --verthash-xintensity [,]
 
