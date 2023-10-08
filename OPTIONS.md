@@ -21,7 +21,7 @@
 -i -ip --ip			Set ip address for pool.
 
 				Example
-				TBMiner --ip 18.197.166.72
+				TBMiner --ip 192.168.1.72
 
 -H -hn --hostname		Set hostname for pool.
 
