@@ -204,38 +204,32 @@
 				Example:
 				TBMiner --electricity-cost 0.10 --electricity-currency USD
 
--v --no-verbose             Less output.
-                            A flag to suppress output in the program console.
+-v -nv --no-verbose		Less console output.
+				A flag to suppress output in the program console.
 			                      			    
-			    Example:
-			    
-			    TBMiner --no-verbose
-			    
--I --no-ansi                Disable ANSI colors in console output.
-                            A flag to disable colors if your system do not support them.
-			    
-			    On Windows 10 you can run the "ansicolor.reg" script to enable colors.
-			    
-			    Example:
-			    
-			    TBMiner --no-ansi
-			    
--B --no-stats               Disable statistics.
-                            A flag to disable statistics.
-			    
-			    Example:
-			    
-			    TBMiner --no-stats
+				Example:				
+				TBMiner --no-verbose
 
--N --no-cpu                 Lower CPU usage.
-                            A flag to lower the miners use of CPU.
-			    Useful for rigs or computers with not that much CPU resources.
-			    
-			    Example:
-			    
-			    TBMiner --no-cpu
+-I -na --no-ansi		Disable ANSI colors in console output.
+				A flag to disable colors if your system do not support them.
 
--b --amd-only               Run with Amd devices only.
+				On Windows 10 you can run the "ansicolor.reg" script to enable colors.
+			    
+				Example:
+				TBMiner --no-ansi
+			    
+-B -ns --no-stats		Disable console statistics.
+				
+				Example:
+				TBMiner --no-stats
+
+-N -ns --no-cpu			Lower the miners CPU usage.
+				Useful for rigs or computers with not that much CPU resources.
+				
+				Example:
+				TBMiner --no-cpu
+
+-b -nc --amd-only	Run with Amd devices only.
                             A flag to use only Amd devices for mining.
 			    
 			    Example:
