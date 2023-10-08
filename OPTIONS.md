@@ -315,37 +315,33 @@
 				
 				This will be mine for 1 hour.
 			    
--1 --maintenance-wallet	    Mine to another wallet x percent of the time. 
-			    The maintenance-wallet is mined to continuously, 
-			    so you wont get a jumping hashrate on the main worker.
+-1 mw --maintenance-wallet	Mine to another wallet x percent of the time. 
+				The maintenance-wallet is mined to continuously, 
+				so you wont get a jumping hashrate on the main worker.
+				
+				Example:
+				TBMiner --maintenance-wallet ****
 
-			    Example:
-
-			    TBMiner --maintenance-wallet ****
-
--0 --maintenance-percent    Set the maintainance-wallet percent.
-                            Minimum 1%.
-                            Maximum 50%.
-
-                            Example:
-
-                            TBMiner --maintenance-percent 1 --maintenance-wallet ****
+-0 -mp --maintenance-percent	Set the maintainance-wallet percent.
+				Minimum 1%.
+				Maximum 50%.
+				
+				Example:				
+				TBMiner --maintenance-percent 1 --maintenance-wallet ****
 			
--O --all-platforms 	    Add OpenCL devices from all platforms.
-                            Use this option if you are missing amd cards in the list.
-			    
-			    Example:
-			    
-			    TBMiner --all-platforms
+-O -ap --all-platforms		Add OpenCL devices from all AMD platforms.
+				Use this option if you are missing AMD cards in the list.
+				
+				Example:				
+				TBMiner --all-platforms
 
--7  --verthash-data         Set a path to the verthash data file.
-                            The verthash data file needs to be generated to mine Vertcoin.
-			    You only need to do this at the first run.
-			    Save the verthash data file and use this option to set the path.
-
-                            Example:
-
-                            TBMiner --verthash-data C:\data\verthash.dat
+-7  -vd --verthash-data		Set a path to the verthash data file.
+				The verthash data file needs to be generated to mine Vertcoin.
+				You only need to do this at the first run.
+				Save the verthash data file and use this option to set the path.
+				
+				Example:
+				TBMiner --verthash-data C:\data\verthash.dat
 
 -X  --disablesharedag       Disable copy of DAG to low memory cards.
 
