@@ -394,19 +394,30 @@
 -q -rh --rvn-hostname		If you choose to dual mine with algo "etc+rvn" (+RVN) you need to specify a Ravencoin pool server.
 				
 				Example:
-				TBMiner --hostname rvn.2miners.com --vtc-wallet ****
+				TBMiner --hostname rvn.2miners.com --rvn-wallet ****
 
 -K -rp --rvn-port		If you choose to dual mine with algo "etc+rvn" (+RVN) you need to specify set the Ravencoin pool servers port number.
 
 				Example:
-				TBMiner --hostname rvn.2miners.com --port 6060 --vtc-wallet ****
+				TBMiner --hostname rvn.2miners.com --port 6060 --rvn-wallet ****
 
    -v5 --rvn-passwd             Set the raven pool password in dual mining mode.
 
-   -v1 --ethb3-wallet		If you choose to dual mine with algo "ethb3+zil" you need to set the ETHB wallet address.	
+   -v1 --ethb3-wallet		If you choose to dual mine with algo "ethb3+zil" you need to set the ETHB wallet address.
+
+				Example:
+
    -v2 --ethb3-hostname		If you choose to dual mine with algo "ethb3+zil" you need to specify a ETHB pool server.
+
+				Example:
+
    -v3 --ethb3-port		If you choose to dual mine with algo "ethb3+zil" you need to specify a ETHB pool server.
+
+				Example:
+
    -v4 --ethb3-passwd		Set the ethb3 pool password in dual mining mode
+
+				Example:
 
 -2 -vi --verthash-xintensity [,]
 
@@ -427,7 +438,6 @@
 				Very useful to be able to find the best hashrate and the produce the minimum rejected shares.
 				Different pools and different setup might have different best values for xintensity.
 								    
-				Example:
-				
+				Example:		
 				TBMiner --kawpow-xintensity [224,222]
 ```
