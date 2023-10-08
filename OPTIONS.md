@@ -189,22 +189,20 @@
 				This will put all of devices 0, 1 or 2 to a 6 seconds sleep if the core temperature
 				of the GPU exceeds 95 degrees celcius.
 			    
--e --electricity-cost       Set cost per kWh.
-                            This sets the cost of electricity by kWh.
-			    See your electricity provider for the correct price.
-			    This is printed in the console statistics.
+-e -ec --electricity-cost	Set cost per kWh.
+				This sets the cost of electricity by kWh.
+				See your electricity provider for the correct price.
+				This is printed in the console statistics.
+				
+				Example:
+				TBMiner --electricity-cost 0.10
 			    
-                            Example:
-			    
-			    TBMiner --electricity-cost 0.10
-			    
--u --electricity-currency   Set currency type.
-                            Currency type could be US dollar, Euro, Yen or anything.
-			    This is used in the console statistics to track costs.
-			    
-			    Example:
-			    
-			    TBMiner --electricity-cost 0.10 --electricity-currency USD
+-u -eu --electricity-currency	Set currency type.
+				Currency type could be US Dollars, Euro, Yen or anything else.
+				This is used in the console statistics to track costs.
+				
+				Example:
+				TBMiner --electricity-cost 0.10 --electricity-currency USD
 
 -v --no-verbose             Less output.
                             A flag to suppress output in the program console.
