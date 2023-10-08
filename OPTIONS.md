@@ -343,38 +343,33 @@
 				Example:
 				TBMiner --verthash-data C:\data\verthash.dat
 
--X  --disablesharedag       Disable copy of DAG to low memory cards.
+-X  -ds --disablesharedag	Disable copying of DAG to low memory cards.
+				If a DAG verification fails, a successfully generated DAG will be copied from another GPU.
+				This option turn the feature off.
+				
+				Example:
+				TBMiner --amd-only --disablesharedag
 
-                            If a DAG verification fails, a successfully generated DAG will be copied from another GPU.
+-4  -vw --vtc-wallet		If you choose to dual mine with algo "etc+vtc" (+VTC) you need to set the Vertcoin wallet address.
+				
+				Example:
+				TBMiner --vtc-wallet ****
 
-                            This option turn the feature off.
+-5  -vh --vtc-hostname		If you choose to dual mine with algo "etc+vtc" (+VTC) you need to specify a Vertcoin pool server.
+				
+				Example:
+				TBMiner --vtc-hostname pool.eu.woolypooly.com --vtc-wallet ****
 
-                            Example:
+-6  -vp --vtc-port		If you choose to dual mine with algo "etc+vtc" (+VTC) you need to specify a Vertcoin pool servers port number.
+				
+				Example:			    
+				TBMiner --vtc-hostname pool.eu.woolypooly.com --vtc-wallet **** --vtc-port 3102
 
-                            TBMiner --amd-only --disablesharedag
+   -v5 --vtc-passwd		Set the vertcoin pool password in dual mining mode.
 
--4  --vtc-wallet	    If you choose to dual mine with algo "etc+vtc" (+VTC) you need to set the Vertcoin wallet address.
-
-                            Example:
-			    
-			    TBMiner --vtc-wallet ****
-
--5  --vtc-hostname          If you choose to dual mine with algo "etc+vtc" (+VTC) you need to specify a Vertcoin pool server.
-
-                            Example:
-			    
-			    TBMiner --vtc-hostname pool.eu.woolypooly.com --vtc-wallet ****
-
--6  --vtc-port              Set the Vertcoin pool servers port number.
-
-                            Example:
-			    
-			    TBMiner --vtc-hostname pool.eu.woolypooly.com --vtc-wallet **** --vtc-port 3102
-    --vtc-passwd            Set the vertcoin pool password in dual mining mode
-
+				Example:			    
+				TBMiner --vtc-hostname pool.eu.woolypooly.com --vtc-wallet **** --vtc-port 3102 --vtc-passwd x
 		    
-
-
 -A  --zil-power-limit [,]   This option is used to set a power limit for the Zil POW Window. (Nvidia CUDA)
                             After the ZIL POW the previous power limit is restored.
 			    The format is an array of comma seperated values where the first value is for GPU 0 and so forth.
