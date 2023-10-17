@@ -302,7 +302,7 @@
 -O -ap --all-platforms		Add OpenCL devices from all AMD platforms.
 				Use this option if you are missing AMD cards in the list.
 
--7  -vd --verthash-data		Set a path to the verthash data file.
+-7 -vd --verthash-data		Set a path to the verthash data file.
 				The verthash data file needs to be generated to mine Vertcoin.
 				You only need to do this at the first run.
 				Save the verthash data file and use this option to set the path.
@@ -310,16 +310,16 @@
 				Example:
 				TBMiner --verthash-data C:\data\verthash.dat
 
--X  -ds --disablesharedag	Disable copying of DAG to low memory cards.
+-X -ds --disablesharedag	Disable copying of DAG to low memory cards.
 				If a DAG verification fails, a successfully generated DAG will be copied from another GPU.
 				This option turn the feature off.
 
--4  -vw --vtc-wallet		If you choose to dual mine with algo "etc+vtc" (+VTC) you need to set the Vertcoin wallet address.
--5  -vh --vtc-hostname		If you choose to dual mine with algo "etc+vtc" (+VTC) you need to specify a Vertcoin pool server.
--6  -vp --vtc-port		If you choose to dual mine with algo "etc+vtc" (+VTC) you need to specify a Vertcoin pool servers port number.
-    -v5 --vtc-passwd		Set the vertcoin pool password in dual mining mode.
+-4 -vw --vtc-wallet		If you choose to dual mine with algo "etc+vtc" (+VTC) you need to set the Vertcoin wallet address.
+-5 -vh --vtc-hostname		If you choose to dual mine with algo "etc+vtc" (+VTC) you need to specify a Vertcoin pool server.
+-6 -vp --vtc-port		If you choose to dual mine with algo "etc+vtc" (+VTC) you need to specify a Vertcoin pool servers port number.
+   -v6 --vtc-passwd		Set the vertcoin pool password in dual mining mode.
 
--A  -zp --zil-power-limit [,]	This option is used to set a power limit for the Zil POW window (Nvidia CUDA).
+-A -zp --zil-power-limit [,]	This option is used to set a power limit for the Zil POW window (Nvidia CUDA).
 				After the ZIL POW the previous power limit is restored.
 				The format is an array of comma seperated values where the first value is for GPU 0 and so forth.
 				
@@ -328,7 +328,7 @@
 				
 				This will set the power to 250 Watt for GPU 0 and GPU 1 during the ZIL POW.
 
--8  -av --api-version		Specify the APIs version number.
+-8 -av --api-version		Specify the APIs version number.
 				Valid specifiers are 1.3 and 1.4
 				Version 1.4 is slightly improved and also provide stats for dual mining.
 				
@@ -345,25 +345,9 @@
    -v3 --ethb3-port		If you choose to dual mine with algo "ethb3+zil" you need to specify a ETHB pool server.
    -v4 --ethb3-passwd		Set the ethb3 pool password in dual mining mode
 
--2 -vi --verthash-xintensity [,]
+-2 -di --dual-xintensity	Set intensity for dual mining mode.
+				This option will set the intensity (xintensity) for both algorithms.
+   -v7, --zil-only		All epocs other than zil will not be mined in dual mining mode.
 
-				Set a comma separated array of GPU devices intensity for Verthash dualmining.
-				If one value is set, this value will be used for all devices. 
-				
-				This sets the intensity for the GPU threads.
-				Useful to be able to find the best hashrate and the produce the minimum rejected shares.
-				Different pools and different setup might have different best values for xintensity.
-								    
-				Example:
-				TBMiner --verthash-xintensity [224,222]
-				
--9 -ki --kawpow-xintensity [,]	Set a comma separated array of GPU devices intensity for Ravencoin dualmining.
-				If one value is set, this value will be used for all devices. 
-				
-				This sets the intensity for the GPU threads.
-				Very useful to be able to find the best hashrate and the produce the minimum rejected shares.
-				Different pools and different setup might have different best values for xintensity.
-								    
-				Example:		
-				TBMiner --kawpow-xintensity [224,222]
+
 ```
