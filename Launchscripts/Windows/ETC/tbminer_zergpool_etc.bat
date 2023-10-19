@@ -1,8 +1,8 @@
-set WALLET=0xe055f3f9865c8cee4747eeefaab6f0765ef7dace
-set PAYOUT_CURRENCY=ETC
+set WALLET=1NHcCb5M7xk6NyShay8gGyodamzzotUes6
+set PAYOUT_CURRENCY=BTC
 
 :loop
-	TBMiner --algo etchash --hostname etchash.eu.mine.zergpool.com --port 9997 --wallet %WALLET% --server-passwd c=%PAYOUT_CURRENCY%,ID=%computername%
+	TBMiner --algo etchash --hostname etchash.eu.mine.zergpool.com --port 9997 --wallet %WALLET% --server-passwd c=%PAYOUT_CURRENCY%,mc=ETC,ID=%computername%
 	timeout 10
 goto :loop
 
