@@ -347,7 +347,7 @@
 
 -2 -di --dual-xintensity	Set intensity for dual mining mode.
 				This option will set the intensity (xintensity) for both algorithms.
-   -v7, --zil-only		All epocs other than zil will not be mined in dual mining mode.
+   -v7, --zil-only		All epocs other than zil (ETHASH/ETCHASH epoc 1) will not be mined in dual mining mode.
 
 
 ```
