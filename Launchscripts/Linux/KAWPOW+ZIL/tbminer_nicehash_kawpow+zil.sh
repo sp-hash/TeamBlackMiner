@@ -2,7 +2,7 @@
 
 RESTART="TRUE"
 ZIL_WALLET=zil1xrv7nsssq3t08mjjgh26ux58pml22afdpx2sf6
-BTC_WALLET=R9RaKw5HNuwtbXYRXWrpUugAE8WhtMhfUk
+BTC_WALLET=1NHcCb5M7xk6NyShay8gGyodamzzotUes6
 WORKER_NAME="fr"
 
 cleanup ()
