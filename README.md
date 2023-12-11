@@ -2,9 +2,12 @@
 
 Team Black Miner (**TBM**) was created by a group of nordic black ops in the cryptocurrency scene.
 
-TBM maintains a leading position in mining coins like **REthereum POW**, **Ethereum POW**, **Ethereum Classic**, **Vertcoin**, **Ravencoin** and **Zilliqa**.
+TBM maintains a leading position in mining coins like **Rethereum POW**, **Ethereum POW**, **Ethereum Classic**, **Vertcoin**, **Ravencoin**, **Firo** and **Zilliqa**.
 
-Developer fee for Rethereum, Ethereum POW and Ethereum Classic is only **0.5%**
+Hashing algos supported:
+ethash, etchash, ethashb3, kawpow, firopow, verthash
+
+The developer fee for all algos is only **0.5%**
 
 
 * [Features](https://github.com/sp-hash/TeamBlackMiner#features)
