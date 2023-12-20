@@ -345,6 +345,11 @@
    -v3 --ethb3-port		If you choose to dual mine with algo "ethb3+zil" you need to specify a ETHB pool server.
    -v4 --ethb3-passwd		Set the ethb3 pool password in dual mining mode
 
+   -fh --firo-wallet		If you choose to dual mine with algo "firo+zil" you need to set the Firo wallet address.
+   -fp --firo-hostname		If you choose to dual mine with algo "firo+zil" you need to specify a Firo pool server.
+   -fh --firo-port		If you choose to dual mine with algo "firo+zil" you need to specify a Firo pool server.
+   -fa --firo-passwd		Set the Firo pool password in dual mining mode
+
 -2 -di --dual-xintensity	Set intensity for dual mining mode.
 				This option will set the intensity (xintensity) for both algorithms.
    -v7, --zil-only		All epocs other than zil (ETHASH/ETCHASH epoc 1) will not be mined in dual mining mode.
