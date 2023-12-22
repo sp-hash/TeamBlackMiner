@@ -122,18 +122,22 @@
 -a -al --algo			Select algorihtm.
 
 				Supported algorithms values is:
-				"ethash" - Ethereum POW, Ethereum Fair.
-				"etchash" - Ethereum Classic.
-				"zil" - Zilliqua.
-				"verthash" - Vertcoin.
-				"kawpow" - Ravencoin.
-				"ethashb3" - Rethereum.
+				"ethash" - Ethereum POW, Ethereum Fair
+				"etchash" - Ethereum Classic
+				"zil" - Zilliqua
+				"verthash" - Vertcoin
+				"kawpow" - Ravencoin
+				"firopow" - Firo
+				"ethashb3" - Hypra
+				"ethashb3" - Hypra
 				"etc+vtc" - Etchash dualmine with +VTC (Vertcoin).
 				"eth+vtc" - Etchash dualmine with +VTC (Vertcoin).
-				"etc+rvn" - Etchash dualmine with kawpow.
-				"eth+rvn" - Ethash dualmine with kawpow.
-				"eth+ethb3" - Ethash dualmine Rethereum.
-				"etc+ethb3" - Etchash dualmine Rethereum.
+				"etc+rvn" - Etchash dualmine with Kawpow
+				"eth+rvn" - Ethash dualmine with Kawpow
+				"etc+firo" - Etchash dualmine with Firo
+				"eth+firo" - Ethash dualmine with Firo
+				"eth+ethb3" - Ethash dualmine Hypra
+				"etc+ethb3" - Etchash dualmine Hypra
 
 				Example:
 				TBMiner --algo verthash
