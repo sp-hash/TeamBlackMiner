@@ -2,7 +2,7 @@
 
 Team Black Miner (**TBM**) was created by a group of nordic black ops in the cryptocurrency scene.
 
-TBM maintains a leading position in mining coins like **Rethereum POW**, **Ethereum POW**, **Ethereum Classic**, **Vertcoin**, **Ravencoin**, **Firo** and **Zilliqa**.
+TBM maintains a leading position in mining algos like  **Ethereum POW**, **Ethereum Classic**, **Verthash**, **Kawpow**, **Firo**,**Hypra** and **Zilliqa**.
 
 Hashing algos supported:
 ethash, etchash, ethashb3, kawpow, firopow, verthash
@@ -50,7 +50,7 @@ The developer fee for all algos is only **0.5%**
 | Ethash        | EthereumPow       | Nvidia, AMD | 0.5%          |
 | Ethash        | Zilliqa           | Nvidia, AMD | 0.5%          |
 | Etchash       | Ethereum Classic  | Nvidia, AMD | 0.5%          |
-| EthashB3      | Rethereum         | Nvidia, AMD | 0.5%          |
+| EthashB3      | Hypra             | Nvidia, AMD | 0.5%          |
 | Kawpow        | Ravencoin         | Nvidia, AMD | 0.5%          |
 | Firopow       | Firo              | Nvidia, AMD | 0.5%          |
 | Verthash      | Vertcoin          | Nvidia, AMD | 0.5%          |                                                    
