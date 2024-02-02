@@ -164,6 +164,15 @@
 				
 				See --list-devices for devices.
 
+-3 -dp --devicesbypcie [,]	Set a comma separated array of PCIe bus ids. (Nvidia CUDA only.)
+
+				Example:
+				TBMiner --devicesbypcie [9]
+
+				This will setup mining with CUDA for GPU device 0 with the card at PCIe bus id 9.
+
+				See --list-devices for PCIe bus ids.
+
 -z -ca --cl-all-devices		Use OpenCl for all devices.
 				A flag to use all available devices for OpenCL mining.
 
