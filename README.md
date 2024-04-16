@@ -51,6 +51,7 @@ The developer fee for all algos is only **0.5%**
 | Ethash        | Zilliqa           | Nvidia, AMD | 0.5%          |
 | Etchash       | Ethereum Classic  | Nvidia, AMD | 0.5%          |
 | EthashB3      | Hypra             | Nvidia, AMD | 0.5%          |
+| Evrprogpow    | Evrmore           | Nvidia, AMD | 0.5%          |
 | Kawpow        | Ravencoin         | Nvidia, AMD | 0.5%          |
 | Firopow       | Firo              | Nvidia, AMD | 0.5%          |
 | Verthash      | Vertcoin          | Nvidia, AMD | 0.5%          |                                                    
@@ -68,6 +69,9 @@ The developer fee for all algos is only **0.5%**
 | Ethash+FiroPow   |                       | Nvidia, AMD | 0.5%          |
 | Etchash+FiroPow  |                       | Nvidia, AMD | 0.5%          |
 | EthashB3+FiroPow |                       | Nvidia, AMD | 0.5%          |
+| Ethash+EvrPow    |                       | Nvidia, AMD | 0.5%          |
+| Etchash+EvrPow   |                       | Nvidia, AMD | 0.5%          |
+| EthashB3+EvrPow  |                       | Nvidia, AMD | 0.5%          |
 | Ethash+EthashB3  |                       | Nvidia, AMD | 0.5%          |
 | Etchash+EthashB3 |                       | Nvidia, AMD | 0.5%          |
 
