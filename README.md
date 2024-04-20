@@ -2,7 +2,7 @@
 
 Team Black Miner (**TBM**) was created by a group of nordic black ops in the cryptocurrency scene.
 
-TBM maintains a leading position in mining algos like  **Ethereum POW**, **Ethereum Classic**, **Verthash**, **Kawpow**, **Firo**,**Hypra** and **Zilliqa**.
+TBM maintains a leading position in mining algos like  **Ethereum POW**, **Ethereum Classic**, **Verthash**, **Kawpow**, **Firo**,**Meowpow**,**Evrpow**,**Hypra** and **Zilliqa**.
 
 Hashing algos supported:
 ethash, etchash, ethashb3, kawpow, firopow, verthash
@@ -52,8 +52,9 @@ The developer fee for all algos is only **0.5%**
 | Etchash       | Ethereum Classic  | Nvidia, AMD | 0.5%          |
 | EthashB3      | Hypra             | Nvidia, AMD | 0.5%          |
 | Evrprogpow    | Evrmore           | Nvidia, AMD | 0.5%          |
-| Kawpow        | Ravencoin         | Nvidia, AMD | 0.5%          |
 | Firopow       | Firo              | Nvidia, AMD | 0.5%          |
+| Meowpow       | Meowcoin          | Nvidia, AMD | 0.5%          |
+| Kawpow        | Ravencoin         | Nvidia, AMD | 0.5%          |
 | Verthash      | Vertcoin          | Nvidia, AMD | 0.5%          |                                                    
 
 ## Supported dual mining and tripple mining combos and developer commission
@@ -72,6 +73,9 @@ The developer fee for all algos is only **0.5%**
 | Ethash+EvrPow    |                       | Nvidia, AMD | 0.5%          |
 | Etchash+EvrPow   |                       | Nvidia, AMD | 0.5%          |
 | EthashB3+EvrPow  |                       | Nvidia, AMD | 0.5%          |
+| Ethash+MeowPow   |                       | Nvidia, AMD | 0.5%          |
+| Etchash+MeowPow  |                       | Nvidia, AMD | 0.5%          |
+| EthashB3+MeowPow |                       | Nvidia, AMD | 0.5%          |
 | Ethash+EthashB3  |                       | Nvidia, AMD | 0.5%          |
 | Etchash+EthashB3 |                       | Nvidia, AMD | 0.5%          |
 
