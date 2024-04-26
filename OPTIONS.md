@@ -301,17 +301,7 @@
 				TBMiner --miningtime 60
 				
 				This will be mine for 1 hour.
-			    
--1 mw --maintenance-wallet	Mine to another wallet x percent of the time. 
-				The maintenance-wallet is mined to continuously, 
-				so you wont get a jumping hashrate on the main worker.
-
--0 -mp --maintenance-percent	Set the maintainance-wallet percent.
-				Minimum 1%. Maximum 50%.
-				
-				Example:				
-				TBMiner --maintenance-percent 1 --maintenance-wallet ****
-			
+			    			
 -O -ap --all-platforms		Add OpenCL devices from all AMD platforms.
 				Use this option if you are missing AMD cards in the list.
 
