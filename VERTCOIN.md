@@ -16,18 +16,14 @@ Filesize is about 1.3 GB. Vertcoin can be mined on GPU's with 2GB memory or more
 ```bash
 $ ./tbminer_hashalot_vtc.sh
 ```
-
-(Or you can use the **start_vtc_hashalot+zil.sh** start script)
-
-And one for TBMiner:
-
 ```bash
 $ ./tbminer_miningpoolhub_vtc.sh
 ```
+(Or you can use the **start_vtc_hashalot+zil.sh** start script)
 
 ## Windows
 
-There are three pool run scripts
+Example run scripts:
 + start_hashalot_vtc.bat
 + start_miningpoolhub_vtc.bat
 
