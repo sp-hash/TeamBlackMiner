@@ -45,17 +45,17 @@ The developer fee for all algos is only **0.5%**
 
 ## Supported algorithms and developer commission
 
-| Algo          | Coins             | Platform    | Commission    |
-| ------------- | ----------------- | ----------- | ------------- |
-| Ethash        | EthereumPow       | Nvidia, AMD | 0.5%          |
-| Ethash        | Zilliqa           | Nvidia, AMD | 0.5%          |
-| Etchash       | Ethereum Classic  | Nvidia, AMD | 0.5%          |
-| EthashB3      | Hypra             | Nvidia, AMD | 0.5%          |
-| Evrprogpow    | Evrmore           | Nvidia, AMD | 0.5%          |
-| Firopow       | Firo              | Nvidia, AMD | 0.5%          |
-| Meowpow       | Meowcoin          | Nvidia, AMD | 0.5%          |
-| Kawpow        | Ravencoin         | Nvidia, AMD | 0.5%          |
-| Verthash      | Vertcoin          | Nvidia, AMD | 0.5%          |                                                    
+| Algo          | Coins                | Platform    | Commission    |
+| ------------- | ---------------------- | ----------- | ------------- |
+| Ethash        | EthereumPow and clones | Nvidia, AMD | 0.5%          |
+| Ethash        | Zilliqa                | Nvidia, AMD | 0.5%          |
+| Etchash       | Ethereum Classic       | Nvidia, AMD | 0.5%          |
+| EthashB3      | Hypra                  | Nvidia, AMD | 0.5%          |
+| Evrprogpow    | Evrmore                | Nvidia, AMD | 0.5%          |
+| Firopow       | Firo and clones        | Nvidia, AMD | 0.5%          |
+| Meowpow       | Meowcoin               | Nvidia, AMD | 0.5%          |
+| Kawpow        | Ravencoin and clones   | Nvidia, AMD | 0.5%          |
+| Verthash      | Vertcoin               | Nvidia, AMD | 0.5%          |                                                    
 
 ## Supported dual mining and tripple mining combos and developer commission
 
