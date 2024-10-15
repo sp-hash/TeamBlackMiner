@@ -5,7 +5,7 @@ Team Black Miner (**TBM**) was created by a group of nordic black ops in the cry
 TBM maintains a leading position in mining algos like  **Ethereum POW**, **Ethereum Classic**, **Verthash**, **Kawpow**, **Firo**,**Meowpow**,**Evrpow**,**Hypra** and **Zilliqa**.
 
 Hashing algos supported:
-ethash, etchash, ethashb3, kawpow, firopow, verthash
+ethash, etchash, ethashb3, kawpow, firopow, meowpow, evrprogpow, verthash
 
 The developer fee for all algos is only **0.5%**
 
