@@ -2,7 +2,7 @@
 
 Team Black Miner (**TBM**) was created by a group of nordic black ops in the cryptocurrency scene.
 
-TBM maintains a leading position in mining algos like  **Ethereum POW**, **Ethereum Classic**, **Verthash**, **Kawpow**, **Firo**,**Meowpow**,**Evrpow**,**Hypra** and **Zilliqa**.
+TBM maintains a leading position in mining algos like  **Ethereum POW**, **Ethereum Classic**, **Verthash**, **Kawpow**, **Firo**,**Meowpow**,**Evrpow** and **Hypra**.
 
 Hashing algos supported:
 ethash, etchash, ethashb3, kawpow, firopow, meowpow, evrprogpow, verthash
@@ -35,7 +35,7 @@ The developer fee for all algos is only **0.5%**
 ## Features
 + Commission is charged continuously, and not in intervals (as in most miners), which has a positive effect on the user's profitability on PPLNS pools.
 + Verifying Shares on processor, warning when GPU overclocking is very high for Ethash, Etcash, helps to overclock GPU without errors.
-+ DAG caching if the GPU has enough memory, DAG files are not recomputed when switching to another algorithm when mining Ethash + Zilliqa or Nicehash.
++ DAG caching if the GPU has enough memory, DAG files are not recomputed when switching to another algorithm when mining on Nicehash.
 + If a Low memory GPU doesn't have enough memory it can copy the dag buffer from a another gpu in the rig.
 + Temperature control and stop the GPU in case of overheating.
 + Mechanism to restore lost connection with pool.
@@ -48,7 +48,6 @@ The developer fee for all algos is only **0.5%**
 | Algo          | Coins                | Platform    | Commission    |
 | ------------- | ---------------------- | ----------- | ------------- |
 | Ethash        | EthereumPow and clones | Nvidia, AMD | 0.5%          |
-| Ethash        | Zilliqa                | Nvidia, AMD | 0.5%          |
 | Etchash       | Ethereum Classic       | Nvidia, AMD | 0.5%          |
 | EthashB3      | Hypra                  | Nvidia, AMD | 0.5%          |
 | Evrprogpow    | Evrmore                | Nvidia, AMD | 0.5%          |
@@ -78,8 +77,6 @@ The developer fee for all algos is only **0.5%**
 | EthashB3+MeowPow |                       | Nvidia, AMD | 0.5%          |
 | Ethash+EthashB3  |                       | Nvidia, AMD | 0.5%          |
 | Etchash+EthashB3 |                       | Nvidia, AMD | 0.5%          |
-
-Some pools support zil mining together with ETC or ETH mining so you mine 3 coins.
 
 ## For developers
 
