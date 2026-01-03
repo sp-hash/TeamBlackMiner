@@ -1,7 +1,7 @@
 #!/bin/bash
 
 RESTART="TRUE"
-QUAI_WALLET=(wallet)
+QUAI_WALLET=wallet
 WORKER_NAME="fr"
 
 cleanup ()
@@ -13,7 +13,7 @@ trap cleanup SIGINT SIGTERM
 
 while [ 1 ]
 do
-    ./TBMiner --algo kawpow --hostname quai-kawpow.kryptex.network --port 7043 --wallet $RVN_WALLET --worker-name $WORKER_NAME
+    ./TBMiner --algo kawpow --hostname quai-kawpow.kryptex.network --port 7043 --wallet $QUAI_WALLET --worker-name $WORKER_NAME
 
     if [ $RESTART == "FALSE" ]
     then
