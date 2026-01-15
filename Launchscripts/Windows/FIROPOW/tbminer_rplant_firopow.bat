@@ -1,4 +1,4 @@
-Set BTC_WALLET= your wallet
+Set BTC_WALLET= your FIRO wallet
 set PAYOUT_CURRENCY=FIRO
 
 :loop
