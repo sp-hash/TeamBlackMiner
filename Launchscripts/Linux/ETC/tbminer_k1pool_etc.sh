@@ -1,7 +1,7 @@
 #!/bin/bash
 
 RESTART="TRUE"
-USERNAME="KrXauVHzMZTqbmVqXkuMx8Gzog9xAHxqbtp"
+POOL_USER="your_pool_user"
 WORKER_NAME="fr"
 
 cleanup ()
@@ -13,7 +13,7 @@ trap cleanup SIGINT SIGTERM
 
 while [ 1 ]
 do
-    ./TBMiner --algo etchash --hostname eu.etc.k1pool.com --port 3821 --wallet $USERNAME --worker-name $WORKER_NAME
+    ./TBMiner --algo etchash --hostname eu.etc.k1pool.com --port 3821 --wallet $POOL_USER --worker-name $WORKER_NAME
 
     if [ $RESTART == "FALSE" ]
     then

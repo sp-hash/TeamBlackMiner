@@ -1,4 +1,4 @@
-Set RVN_WALLET=R9RaKw5HNuwtbXYRXWrpUugAE8WhtMhfUk
+Set RVN_WALLET=R...
 
 :loop
     TBMiner --algo kawpow --hostname stratum.ravenminer.com --port 3838 --wallet %RVN_WALLET% --worker-name %computername%

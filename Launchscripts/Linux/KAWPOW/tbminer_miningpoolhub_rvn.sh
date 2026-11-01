@@ -1,7 +1,7 @@
 #!/bin/bash
 
 RESTART="TRUE"
-RVN_WALLET="fr"
+RVN_WALLET="your_pool_user"
 WORKER_NAME="fr"
 
 cleanup ()

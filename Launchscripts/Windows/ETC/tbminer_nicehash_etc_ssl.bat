@@ -1,4 +1,4 @@
-Set BTC_WALLET=1NHcCb5M7xk6NyShay8gGyodamzzotUes6
+Set BTC_WALLET=your_btc_wallet
 
 :loop
 	TBMiner --algo etchash --hostname etchash.auto.nicehash.com --ssl --ssl-port 443 --wallet %BTC_WALLET% --worker-name %computername%

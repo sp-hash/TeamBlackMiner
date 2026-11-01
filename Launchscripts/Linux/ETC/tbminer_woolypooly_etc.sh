@@ -1,7 +1,7 @@
 #!/bin/bash
 
 RESTART="TRUE"
-ETC_WALLET="0xe055f3f9865c8cee4747eeefaab6f0765ef7dace"
+ETC_WALLET="0x..."
 WORKER_NAME="fr"
 
 cleanup ()

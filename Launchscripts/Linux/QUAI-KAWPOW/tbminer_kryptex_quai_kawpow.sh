@@ -1,7 +1,7 @@
 #!/bin/bash
 
 RESTART="TRUE"
-QUAI_WALLET=wallet
+QUAI_WALLET=your_wallet
 WORKER_NAME="fr"
 
 cleanup ()

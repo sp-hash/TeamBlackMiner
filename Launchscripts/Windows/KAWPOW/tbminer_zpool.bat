@@ -1,4 +1,4 @@
-Set BTC_WALLET=1NHcCb5M7xk6NyShay8gGyodamzzotUes6
+Set BTC_WALLET=your_btc_wallet
 set PAYOUT_CURRENCY=BTC
 
 :loop

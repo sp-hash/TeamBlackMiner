@@ -4,7 +4,7 @@
 # f2pool pays an account, not a wallet address: set F2POOL_USER to your f2pool account name.
 
 RESTART="TRUE"
-F2POOL_USER="your_f2pool_account"
+F2POOL_USER="your_pool_user"
 WORKER_NAME="$(hostname)"
 POOL_HOST="pearl.f2pool.com"
 POOL_PORT="5500"

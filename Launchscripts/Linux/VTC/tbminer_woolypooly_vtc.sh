@@ -1,7 +1,7 @@
 #!/bin/bash
 
 RESTART="TRUE"
-VTC_WALLET="vtc1q2nsj2802cc3phgqrsmuxey8gtucrxajs259dcy"
+VTC_WALLET="vtc1..."
 WORKER_NAME="fr"
 
 cleanup ()

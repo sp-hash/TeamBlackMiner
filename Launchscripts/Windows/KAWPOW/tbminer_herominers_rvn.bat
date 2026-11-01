@@ -1,4 +1,4 @@
-Set RVN_WALLET=R9RaKw5HNuwtbXYRXWrpUugAE8WhtMhfUk
+Set RVN_WALLET=R...
 
 :loop
     TBMiner --algo kawpow --hostname de.ravencoin.herominers.com --port 1140 --wallet %RVN_WALLET% --worker-name %computername%

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 RESTART="TRUE"
-USERNAME="ABqGd23RTMKf8WyjaaFK6X1"
+POOL_USER="your_pool_user"
 WORKER_NAME="fr02"
 
 cleanup ()
@@ -13,7 +13,7 @@ trap cleanup SIGINT SIGTERM
 
 while [ 1 ]
 do
-	./TBMiner --algo etchash --hostname s-fi.comining.io --ssl --ssl-port 9009 --wallet $USERNAME --worker-name $WORKER_NAME --ssl-verify-none
+	./TBMiner --algo etchash --hostname s-fi.comining.io --ssl --ssl-port 9009 --wallet $POOL_USER --worker-name $WORKER_NAME --ssl-verify-none
 
     if [ $RESTART == "FALSE" ]
     then

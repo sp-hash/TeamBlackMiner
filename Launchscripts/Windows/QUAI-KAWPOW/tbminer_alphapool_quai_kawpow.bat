@@ -1,4 +1,4 @@
-Set WALLET=place your wallet here
+Set WALLET=your_wallet
 
 :loop
     TBMiner --algo kawpow --hostname eu1.alphapool.tech --port 3333 --wallet %WALLET% --worker-name %computername%

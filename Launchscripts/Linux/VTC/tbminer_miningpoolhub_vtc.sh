@@ -1,7 +1,7 @@
 #!/bin/bash
 
 RESTART="TRUE"
-VTC_WALLET="sp"
+VTC_WALLET="your_pool_user"
 WORKER_NAME="fr"
 
 cleanup ()

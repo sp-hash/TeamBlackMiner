@@ -1,4 +1,4 @@
-Set RVN_WALLET=R9RaKw5HNuwtbXYRXWrpUugAE8WhtMhfUk
+Set RVN_WALLET=R...
 
 :loop
     TBMiner --algo kawpow --hostname eu.cruxpool.com --port 9999 --wallet %RVN_WALLET% --worker-name %computername%

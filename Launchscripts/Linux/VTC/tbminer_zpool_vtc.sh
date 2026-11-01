@@ -1,7 +1,7 @@
 #!/bin/bash
 
 RESTART="TRUE"
-WALLET="1NHcCb5M7xk6NyShay8gGyodamzzotUes6"
+WALLET="your_btc_wallet"
 PAYOUT_CURRENCY="BTC"
 WORKER_NAME="fr"
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 RESTART="TRUE"
-USERNAME="binaryf"
+POOL_USER="your_pool_user"
 WORKER_NAME="fr"
 
 cleanup ()
@@ -13,7 +13,7 @@ trap cleanup SIGINT SIGTERM
 
 while [ 1 ]
 do
-	./TBMiner --algo etchash --hostname eu.prohashing.com --port 3357 --wallet $USERNAME --server-passwd a=etchash,c=ethereumclassic,n=$WORKER_NAME
+	./TBMiner --algo etchash --hostname eu.prohashing.com --port 3357 --wallet $POOL_USER --server-passwd a=etchash,c=ethereumclassic,n=$WORKER_NAME
 
     if [ $RESTART == "FALSE" ]
     then

@@ -1,4 +1,4 @@
-Set VTC_WALLET=vtc1q2nsj2802cc3phgqrsmuxey8gtucrxajs259dcy
+Set VTC_WALLET=vtc1...
 
 :loop
     TBMiner --algo verthash --hostname mining.hashalot.net --port 3950 --wallet %VTC_WALLET% --worker-name %computername%

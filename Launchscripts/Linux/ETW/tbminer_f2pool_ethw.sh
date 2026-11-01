@@ -1,7 +1,7 @@
 #!/bin/bash
 
 RESTART="TRUE"
-USERNAME="binaryf"
+POOL_USER="your_pool_user"
 WORKER_NAME="fr"
 
 cleanup ()
@@ -13,7 +13,7 @@ trap cleanup SIGINT SIGTERM
 
 while [ 1 ]
 do
-	./TBMiner --algo ethash --hostname ethw.f2pool.com --port 6688 --wallet $USERNAME --worker-name $WORKER_NAME
+	./TBMiner --algo ethash --hostname ethw.f2pool.com --port 6688 --wallet $POOL_USER --worker-name $WORKER_NAME
 
     if [ $RESTART == "FALSE" ]
     then
