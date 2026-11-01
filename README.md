@@ -1,10 +1,11 @@
-![screenshot](https://github.com/sp-hash/TeamBlackMiner/blob/main/TBMiner.png)
+<img width="1248" height="832" alt="Team_black_miner_with_faster_perlhash" src="https://github.com/user-attachments/assets/cda2c2a5-061b-473a-bbb0-d36e79a9ece2" />
 
 Team Black Miner (**TBM**) was created by a group of nordic black ops in the cryptocurrency scene.
 
 TBM maintains a leading position in mining algos like  **Ethereum POW**, **Ethereum Classic**, **Verthash**, **Kawpow**, **Firopow**,**Meowpow**,**Evrpow** and **Hypra**.
 
 The developer fee for all algos is only **0.5%**
+
 
 
 * [Features](https://github.com/sp-hash/TeamBlackMiner#features)
