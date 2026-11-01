@@ -2,7 +2,7 @@
 
 Team Black Miner (**TBM**) was created by a group of nordic black ops in the cryptocurrency scene.
 
-TBM maintains a leading position in mining algos like  **Ethereum POW**, **Ethereum Classic**, **Verthash**, **Kawpow**, **Firopow**,**Meowpow**,**Evrpow** and **Hypra**.
+TBM maintains a leading position in mining algos like **Pearlhash** **Autolykosv2** **Ethereum POW**, **Ethereum Classic**, **Verthash**, **Kawpow**, **Firopow**,**Meowpow**,**Evrpow** and **Hypra**.
 
 The developer fee for all algos is only **0.5%**
 
@@ -45,12 +45,14 @@ The developer fee for all algos is only **0.5%**
 
 | Algo          | Coins                | Platform    | Commission    |
 | ------------- | ---------------------- | ----------- | ------------- |
+| Autolykosv2   | Ergo                   | Nvidia, AMD | 0.5           | 
 | Ethash        | EthereumPow and clones | Nvidia, AMD | 0.5%          |
 | Etchash       | Ethereum Classic       | Nvidia, AMD | 0.5%          |
 | EthashB3      | Hypra                  | Nvidia, AMD | 0.5%          |
 | Evrprogpow    | Evrmore                | Nvidia, AMD | 0.5%          |
 | Firopow       | Firo and clones        | Nvidia, AMD | 0.5%          |
 | Meowpow       | Meowcoin               | Nvidia, AMD | 0.5%          |
+| Pearlhash     | Pearl                  | Nvidia, AMD | 0.5%          |
 | Kawpow        | Ravencoin and clones   | Nvidia, AMD | 0.5%          |
 | Verthash      | Vertcoin               | Nvidia, AMD | 0.5%          |                                                    
 
@@ -58,6 +60,7 @@ The developer fee for all algos is only **0.5%**
 
 | Algo             | Coin                  | Platform    | Commission    |
 | ---------------- | --------------------- | ----------- | ------------- |
+| Pearl            | Pearl+NockChain       | Nvidia, AMD | 0.5%          |
 | Ethash+Verthash  |                       | Nvidia, AMD | 0.5%          |
 | Etchash+Verthash |                       | Nvidia, AMD | 0.5%          |
 | EthashB3+Verthash|                       | Nvidia, AMD | 0.5%          |
