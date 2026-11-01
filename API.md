@@ -1,13 +1,15 @@
+# API
+TBMiner has a small built-in read-only HTTP API, enabled with `--api`.
+
+It is used by profit switchers, rig monitors and other tools that need to know what the miner is doing.
+
+Two versions are available, selected with `--api-version`: 1.3 (below) and 1.4, which also covers dual mining (see [API v1.4](#api-v14)).
 
 # API (v1.3)
-TBMiner have a small built-in read only api.
-
-The api is used for profit switching miners or other systems
-which requires basic knownledge of whats going on in the miner.
 
 ## Default values
 - Default ip is 127.0.0.1
-- Default port is 4068.
+- Default port is 4068. Change with `--api-ip` and `--api-port`.
 
 ## Available api commands
 - help -- Overview of available commands.
@@ -55,9 +57,9 @@ http://127.0.0.1:4068/miner
 "api_version"       -- Current api version number. Any change will increase number.
 "num_gpu_threads"   -- Total number of working gpu threads for the miner.
 "total_hashrate"    -- Total hashrate for all working gpu threads. Not formatted.
-"total_accepted"    -- Miners total accepted shares for algorithm in use. A sum of all working gpu threads.
-"total_rejected"    -- Miners total rejected shares for algorithm in use. A sum of all working gpu threads.
-"total_stale"       -- Miners total stale shares for algorithm in use. A sum of all working gpu threads.
+"total_accepted"    -- The miner's total accepted shares for algorithm in use. A sum of all working gpu threads.
+"total_rejected"    -- The miner's total rejected shares for algorithm in use. A sum of all working gpu threads.
+"total_stale"       -- The miner's total stale shares for algorithm in use. A sum of all working gpu threads.
 "uptime_minutes"    -- Miner uptime in minutes.
 ```
 ```plain
@@ -87,15 +89,14 @@ http://127.0.0.1:4068/threads
 }
 ```
 ```plain
-"index"         -- GPU id. Might not be the same order as PCIe id.
 "gpu"           -- GPU id. Might not be the same order as PCIe id.
-"pcie_id"       -- PCIe device id. The pysical placement of the GPU card.
+"pcie_id"       -- PCIe device id. The physical placement of the GPU card.
 "board_name"    -- Name of the GPU card.
 "type"          -- Type of mining by thread. Cuda or OpenCL.
 "xintensity"    -- The GPU threads intensity setting.
 "gpu_temp"      -- GPU temperature.
 "mem_temp"      -- GPU memory temperature if available.
-"fan":56        -- Fan speed in percentage.
+"fan"           -- Fan speed in percentage.
 "core_clock"    -- The GPU core clock.
 "mem_clock"     -- The GPU memory clock.
 "watt"          -- Current power draw for the GPU.
@@ -123,12 +124,12 @@ http://127.0.0.1:4068/pool
 ```plain
 "url"       -- The pool in use.
 "port"      -- The pool port in use.
-"worker"    -- The worker registred on pool.
+"worker"    -- The worker registered on pool.
 "algo"      -- The algorithm in use by the miner.
 "job"       -- Current work. Latest work from pool.
 "epoch"     -- The epoch number for the currency.
 "block"     -- Block height if provided by pool protocol.
-"diff"      -- Pool difficulty in double floating point precicion.
+"diff"      -- Pool difficulty in double floating point precision.
 "ping"      -- Pool ping in milliseconds.
 ```
 ```plain
@@ -140,12 +141,11 @@ http://127.0.0.1:4068/summary
 
 # API (v1.4)
 
-This is a small update on the API:
+Version 1.4 is a small update of 1.3:
 
-    - Threads now contain algorithm.
-    - There can be more than one thread per GPU with dualmining.
-    - There can be more than one pool with dualmining.
-    - Data should be valid Json data.
+- Each device thread includes its algorithm.
+- With dual mining there can be more than one thread per GPU and more than one pool.
+- All output is valid JSON.
 
 ```json
 {

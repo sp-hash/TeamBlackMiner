@@ -1,112 +1,68 @@
 # Frequently asked questions
 
-(Sorted by most frequently asked)
+## Can I run it in HiveOS?
 
-## Can I run it in HiveOS ?
+Yes. Team Black Miner has been available in HiveOS since October 2021.
 
-Yes. The Team Black miner was added on 22th October 2021.
+## How do I mine Pearl?
 
-## What is the best pools for this miner ?
+Use one of the Pearl scripts in [Launchscripts](Launchscripts) (`PEARL` folder) and put in your Pearl address (`prl1...`). See the [How-to guide](HOW-TO.md).
 
-Since, TBM can produce more than 1-2 % stales with high intensity (--xintensity), pools that reward stale shares is the best for this miner.
+The Pearl kernel is picked automatically: at start the miner times the available kernels and uses the fastest. You can force one with `--kernel <n>`.
 
-Also a high difficulty pool port is recomended with a high intensity setting.
+Pascal cards (GTX 10xx, P40) should use a low difficulty pool port, for example `pearl-cpu-eu1.luckypool.io:3370`.
 
-Note that the ethereum blockchain rewards stale work/blocks. They are called uncle blocks. The uncle blocks are protecting the security of the blockchain.
-**The ethereum blockchain pay 87.5% for level 1 stale shares. 6 levels of stale shares are payed, but the lower levels have a lower payout (lower level means later in time).**
+## How do I mine NockChain together with Pearl?
 
-Most mining pools reward stale work, but some have a buildt in limit of 5% allowed stales. So if you mine with more than 5% stales, the pools can start rejecting your shares
-or ignore them. 
+On LuckyPool, Pearl and NockChain are merge mined with the same hashrate. Set the wallet to `Pearl_Wallet+Nock_Wallet`:
 
-Good pools for TBMiner:
-+ miningpoolhub (100% reward for level 1 stale shares)
-+ 2miners (100% reward for level 1 stale shares)
-+ nanopool (100% reward for level 1 stale shares)
-+ woolypooly (100% reward for level 1 stale shares)
-+ antpool (100% reward for  level 1 stale shares)
-+ spiderpool (100% reward for  level 1 stale shares)
-+ f2pool (100% reward for level 1 stale shares)
-+ uupool (100% reward for level 1 stale shares)
-+ xnpool.com (100% reward for level 1 stale shares)
-+ ezil (70% reward for stale shares)
-+ hiveon (50% reward for stale shares)
+```bat
+TBMiner --algo pearl --hostname pearl-eu2.luckypool.io --port 3360 --wallet prl1...+<your_nock_wallet> --worker-name rig1
+```
 
-## What is the best --xintensity --dagintensity and --kernel setting ?
+Use your native NockChain address, not a wrapped NOCK token address on Base (those start with `0x`). Your Pearl rewards are unchanged. Check your NOCK stats on nock.luckypool.io. The script is `tbminer_luckypool_pearl+nock`.
 
-You can try for yourself or ask others.
-Different GPU cards might have different best settings,
-both with OC and the intensity setting. And the pool is important.
+## Which pool should I use?
 
-High **--xintensity**, higher amout of stale shares, higher speed.
+Any pool for the coin works: pools that are not preconfigured are detected automatically. See [Supported pools](POOLS.md) for pools that have been tested.
 
-Some pools doesn't pay for stales so the setting is pool dependent.                          
+With a high intensity (`--xintensity`) the miner can produce some stale shares, so pools that pay for stale shares, and a high difficulty port, work best with high intensity.
 
+## What are the best --xintensity and --kernel settings?
 
-**--dagintensity**: 1-8(9) is for high memclocks. Use when dag buffer crash on validation. 1 is low (slow dag) 8 on amd is the fastest, 
-9 on nvidia (0 is default).
+It depends on the GPU, the overclock and the pool, so try for yourself or ask other miners.
 
-**--kernel**: Different kernels can give a speedup on different models. Your power setting can also count. Autotune will try to find the fastest kernel for you.                       
++ **--xintensity**: higher gives more speed but also more stale shares. Some pools do not pay for stales, so the best value depends on the pool. AMD values are about 1/4 of the NVIDIA values.
++ **--kernel**: different kernels can be faster on different cards and power settings. By default the miner tries the kernels and picks the fastest.
 
-**NVIDIA**:
+## The pool says the miner is not supported?
 
-Miners have reported that --xintensity 3100 and  --xintensity 4096 works good on f2pool.com and 2miners.com
+Ask us to add it, or [open an issue](https://github.com/sp-hash/TeamBlackMiner/issues).
 
-**AMD**:
+## The miner produces stale shares?
 
-AMD intensity settings  are 1/4 of NVIDIA.
-For no stale shares use something like --xintensity 24 (flexpool, crazypool, nicehash).
--- xintensity -1 is good on miningpoolhub, nanopool, f2pool and 2miners.
+It can. Lower `--xintensity` to reduce stale shares. With the right settings you can have none.
 
-+ --xintensity 60 works good on the RX 580.                      
-+ --xintensity 78 works good on the 6800XT.                   
+## Which GPUs work well with this miner?
 
+NVIDIA RTX 20xx, 30xx, 40xx and 50xx and AMD RX 5000, 6000, 7000 and 9000 series work very well. Pearl also runs on NVIDIA GTX 10 series and AMD RX 400 / 500 series.
 
-## It says the pool is not supported ?
+## TBMiner exits with "DAG verification failed"?
 
-Ask us to add it. We will configure the miner. 
+The GPU memory overclock is too high. Lower the memory clock on that card.
 
-## The miner produce stales ?
+If one card in the rig can build a valid DAG, the miner copies it to the cards that cannot (turn this off with `--disablesharedag`). That way the other cards can often run a slightly higher memory clock.
 
-Yes it might. You can lower the intensity setting (--xintensity) to reduce stale shares.
+## Is it a computer virus?
 
-With the right settings you could have none.
+No. But viruses are known to use coin miners for profit, so antivirus programs often flag all mining software.
 
-But you can also see stale shares as an extra bonus to accepted shares if you use a pool that pays for stale shares.
+## How do I mine Vertcoin?
 
-## What boards are known to be good for this miner ?
+See [Vertcoin](VERTCOIN.md).
 
-A lot, mostly the new cards.
+## It is not working, why?
 
-Nvidia RTX series 20xx, 30xx and Amd series 5xxx, 6xxx are known to work very well with this miner.
+See [Install on Windows](INSTALL_WINDOWS.md) or [Install on Linux](INSTALL_LINUX.md).
 
-## How to enable the LHR unlock?
-
-Run The Black Pill in the background to get a 100% unlock
-
-https://github.com/sp-hash/TheBlackPill
-
-The blackpill will unlock LHR cards on all the supported algos: Ethash, Etchash, Ethash-ZIL	, Verthash
-
-## TBMiner exits with message dag verification failed ?
-
-Add the commandline option --dagintensity with a low value to prevent computing errors with high OC.
-
-New feature in the latest version. GPUS in the rig can copy the dag buffer between eachother.
-
-Run 1.48 or later. Lower the memclock on one of the gpu's until dag verification works. Then the program will copy this dag onto the other devices. As an alternative you can add another card in the rig that can create the dag. 3080, 3090, 1080ti, 1070, etc..
-
-tips: Try to increase the memclock of the cards that get the dag buffer copied to. You can run stable on +100-200mhz higher mem clocks compared to other miners..
-
-## Is it a computer virus ?
-
-No. No way. But viruses are known to exploit coin mining for profit.
-
-## How to mine Vertcoin ?
-
-See [Vertcoin](https://github.com/sp-hash/TeamBlackMiner/blob/main/VERTCOIN.md).
-
-## It is not working, why ?
-
-See [Install Windows](https://github.com/sp-hash/TeamBlackMiner/blob/main/INSTALL_WINDOWS.md) or [Install Linux](https://github.com/sp-hash/TeamBlackMiner/blob/main/INSTALL_LINUX.md).
-
-If it is still not working please submit an issue here at Github.
+If it is still not working, please [open an issue](https://github.com/sp-hash/TeamBlackMiner/issues) here at GitHub.

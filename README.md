@@ -1,84 +1,92 @@
-<img width="1248" height="832" alt="Team_black_miner_with_faster_perlhash" src="https://github.com/user-attachments/assets/cda2c2a5-061b-473a-bbb0-d36e79a9ece2" />
+<img width="1248" height="832" alt="Team Black Miner with faster Pearlhash" src="https://github.com/user-attachments/assets/cda2c2a5-061b-473a-bbb0-d36e79a9ece2" />
 
-Team Black Miner (**TBM**) was created by a group of nordic black ops in the cryptocurrency scene.
+Team Black Miner (**TBM**) was created by a group of Nordic black ops in the cryptocurrency scene.
 
-TBM maintains a leading position in mining algos like **Pearlhash** **Autolykosv2** **Ethereum POW** **Ethereum Classic** **Verthash** **Kawpow** **Firopow** **Meowpow** **Evrpow** and **Hypra**.
+TBM is a GPU miner for NVIDIA (CUDA) and AMD (OpenCL) cards with a leading position in **Pearlhash**, **Autolykos v2**, **Ethash**, **Etchash**, **EthashB3**, **Verthash**, **Kawpow**, **Firopow**, **Meowpow** and **Evrprogpow**.
 
-The developer fee for all algos is only **0.5%**
+The developer fee for all algorithms is only **0.5%**.
 
+Download the latest release: https://github.com/sp-hash/TeamBlackMiner/releases
 
+## Quick start (Pearl)
 
-* [Features](https://github.com/sp-hash/TeamBlackMiner#features)
+1. Download and extract the release for your system.
+2. Open one of the Pearl scripts in [Launchscripts](Launchscripts) (`Windows/PEARL/*.bat` or `Linux/PEARL/*.sh`).
+3. Replace `prl1...` with your Pearl wallet address and start the script.
+
+```bat
+TBMiner --algo pearl --hostname pearl-eu2.luckypool.io --port 3360 --wallet prl1... --worker-name rig1
+```
+
+Pearl+NockChain merge mining on LuckyPool: use `--wallet prl1...+<your_nock_wallet>` (script `tbminer_luckypool_pearl+nock`).
+
+See the [How-to guide](HOW-TO.md) for more.
 
 ## Requirements
-+ Windows 10 or Linux.
-+ One or more AMD GPU.
-+ One or more NVIDIA GPU. (Compute 5.0 or newer.)
++ Windows 10 / 11 or Linux (64-bit).
++ One or more NVIDIA GPUs (GTX 10 series / compute 6.1 or newer) and/or AMD GPUs (Radeon RX 400 / 500 series or newer).
 
 ## Install
-* [Install on Windows](https://github.com/sp-hash/TeamBlackMiner/blob/main/INSTALL_WINDOWS.md)
-* [Install on Linux](https://github.com/sp-hash/TeamBlackMiner/blob/main/INSTALL_LINUX.md)
+* [Install on Windows](INSTALL_WINDOWS.md)
+* [Install on Linux](INSTALL_LINUX.md)
 
 ## Configuration
-
-* [Commandline options](https://github.com/sp-hash/TeamBlackMiner/blob/main/OPTIONS.md)
-* [Example configuration file](https://github.com/sp-hash/TeamBlackMiner/blob/main/CONFIG_FILE.md)
-* [Failover configuration](https://github.com/sp-hash/TeamBlackMiner/blob/main/FAILOVER.md)
+* [Command line options](OPTIONS.md)
 
 ## Documentation
-* [How-to-guide](https://github.com/sp-hash/TeamBlackMiner/blob/main/HOW-TO.md)
-* [Frequently asked questions](https://github.com/sp-hash/TeamBlackMiner/blob/main/FAQ.md)
-* [Supported pools](https://github.com/sp-hash/TeamBlackMiner/blob/main/POOLS.md)
+* [How-to guide](HOW-TO.md)
+* [Frequently asked questions](FAQ.md)
+* [Supported pools](POOLS.md)
+* [Mining Vertcoin](VERTCOIN.md)
+* [Launch scripts](Launchscripts)
 
 ## Features
-+ Commission is charged continuously, and not in intervals (as in most miners), which has a positive effect on the user's profitability on PPLNS pools.
-+ Verifying Shares on processor, warning when GPU overclocking is very high for Ethash, Etcash, helps to overclock GPU without errors.
-+ DAG caching if the GPU has enough memory, DAG files are not recomputed when switching to another algorithm when mining on Nicehash.
-+ If a Low memory GPU doesn't have enough memory it can copy the dag buffer from a another gpu in the rig.
-+ Temperature control and stop the GPU in case of overheating.
-+ Mechanism to restore lost connection with pool.
-+ Informative and readable tabular statistics output to console.
-+ Display of detailed information on each device (temperature, power consumption, cooler load, memory frequency, processor frequency, energy efficiency).
-+ Parallel output of information to console and to file on disk.
++ Commission is charged continuously, not in intervals (as in most miners), which is better for the user's profitability on PPLNS pools.
++ Shares are verified on the CPU, with a warning when the GPU overclock is too high. This helps you find a stable overclock.
++ DAG caching: if the GPU has enough memory, the DAG is not recomputed when switching algorithms.
++ A GPU without enough memory to build the DAG can copy the DAG buffer from another GPU in the rig.
++ Temperature control: the GPU is paused if it overheats.
++ Automatic reconnect when the pool connection is lost. The miner exits (and the launch script restarts it) if a GPU submits 30 rejected shares in a row.
++ Encrypted pool connections (TLS).
++ Readable table statistics in the console, with temperature, power draw, fan, memory and core clock and efficiency per device.
++ Console output can be written to a log file at the same time.
++ Built-in read-only [HTTP API](API.md).
 
 ## Supported algorithms and developer commission
 
-| Algo          | Coins                | Platform    | Commission    |
-| ------------- | ---------------------- | ----------- | ------------- |
-| Autolykosv2   | Ergo                   | Nvidia, AMD | 0.5%          | 
-| Ethash        | EthereumPow and clones | Nvidia, AMD | 0.5%          |
-| Etchash       | Ethereum Classic       | Nvidia, AMD | 0.5%          |
-| EthashB3      | Hypra                  | Nvidia, AMD | 0.5%          |
-| Evrprogpow    | Evrmore                | Nvidia, AMD | 0.5%          |
-| Firopow       | Firo and clones        | Nvidia, AMD | 0.5%          |
-| Meowpow       | Meowcoin               | Nvidia, AMD | 0.5%          |
-| Pearlhash     | Pearl                  | Nvidia, AMD | 0.5%          |
-| Kawpow        | Ravencoin and clones   | Nvidia, AMD | 0.5%          |
-| Verthash      | Vertcoin               | Nvidia, AMD | 0.5%          |                                                    
+| Algo          | Coins                  | Platform    | Commission |
+| ------------- | ---------------------- | ----------- | ---------- |
+| Pearlhash     | Pearl (PRL)            | Nvidia, AMD | 0.5%       |
+| Autolykos v2  | Ergo                   | Nvidia, AMD | 0.5%       |
+| Ethash        | EthereumPoW and clones | Nvidia, AMD | 0.5%       |
+| Etchash       | Ethereum Classic       | Nvidia, AMD | 0.5%       |
+| EthashB3      | Hypra                  | Nvidia, AMD | 0.5%       |
+| Evrprogpow    | Evrmore                | Nvidia, AMD | 0.5%       |
+| Firopow       | Firo and clones        | Nvidia, AMD | 0.5%       |
+| Kawpow        | Ravencoin and clones   | Nvidia, AMD | 0.5%       |
+| Meowpow       | Meowcoin               | Nvidia, AMD | 0.5%       |
+| Verthash      | Vertcoin               | Nvidia, AMD | 0.5%       |
 
-## Supported dual mining and tripple mining combos and developer commission
+## Supported dual mining combos and developer commission
 
-| Algo             | Coin                  | Platform    | Commission    |
-| ---------------- | --------------------- | ----------- | ------------- |
-| Pearl            | Pearl+NockChain       | Nvidia, AMD | 0.5%          |
-| Ethash+Verthash  |                       | Nvidia, AMD | 0.5%          |
-| Etchash+Verthash |                       | Nvidia, AMD | 0.5%          |
-| EthashB3+Verthash|                       | Nvidia, AMD | 0.5%          |
-| Ethash+Kawpow    |                       | Nvidia, AMD | 0.5%          |
-| Etchash+Kawpow   |                       | Nvidia, AMD | 0.5%          |
-| EthashB3+Kawpow  |                       | Nvidia, AMD | 0.5%          |
-| Ethash+FiroPow   |                       | Nvidia, AMD | 0.5%          |
-| Etchash+FiroPow  |                       | Nvidia, AMD | 0.5%          |
-| EthashB3+FiroPow |                       | Nvidia, AMD | 0.5%          |
-| Ethash+EvrPow    |                       | Nvidia, AMD | 0.5%          |
-| Etchash+EvrPow   |                       | Nvidia, AMD | 0.5%          |
-| EthashB3+EvrPow  |                       | Nvidia, AMD | 0.5%          |
-| Ethash+MeowPow   |                       | Nvidia, AMD | 0.5%          |
-| Etchash+MeowPow  |                       | Nvidia, AMD | 0.5%          |
-| EthashB3+MeowPow |                       | Nvidia, AMD | 0.5%          |
-| Ethash+EthashB3  |                       | Nvidia, AMD | 0.5%          |
-| Etchash+EthashB3 |                       | Nvidia, AMD | 0.5%          |
+| Combo              | `--algo`     | Platform    | Commission |
+| ------------------ | ------------ | ----------- | ---------- |
+| Pearl+NockChain    | `pearl` (merge mining, wallet `Pearl_Wallet+Nock_Wallet`) | Nvidia, AMD | 0.5% |
+| Ethash+Verthash    | `eth+vtc`    | Nvidia, AMD | 0.5%       |
+| Etchash+Verthash   | `etc+vtc`    | Nvidia, AMD | 0.5%       |
+| EthashB3+Verthash  | `ethb3+vtc`  | Nvidia, AMD | 0.5%       |
+| Ethash+Kawpow      | `eth+rvn`    | Nvidia, AMD | 0.5%       |
+| Etchash+Kawpow     | `etc+rvn`    | Nvidia, AMD | 0.5%       |
+| EthashB3+Kawpow    | `ethb3+rvn`  | Nvidia, AMD | 0.5%       |
+| Ethash+Firopow     | `eth+firo`   | Nvidia, AMD | 0.5%       |
+| Etchash+Firopow    | `etc+firo`   | Nvidia, AMD | 0.5%       |
+| EthashB3+Firopow   | `ethb3+firo` | Nvidia, AMD | 0.5%       |
+| Ethash+Evrprogpow  | `eth+evr`    | Nvidia, AMD | 0.5%       |
+| Etchash+Evrprogpow | `etc+evr`    | Nvidia, AMD | 0.5%       |
+| Ethash+Meowpow     | `eth+meow`   | Nvidia, AMD | 0.5%       |
+| Etchash+Meowpow    | `etc+meow`   | Nvidia, AMD | 0.5%       |
+| Ethash+EthashB3    | `eth+ethb3`  | Nvidia, AMD | 0.5%       |
+| Etchash+EthashB3   | `etc+ethb3`  | Nvidia, AMD | 0.5%       |
 
 ## For developers
-
-* [API](https://github.com/sp-hash/TeamBlackMiner/blob/main/API.md)
+* [API](API.md)

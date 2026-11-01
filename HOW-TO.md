@@ -1,63 +1,56 @@
 # How to use Team Black Miner
 
 ## First things first
-To mine cryptocurrencies like Ethereum you will need a GPU device.
+You need one or more GPUs: NVIDIA GTX 10 series or newer, or AMD Radeon RX 400 / 500 series or newer.
 
-To mine with Team Black Miner, you need Windows 10 or a Linux OS.
+Team Black Miner runs on Windows 10 / 11 and Linux. Installation instructions:
+* [Install on Windows](INSTALL_WINDOWS.md)
+* [Install on Linux](INSTALL_LINUX.md)
 
-All AMD cards are supported and NVIDIA cards with the compute platform 5.0 or newer are supported.
-
-For installation instructions:
-* [Install on Windows](https://github.com/sp-hash/TeamBlackMiner/blob/main/INSTALL_WINDOWS.md)
-* [Install on Linux](https://github.com/sp-hash/TeamBlackMiner/blob/main/INSTALL_LINUX.md)
-
-## Extract the zip archive
-You will allways find the newest version with the newest bug-fixes and the newest optimizations located here:
+## Download and extract
+The newest version, with the latest fixes and optimizations, is always here:
 + https://github.com/sp-hash/TeamBlackMiner/releases
 
 ## Wallet
-To mine Ethereum, Ethereum Classic or Zilliqua you need a Ethereum, Ethereum Classic or Zilliqua Wallet.
+You need a wallet address for the coin you want to mine, for example a Pearl address (`prl1...`).
 
-If we take a look at the provided run scripts for different pools: (here **tbminer_ethermine_eth.bat**)
+Each pool has a launch script in the release archive and in [Launchscripts](Launchscripts). Here is the LuckyPool Pearl script for Windows (`tbminer_luckypool_pearl.bat`):
 
 ```bat
-Set ETH_WALLET=0x59Aa6EAfb389E814441D02Ba6EF33c10726e4B16
+Set PRL_WALLET=prl1...
+Set WORKER=%COMPUTERNAME%
+Set POOL_HOST=pearl-eu2.luckypool.io
+Set POOL_PORT=3360
 
 :loop
-	TBMiner --algo ethash --hostname eu1.ethermine.org --port 4444 --wallet %ETH_WALLET% --worker-name %computername%
-	timeout 10
+    TBMiner --algo pearl --hostname %POOL_HOST% --port %POOL_PORT% --wallet %PRL_WALLET% --worker-name %WORKER%
+    timeout 10
 goto :loop
 ```
-All you need to do is to insert your wallet into the ETH_WALLET field to get started.
+
+Put your own wallet address in the `PRL_WALLET` line and you are ready:
 ```bat
-Set ETH_WALLET=<your_ethereum_wallet>
+Set PRL_WALLET=<your_pearl_wallet>
 ```
-If you do not already have a wallet for Ethereum, Ethereum Classic or Zilliqa, then 
-find a good crypto exchange where you can create one.
 
-They need to be trusted to handle your money and you have to be careful to store your login information, your
-wallet and other information like 2-factor-authentication codes safely.
+To merge mine Pearl and NockChain on LuckyPool, use `tbminer_luckypool_pearl+nock.bat` and set both `PRL_WALLET` and `NOCK_WALLET`. The miner logs in with `Pearl_Wallet+Nock_Wallet`.
 
-We can recommend:
-* https://www.binance.com
-* https://trustwallet.com
-
-They should get you started.
+Keep your wallet keys, exchange logins and 2-factor codes safe. Never share your private key or seed phrase.
 
 ## How to run
-After you have edited the provided run script you can run it by dobble-click.
-
-You can also start the .bat script from the commandline (Windows 10):
-```bash
-cd TeamBlackMiner_1_10_cuda_11_4
-.\tbminer_ethermine_eth.bat
+On Windows, double-click the edited script, or start it from a command prompt:
+```bat
+cd TeamBlackMiner_2_45_cuda_12_9
+tbminer_luckypool_pearl.bat
 ```
 
-## The commandline options
-Team Black Miner has many commandline options available.
+On Linux:
+```bash
+cd TeamBlackMiner_2_45_Ubuntu_cuda_12_9
+./tbminer_luckypool_pearl.sh
+```
 
-We try to have the best default values built in, so it may be more than ok to just run one of the scripts after
-inserting your wallet.
+The scripts restart the miner if it exits.
 
-(If you want to try a commandline option or you need a specific option then you can add the short option or the long option
-in any order.)
+## Command line options
+Team Black Miner has many [command line options](OPTIONS.md). The defaults are tuned to work well, so usually you only need to set the pool and your wallet.

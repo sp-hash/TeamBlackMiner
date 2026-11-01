@@ -1,165 +1,47 @@
 # Supported pools
-(Updated 2023-08-30)
+(Updated 2026-11-01)
 
-**Example scripts are included in the archive.**
+The miner works on any pool: stratum settings are detected automatically for pools that are not preconfigured.
+The pools below have been tested. Example scripts are in [Launchscripts](Launchscripts) and in the release archive.
 
-##
-## RTH
+## Pearl (PRL)
 
-baikalmine
+| Pool | Address | Notes |
+| ---- | ------- | ----- |
+| LuckyPool | `pearl-eu2.luckypool.io:3360` | GPU difficulty. Low difficulty (GTX 10xx / P40): `pearl-cpu-eu1.luckypool.io:3370`. NockChain merge mining: wallet `Pearl_Wallet+Nock_Wallet`. |
+| Kryptex | `prl.kryptex.network:8048` (TLS), `:7048` (plain) | Regional hosts `prl-eu`, `prl-us`, `prl-br`, `prl-sg`, `prl-hk`, `prl-ru`, `prl-ae`. Solo: wallet `solo:<wallet>`. |
+| Suprnova | `prl.suprnova.cc:3370` (3370 - 3374) | Vardiff. |
+| f2pool | `pearl.f2pool.com:5500` | Use your f2pool account name as the wallet. |
+| K1Pool | `eu.pearl.k1pool.com:3360` | |
+| JetskiPool | `pearlski.jetskipool.ai:6970` | |
+| 2Miners | port 1818 | |
+| HeroMiners | | |
+| Pearl Fortune | `pearlfortune.org:8888` | |
 
-crazypool
+## Ethereum Classic (ETC)
 
-ekapool
+2miners, baikalmine, comining, crazypool, cruxpool, e4pool, f2pool, flexpool, hiveon, k1pool, kryptex, minerall, miningmadness, miningpoolhub, nanopool, nicehash, prohashing, unmineable, viabtc, woolypooly, zergpool, zetpool
 
-zergpool
+## EthereumPoW (ETHW)
 
-##
-## ETC
+2miners, ethwmine, f2pool, kryptex, miningmadness, nanopool, woolypooly
 
-2miners
+## Hypra (EthashB3)
 
-baikalmine
+baikalmine, crazypool, mining4people, vipor, zergpool
 
-cominers
+## Ravencoin (Kawpow)
 
-comining
+2miners, cool2mine, cruxpool, herominers, hiveon, kryptex, miningpoolhub, nanopool, nicehash, pool2mine, ravenminer, skypool, suprnova, woolypooly, zpool
 
-crazypool
+## Quai (Kawpow)
 
-cruxpool
+alphapool, herominers, kryptex, ntminer, stratumx
 
-e4pool
+## Firo (Firopow)
 
-etcminingclub
+rplant, zpool
 
-ethpool
+## Vertcoin (Verthash)
 
-ezil
-
-f2pool
-
-flexpool
-
-hiveon
-
-k1pool
-
-minerall
-
-miningpoolhub
-
-nanopool
-
-nicehash
-
-poolms
-
-prohashing
-
-spiderpool
-
-unminable
-
-viabtc
-
-woolypooly
-
-zergpool
-
-zetpool
-
-##
-## ETF
-
-coolpool
-
-ezil
-
-##
-## ETHW
-
-2miners
-
-ethwmine
-
-f2pool
-
-nanopool
-
-woolypooly
-
-##
-## RVN
-
-miningpoolhub
-
-2miners
-
-bsmith
-
-cool2mine
-
-cruxpool
-
-herominers
-
-hiveon
-
-kryptex
-
-miningmadness
-
-nanopool
-
-nicehash
-
-pool2mine
-
-ravenminer
-
-ravenpool
-
-skypool
-
-suprnova
-
-woolypooly
-
-##
-## VTC
-
-hashcryptos
-
-woolypooly
-
-badhasher
-
-bbqpool
-
-e4pool
-
-hashalot
-
-miningdutch
-
-miningpoolhub
-
-miningpoolsweeden
-
-suprnova
-
-zergpool
-
-zpool
-
-##
-## ZIL
-
-shardpool
-
-ezil
-
-crazypool
-
-f2pool
+hashalot, hashcryptos, mining-dutch, miningpoolhub, miningpoolsweden, suprnova, woolypooly, zergpool, zpool
