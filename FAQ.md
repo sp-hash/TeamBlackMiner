@@ -22,6 +22,10 @@ TBMiner --algo pearl --hostname pearl-eu2.luckypool.io --port 3360 --wallet prl1
 
 Use your native NockChain address, not a wrapped NOCK token address on Base (those start with `0x`). Your Pearl rewards are unchanged. Check your NOCK stats on nock.luckypool.io. The script is `tbminer_luckypool_pearl+nock`.
 
+## Can I mine Firo after the Spark hard fork?
+
+Yes. Since v2.40 the miner supports Firopow after the Spark hard fork on NVIDIA and AMD, also on GPUs with less than 8 GB memory. Use `--algo firopow` or one of the scripts in the `FIROPOW` folder in [Launchscripts](Launchscripts).
+
 ## Which pool should I use?
 
 Any pool for the coin works: pools that are not preconfigured are detected automatically. See [Supported pools](POOLS.md) for pools that have been tested.

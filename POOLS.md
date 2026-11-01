@@ -20,7 +20,7 @@ The pools below have been tested. Example scripts are in [Launchscripts](Launchs
 
 ## Ethereum Classic (ETC)
 
-2miners, baikalmine, comining, crazypool, cruxpool, e4pool, f2pool, flexpool, hiveon, k1pool, kryptex, minerall, miningmadness, miningpoolhub, nanopool, nicehash, prohashing, unmineable, viabtc, woolypooly, zergpool, zetpool
+2miners, baikalmine, comining, crazypool, cruxpool, e4pool, f2pool, flexpool, hiveon, k1pool, kryptex, minerall, miningmadness, miningpoolhub, nanopool, nicehash, prohashing, unmineable, viabtc, woolypooly, zetpool
 
 ## EthereumPoW (ETHW)
 
@@ -28,7 +28,7 @@ The pools below have been tested. Example scripts are in [Launchscripts](Launchs
 
 ## Hypra (EthashB3)
 
-baikalmine, crazypool, mining4people, vipor, zergpool
+baikalmine, crazypool, mining4people, vipor
 
 ## Ravencoin (Kawpow)
 
@@ -40,8 +40,15 @@ alphapool, herominers, kryptex, ntminer, stratumx
 
 ## Firo (Firopow)
 
-rplant, zpool
+Mining works after the Spark hard fork, also on GPUs with less than 8 GB memory (NVIDIA and AMD).
+
+| Pool | Address | Notes |
+| ---- | ------- | ----- |
+| WoolyPooly | `pool.eu.woolypooly.com:3104` | |
+| RPlant | `stratum-eu.rplant.xyz:17045` | Password `x`. |
+| Crispin | `firo.cedric-crispin.com:4064` | Password `x`. |
+| zpool | `firopow.eu.mine.zpool.ca:1326` | Payout coin set with `--server-passwd c=BTC` (or `c=FIRO`, ...). |
 
 ## Vertcoin (Verthash)
 
-hashalot, hashcryptos, mining-dutch, miningpoolhub, miningpoolsweden, suprnova, woolypooly, zergpool, zpool
+hashalot, hashcryptos, mining-dutch, miningpoolhub, miningpoolsweden, suprnova, woolypooly, zpool
