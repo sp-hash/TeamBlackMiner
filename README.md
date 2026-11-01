@@ -45,7 +45,7 @@ The developer fee for all algos is only **0.5%**
 
 | Algo          | Coins                | Platform    | Commission    |
 | ------------- | ---------------------- | ----------- | ------------- |
-| Autolykosv2   | Ergo                   | Nvidia, AMD | 0.5           | 
+| Autolykosv2   | Ergo                   | Nvidia, AMD | 0.5%          | 
 | Ethash        | EthereumPow and clones | Nvidia, AMD | 0.5%          |
 | Etchash       | Ethereum Classic       | Nvidia, AMD | 0.5%          |
 | EthashB3      | Hypra                  | Nvidia, AMD | 0.5%          |
