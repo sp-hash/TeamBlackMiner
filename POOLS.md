@@ -49,6 +49,26 @@ Mining works after the Spark hard fork, also on GPUs with less than 8 GB memory 
 | Crispin | `firo.cedric-crispin.com:4064` | Password `x`. |
 | zpool | `firopow.eu.mine.zpool.ca:1326` | Payout coin set with `--server-passwd c=BTC` (or `c=FIRO`, ...). |
 
+## Evrmore (Evrprogpow)
+
+| Pool | Address | Notes |
+| ---- | ------- | ----- |
+| Mining4People | `eu.mining4people.com:4173` | |
+| zpool | `evrprogpow.eu.mine.zpool.ca:51330` | Payout coin set with `--server-passwd c=BTC` (or `c=EVR`, ...). |
+
+## Ergo (Autolykos v2)
+
+| Pool | Address | Notes |
+| ---- | ------- | ----- |
+| 2Miners | `erg.2miners.com:8888` | |
+
+## Meowcoin (Meowpow)
+
+| Pool | Address | Notes |
+| ---- | ------- | ----- |
+| Coinminerz | `stratum.coinminerz.com:3346` | |
+| zpool | `meowpow.eu.mine.zpool.ca:1327` | Payout coin set with `--server-passwd c=BTC` (or `c=MEWC`, ...). |
+
 ## Vertcoin (Verthash)
 
 hashalot, hashcryptos, mining-dutch, miningpoolhub, miningpoolsweden, suprnova, woolypooly, zpool

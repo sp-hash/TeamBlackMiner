@@ -125,4 +125,4 @@ Values for `--algo`:
 | `evrprogpow` | Evrmore |
 | `meowpow` | Meowcoin |
 
-Dual mining: `eth+vtc`, `etc+vtc`, `ethb3+vtc`, `eth+rvn`, `etc+rvn`, `ethb3+rvn`, `eth+firo`, `etc+firo`, `ethb3+firo`, `eth+evr`, `etc+evr`, `eth+meow`, `etc+meow`, `eth+ethb3`, `etc+ethb3`.
+Dual mining: `eth+vtc`, `etc+vtc`, `ethb3+vtc`, `eth+rvn`, `etc+rvn`, `ethb3+rvn`, `eth+firo`, `etc+firo`, `ethb3+firo`, `eth+evr`, `etc+evr`, `ethb3+evr`, `eth+meow`, `etc+meow`, `ethb3+meow`, `eth+ethb3`, `etc+ethb3`.

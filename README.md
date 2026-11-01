@@ -83,8 +83,10 @@ See the [How-to guide](HOW-TO.md) for more.
 | EthashB3+Firopow   | `ethb3+firo` | Nvidia, AMD | 0.5%       |
 | Ethash+Evrprogpow  | `eth+evr`    | Nvidia, AMD | 0.5%       |
 | Etchash+Evrprogpow | `etc+evr`    | Nvidia, AMD | 0.5%       |
+| EthashB3+Evrprogpow| `ethb3+evr`  | Nvidia, AMD | 0.5%       |
 | Ethash+Meowpow     | `eth+meow`   | Nvidia, AMD | 0.5%       |
 | Etchash+Meowpow    | `etc+meow`   | Nvidia, AMD | 0.5%       |
+| EthashB3+Meowpow   | `ethb3+meow` | Nvidia, AMD | 0.5%       |
 | Ethash+EthashB3    | `eth+ethb3`  | Nvidia, AMD | 0.5%       |
 | Etchash+EthashB3   | `etc+ethb3`  | Nvidia, AMD | 0.5%       |
 
