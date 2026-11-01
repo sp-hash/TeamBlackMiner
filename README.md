@@ -2,7 +2,7 @@
 
 Team Black Miner (**TBM**) was created by a group of nordic black ops in the cryptocurrency scene.
 
-TBM maintains a leading position in mining algos like **Pearlhash** **Autolykosv2** **Ethereum POW**, **Ethereum Classic**, **Verthash**, **Kawpow**, **Firopow**,**Meowpow**,**Evrpow** and **Hypra**.
+TBM maintains a leading position in mining algos like **Pearlhash** **Autolykosv2** **Ethereum POW** **Ethereum Classic** **Verthash** **Kawpow** **Firopow** **Meowpow** **Evrpow** and **Hypra**.
 
 The developer fee for all algos is only **0.5%**
 
